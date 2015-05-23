@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Počasie"</string>
+	<!---->
+	<string name="menu_addlocation">"Pridať polohu"</string>
+	<!---->
+	<string name="menu_delete">"Vymazať polohu"</string>
+	<!---->
+	<string name="menu_unit">"Zmeniť jednotku"</string>
+	<!---->
+	<string name="locate_auto">"Lokalizovať automaticky"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Nie je možné pripojiť sa k internetu."</string>
+	<!---->
+	<string name="locate_goto_connect">"Prejsť na pripojenie"</string>
+	<!---->
+	<string name="locate_failure">"Automatická lokalizácia zlyhala. Namiesto toho vyhľadajte polohu."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Automatické určenie polohy zlyhalo. Skontrolujte službu určenia polohy Google, prosím."</string>
+	<!---->
+	<string name="insert_location">"Zadať polohu"</string>
+	<!---->
+	<string name="connect_timeout">"Slabý signál. Skúste neskôr, prosím."</string>
+	<!---->
+	<string name="connot_find_location">"Túto polohu nie je možné nájsť."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"Ľutujeme, ale pridať je možné len 11 miest. Jedno odstráňte, prosím."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Vyhľadáva sa..."</string>
+	<!---->
+	<string name="locating">"Lokalizácia..."</string>
+	<!---->
+	<string name="loading">"Načítava sa..."</string>
+	<!---->
+	<string name="weather_offline">"Počasie offline"</string>
+	<!---->
+	<string name="update_time">"Aktualizovať čas"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Zrušiť"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Miesto"</string>
+	<!---->
+	<string name="click_update">"Kliknutím sem aktualizujte"</string>
+	<!---->
+	<string name="weather_off_line_text">"Ľutujeme, nedá sa pripojiť."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Slnečno"</item>
+		<item>"Prevažne slnečno"</item>
+		<item>"Polooblačno"</item>
+		<item>"Prerušovaná oblačnosť"</item>
+		<item>"Slnečno po rozptýlení hmly"</item>
+		<item>"Prevažne zamračené"</item>
+		<item>"Zamračené"</item>
+		<item>"Pochmúrne"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Hmla"</item>
+		<item>"Prehánky"</item>
+		<item>"Prevažne zamračené s prehánkami"</item>
+		<item>"Polooblačno s prehánkami"</item>
+		<item>"Búrky"</item>
+		<item>"Prevažne zamaračené s búrkovými prehánkami"</item>
+		<item>"Polooblačno s búrkovými prehánkami"</item>
+		<item>"Dážď"</item>
+		<item>"Prívaly dažďa"</item>
+		<item>"Prevažne zamračené s prívalmi daďďa"</item>
+		<item>"Polooblačno s prívalmi dažďa"</item>
+		<item>"Sneh"</item>
+		<item>"Prevažne zamračené so snehom"</item>
+		<item>"Ľad"</item>
+		<item>"Sneh s dažďom"</item>
+		<item>"Mrznúci dážď"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Zmiešaný dážď so snehom"</item>
+		<item>"Horúco"</item>
+		<item>"Chladno"</item>
+		<item>"Veterno"</item>
+		<item>"Jasná obloha"</item>
+		<item>"Prevažne jasná obloha"</item>
+		<item>"Čiastočne zamračené"</item>
+		<item>"Prerušovaná oblačnosť"</item>
+		<item>"Hmlisto"</item>
+		<item>"Prevažne zamračené"</item>
+		<item>"Čiastočne zamračené s prehánkami"</item>
+		<item>"Prevažne zamračené s prehánkami"</item>
+		<item>"Čiastočne zamračené s búrkovými prehánkami"</item>
+		<item>"Prevažne zamračené s búrkovými prehánkami"</item>
+		<item>"Prevažne zamračené s prívalmi dažďa"</item>
+		<item>"Prevažne zamračené so snehom"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Pon"</item>
+		<item>"Ut"</item>
+		<item>"Str"</item>
+		<item>"Štv"</item>
+		<item>"Pia"</item>
+		<item>"Sob"</item>
+		<item>"Ned"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"Obnoviť"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Nedá sa získať najnovšie umiestnenie."</string>
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!---->
+	<string name="last_updated_label">"Naposledy aktualizované:"</string>
+	<!---->
+	<string name="change_to_C">"Zobraziť °C"</string>
+	<!---->
+	<string name="change_to_F">"Zobraziť °F"</string>
+</resources>

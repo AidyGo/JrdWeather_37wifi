@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Eguraldia"</string>
+	<!---->
+	<string name="menu_addlocation">"Gehitu kokapena"</string>
+	<!---->
+	<string name="menu_delete">"Ezabatu kokapena"</string>
+	<!---->
+	<string name="menu_unit">"Aldatu unitatea"</string>
+	<!---->
+	<string name="locate_auto">"Kokapen automatikoa"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Ezin da Internetera konektatu"</string>
+	<!---->
+	<string name="locate_goto_connect">"Joan konektatu aukerara"</string>
+	<!---->
+	<string name="locate_failure">"Ezin izan da kokapena automatikoki aurkitu. Bilatu kokapena."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Ezin izan da kokapena automatikoki zehaztu. Egiaztatu Google-ren kokapen-zerbitzua."</string>
+	<!---->
+	<string name="insert_location">"Sartu kokapena"</string>
+	<!---->
+	<string name="connect_timeout">"Seinalea ahula da. Saiatu geroago."</string>
+	<!---->
+	<string name="connot_find_location">"Ezin da kokapena aurkitu."</string>
+	<!---->
+	<string name="real_feel">"S.Termik."</string>
+	<!---->
+	<string name="citys_full">"Sentitzen dugu, 11 hiri bakarrik gehi ditzakezu. Kendu bat."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Bilatzen…"</string>
+	<!---->
+	<string name="locating">"Kokapena ezartzen…"</string>
+	<!---->
+	<string name="loading">"Kargatzen…"</string>
+	<!---->
+	<string name="weather_offline">"Eguraldiaren aukera desaktibatuta"</string>
+	<!---->
+	<string name="update_time">"Eguneratze-ordua"</string>
+	<!---->
+	<string name="common_ok">"Ados"</string>
+	<!---->
+	<string name="common_cancel">"Utzi"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Kokalekua"</string>
+	<!---->
+	<string name="click_update">"Egin klik eguneratzeko"</string>
+	<!---->
+	<string name="weather_off_line_text">"Ezin da konektatu."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Eguzkitsua"</item>
+		<item>"Nagusiki eguzkitsu"</item>
+		<item>"Nahiko eguzkitsu"</item>
+		<item>"Tarteka lainotuta"</item>
+		<item>"Eguzki lanbrotsua"</item>
+		<item>"Nagusiki lainotuta"</item>
+		<item>"Lainotuta"</item>
+		<item>"Grisa"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Lainotuta"</item>
+		<item>"Euri-zaparradak"</item>
+		<item>"Nagusiki lainotuta eta euri-zaparradak"</item>
+		<item>"Nahiko eguzkitsu eta euri-zaparradak"</item>
+		<item>"Ekaitzak"</item>
+		<item>"Nagusiki lainotuta eta ekaitzak"</item>
+		<item>"Nahiko eguzkitsu eta ekaitzak"</item>
+		<item>"Euria"</item>
+		<item>"Euri-jasak"</item>
+		<item>"Nagusiki lainotuta eta euri-jasak"</item>
+		<item>"Nahiko eguzkitsu eta euri-jasak"</item>
+		<item>"Elurra"</item>
+		<item>"Nagusiki lainotuta eta elurra"</item>
+		<item>"Izotza"</item>
+		<item>"Elur bustia"</item>
+		<item>"Euri izoztua"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Euria eta elurra"</item>
+		<item>"Bero"</item>
+		<item>"Hotz"</item>
+		<item>"Haizetsu"</item>
+		<item>"Oskarbi"</item>
+		<item>"Nagusiki oskarbi"</item>
+		<item>"Nahiko oskarbi"</item>
+		<item>"Tarteka lainoak"</item>
+		<item>"Lanbrotsu"</item>
+		<item>"Nagusiki lainotuta"</item>
+		<item>"Nahiko lainotuta eta euri-zaparradak"</item>
+		<item>"Nagusiki lainotuta eta euri-zaparradak"</item>
+		<item>"Nahiko lainotuta eta ekaitzak"</item>
+		<item>"Nagusiki lainotuta eta ekaitzak"</item>
+		<item>"Nagusiki lainotuta eta euri-jasak"</item>
+		<item>"Nagusiki lainotuta eta elurra"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Al."</item>
+		<item>"Ar."</item>
+		<item>"Az."</item>
+		<item>"Og."</item>
+		<item>"Or."</item>
+		<item>"Lr."</item>
+		<item>"Ig."</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"Freskatu"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Ezin izan da azken kokapena lortu."</string>
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!---->
+	<string name="last_updated_label">"Azken eguneratzea:"</string>
+	<!-- no translation found for change_to_C -->
+	<skip />
+	<!-- no translation found for change_to_F -->
+	<skip />
+</resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Hava durumu"</string>
+	<!---->
+	<string name="menu_addlocation">"Konum ekle"</string>
+	<!---->
+	<string name="menu_delete">"Konumu sil"</string>
+	<!---->
+	<string name="menu_unit">"Birimi değiştir"</string>
+	<!---->
+	<string name="locate_auto">"Otomatik konumlandır"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"İnternete bağlanılamıyor."</string>
+	<!---->
+	<string name="locate_goto_connect">"Bağlan\'a gidin"</string>
+	<!---->
+	<string name="locate_failure">"Otomatik konum bulma başarısız. Lütfen bunun yerine bir konum arayın."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Otomatik konumlandırma başarısız. Lütfen Google\'ın konum hizmetini kontrol edin."</string>
+	<!---->
+	<string name="insert_location">"Bir konum girin"</string>
+	<!---->
+	<string name="connect_timeout">"Zayıf sinyal. Lütfen daha sonra yeniden deneyin."</string>
+	<!---->
+	<string name="connot_find_location">"Bu konum bulunamıyor."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"Yalnızca 11 şehir ekleyebilirsiniz. Lütfen birini kaldırın."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Aranıyor..."</string>
+	<!---->
+	<string name="locating">"Konum bulunuyor..."</string>
+	<!---->
+	<string name="loading">"Yükleniyor..."</string>
+	<!---->
+	<string name="weather_offline">"Hava Durumu Çevrimdışı"</string>
+	<!---->
+	<string name="update_time">"Güncelleme zamanı"</string>
+	<!---->
+	<string name="common_ok">"TAMAM"</string>
+	<!---->
+	<string name="common_cancel">"İptal"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Konum"</string>
+	<!---->
+	<string name="click_update">"Güncellemek için buraya tıklayın"</string>
+	<!---->
+	<string name="weather_off_line_text">"Üzgünüm, bağlantı kurulamıyor."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Güneşli"</item>
+		<item>"Çoğunlukla Güneşli"</item>
+		<item>"Parçalı Bulutlu ve Güneşli"</item>
+		<item>"Parçalı Bulutlu"</item>
+		<item>"Sisli ve Güneşli"</item>
+		<item>"Çoğunlukla Bulutlu"</item>
+		<item>"Bulutlu"</item>
+		<item>"Kapalı"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Sis"</item>
+		<item>"Sağanak Yağışlı"</item>
+		<item>"Çoğunlukla Bulutlu ve Sağanak Yağışlı"</item>
+		<item>"Sağanak Yağışlı ve Parçalı Bulutlu"</item>
+		<item>"Gök gürültülü ve sağanak yağışlı"</item>
+		<item>"Gök Gürültülü ve Sağanak Yağış İle Çoğunlukla Bulutlu"</item>
+		<item>"Gök Gürültülü ve Sağanak Yağış İle Parçalı Bulutlu ve Güneşli"</item>
+		<item>"Yağmurlu"</item>
+		<item>"Mevzii yağış"</item>
+		<item>"Mevzii Yağışlı Çoğunlukla Bulutlu"</item>
+		<item>"Mevzii Yağışlı ve Parçalı Bulutlu Güneşli"</item>
+		<item>"Kar yağışlı"</item>
+		<item>"Kar yağışlı ve çoğunlukla bulutlu"</item>
+		<item>"Buz"</item>
+		<item>"Sulu kar"</item>
+		<item>"Donan yağmur"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Karla Karışık Yağmurlu"</item>
+		<item>"Sıcak"</item>
+		<item>"Soğuk"</item>
+		<item>"Rüzgarlı"</item>
+		<item>"Açık"</item>
+		<item>"Çoğunlukla Açık"</item>
+		<item>"Parçalı Bulutlu"</item>
+		<item>"Parçalı Bulutlu"</item>
+		<item>"Sisli"</item>
+		<item>"Çoğunlukla Bulutlu"</item>
+		<item>"Parçalı Bulutlu ve Sağanak Yağışlı"</item>
+		<item>"Parçalı Bulutlu ve Sağanak Yağışlı"</item>
+		<item>"Parçalı Bulutlu ve Gök Gürültülü Sağanak Yağışlı"</item>
+		<item>"Gök Gürültülü Sağanak Yağışlı ve Çoğunlukla Bulutlu"</item>
+		<item>"Mevzii Yağışlı Çoğunlukla Bulutlu"</item>
+		<item>"Kar ve Çoğunlukla Bulutlu"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Pzt"</item>
+		<item>"Salı"</item>
+		<item>"Çrş"</item>
+		<item>"Prş"</item>
+		<item>"Cuma"</item>
+		<item>"Ctsi"</item>
+		<item>"Pazar"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"Yenile"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Son konum alınamıyor."</string>
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!---->
+	<string name="last_updated_label">"Son güncelleme:"</string>
+	<!---->
+	<string name="change_to_C">"°C olarak değiştir"</string>
+	<!---->
+	<string name="change_to_F">"°F olarak değiştir"</string>
+</resources>

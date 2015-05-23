@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Ilm"</string>
+	<!---->
+	<string name="menu_addlocation">"Lisa koht"</string>
+	<!---->
+	<string name="menu_delete">"Kustuta koht"</string>
+	<!---->
+	<string name="menu_unit">"Muuda üksust"</string>
+	<!---->
+	<string name="locate_auto">"Leia automaatselt"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Interneti-ühendust ei saa luua."</string>
+	<!---->
+	<string name="locate_goto_connect">"Mine ühenduse loomisele"</string>
+	<!---->
+	<string name="locate_failure">"Automaatne leidmine ebaõnnestus. Selle asemel otsige asukohta."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!-- no translation found for locate_location_service -->
+	<skip />
+	<!---->
+	<string name="insert_location">"Sisestage asukoht"</string>
+	<!---->
+	<string name="connect_timeout">"Nõrk signaal Proovige hiljem."</string>
+	<!---->
+	<string name="connot_find_location">"Seda kohta ei leita."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"Vabandust, võite lisada vaid 11 linna. Eemaldage üks linn."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Otsimine ..."</string>
+	<!---->
+	<string name="locating">"Asukoha leidmine ..."</string>
+	<!---->
+	<string name="loading">"Laadimine ..."</string>
+	<!---->
+	<string name="weather_offline">"Ilm võrguühenduseta"</string>
+	<!---->
+	<string name="update_time">"Värskendamise aeg"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Tühista"</string>
+	<!---->
+	<string name="date_am">"EL"</string>
+	<!---->
+	<string name="date_pm">"PL"</string>
+	<!---->
+	<string name="location">"Asukoht"</string>
+	<!---->
+	<string name="click_update">"Värskendamiseks klõpsake siin"</string>
+	<!-- no translation found for weather_off_line_text -->
+	<skip />
+	<string-array name="weather_icon_desc">
+		<item>"Päikesepaisteline"</item>
+		<item>"Enamasti päikesepaisteline"</item>
+		<item>"Osaliselt päikesepaisteline"</item>
+		<item>"Vähene pilvitus"</item>
+		<item>"Udune päikesepaiste"</item>
+		<item>"Enamasti pilvine"</item>
+		<item>"Pilves"</item>
+		<item>"Pilvine"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Udu"</item>
+		<item>"Vihmahood"</item>
+		<item>"Enamasti pilvine, vihmahoogudega"</item>
+		<item>"Osaliselt päikesepaisteline, vihmahoogudega"</item>
+		<item>"Äikesetormid"</item>
+		<item>"Enamasti pilvine, äikesetormidega"</item>
+		<item>"Osaliselt päikesepaisteline, äikesetormidega"</item>
+		<item>"Vihm"</item>
+		<item>"Tuisupuhangud"</item>
+		<item>"Enamasti pilvine, tuisupuhangutega"</item>
+		<item>"Osaliselt päikesepaisteline, tuisupuhangutega"</item>
+		<item>"Lumi"</item>
+		<item>"Enamasti pilvine, lumesadu"</item>
+		<item>"Jää"</item>
+		<item>"Lörts"</item>
+		<item>"Jäätuv vihm"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Vihm ja lumi"</item>
+		<item>"Palav"</item>
+		<item>"Külm"</item>
+		<item>"Tuuline"</item>
+		<item>"Kustuta"</item>
+		<item>"Enamasti selge"</item>
+		<item>"Vahelduv pilvisus"</item>
+		<item>"Vähene pilvitus"</item>
+		<item>"Udune"</item>
+		<item>"Enamasti pilvine"</item>
+		<item>"Vahelduv pilvisus vihmahoogudega"</item>
+		<item>"Enamasti pilvine, vihmahoogudega"</item>
+		<item>"Vahelduv pilvisus äikesevihmaga"</item>
+		<item>"Enamasti pilvine, äikesetormidega"</item>
+		<item>"Enamasti pilvine, tuisupuhangutega"</item>
+		<item>"Enamasti pilvine, lumesadu"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"E"</item>
+		<item>"T"</item>
+		<item>"K"</item>
+		<item>"N"</item>
+		<item>"R"</item>
+		<item>"L"</item>
+		<item>"P"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"Värskenda"</string>
+	<!-- no translation found for msg_unable_obtain_location -->
+	<skip />
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!-- no translation found for last_updated_label -->
+	<skip />
+	<!-- no translation found for change_to_C -->
+	<skip />
+	<!-- no translation found for change_to_F -->
+	<skip />
+</resources>

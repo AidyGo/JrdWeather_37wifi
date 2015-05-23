@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <com.jrdcom.weather.WeatherView
+        android:id="@+id/weatherview"
+        android:layout_width="fill_parent"
+        android:layout_height="264dp" >
+    </com.jrdcom.weather.WeatherView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp" >
+			<!-- PR733229 Set font size as medium or large,the temperature option display incomplete in weather app by jielong.xing at 2014-07-19 begin -->
+            <com.jrdcom.weather.DayView
+                android:id="@+id/dv_day1"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_weight="1" >
+            </com.jrdcom.weather.DayView>
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="180dip"
+            android:background="@drawable/line_v" />
+
+            <com.jrdcom.weather.DayView
+                android:id="@+id/dv_day2"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_weight="1" >
+            </com.jrdcom.weather.DayView>
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="180dip"
+            android:background="@drawable/line_v" />
+
+            <com.jrdcom.weather.DayView
+                android:id="@+id/dv_day3"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_weight="1" >
+            </com.jrdcom.weather.DayView>
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="180dip"
+            android:background="@drawable/line_v" />
+
+            <com.jrdcom.weather.DayView
+                android:id="@+id/dv_day4"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_weight="1" >
+            </com.jrdcom.weather.DayView>
+            <!-- PR733229 Set font size as medium or large,the temperature option display incomplete in weather app by jielong.xing at 2014-07-19 end -->
+        
+    </LinearLayout>
+
+</LinearLayout>

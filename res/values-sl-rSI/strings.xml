@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Vreme"</string>
+	<!---->
+	<string name="menu_addlocation">"Dodaj lokacijo"</string>
+	<!---->
+	<string name="menu_delete">"Izbriši lokacijo"</string>
+	<!---->
+	<string name="menu_unit">"Spremeni enoto"</string>
+	<!---->
+	<string name="locate_auto">"Samodejno lociranje"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Ni mogoče vzpostaviti povezave z internetom."</string>
+	<!---->
+	<string name="locate_goto_connect">"Pojdite na vzpostavitev povezave"</string>
+	<!---->
+	<string name="locate_failure">"Samodejno lociranje ni bilo uspešno. Raje poiščite lokacijo."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Samodejno lociranje ni bilo uspešno. Preverite Google lokacijsko storitev."</string>
+	<!---->
+	<string name="insert_location">"Vstavite lokacijo"</string>
+	<!---->
+	<string name="connect_timeout">"Slab signal. Poskusite kasneje."</string>
+	<!---->
+	<string name="connot_find_location">"Lokacije ni mogoče najti."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"Dodate lahko le 11 mest. Odstranite eno."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Iskanje v teku..."</string>
+	<!---->
+	<string name="locating">"Lociranje v teku..."</string>
+	<!---->
+	<string name="loading">"Nalaganje v teku..."</string>
+	<!---->
+	<string name="weather_offline">"Vreme brez povezave"</string>
+	<!---->
+	<string name="update_time">"Čas posodobitve"</string>
+	<!---->
+	<string name="common_ok">"V REDU"</string>
+	<!---->
+	<string name="common_cancel">"Prekliči"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Lokacija"</string>
+	<!---->
+	<string name="click_update">"Kliknite tu, da posodobite"</string>
+	<!---->
+	<string name="weather_off_line_text">"Oprostite, povezovanje ni uspelo."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Sončno"</item>
+		<item>"Pretežno sončno"</item>
+		<item>"Delno sončno"</item>
+		<item>"Delno do pretežno oblačno"</item>
+		<item>"Megleno s soncem"</item>
+		<item>"Pretežno oblačno"</item>
+		<item>"Oblačno"</item>
+		<item>"Turobno"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Megla"</item>
+		<item>"Plohe"</item>
+		<item>"Pretežno oblačno s plohami"</item>
+		<item>"Delno sončno s plohami"</item>
+		<item>"Nevihte"</item>
+		<item>"Pretežno sončno z nevihtnimi plohami"</item>
+		<item>"Delno sončno z nevihtnimi plohami"</item>
+		<item>"Dež"</item>
+		<item>"Sneg"</item>
+		<item>"Pretežno oblačno s snegom"</item>
+		<item>"Delno sončno s snegom"</item>
+		<item>"Sneg"</item>
+		<item>"Pretežno oblačno s snegom"</item>
+		<item>"Led"</item>
+		<item>"Sodra"</item>
+		<item>"Mrzel dež"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Dež s snegom"</item>
+		<item>"Vroče"</item>
+		<item>"Mrzlo"</item>
+		<item>"Vetrovno"</item>
+		<item>"Jasno"</item>
+		<item>"Pretežno jasno"</item>
+		<item>"Delno oblačno"</item>
+		<item>"Delno do pretežno oblačno"</item>
+		<item>"Megla"</item>
+		<item>"Pretežno oblačno"</item>
+		<item>"Delno oblačno s plohami"</item>
+		<item>"Pretežno oblačno s plohami"</item>
+		<item>"Delno oblačno z nevihtnimi plohami"</item>
+		<item>"Pretežno oblačno z nevihtnimi plohami"</item>
+		<item>"Pretežno oblačno s snegom"</item>
+		<item>"Pretežno oblačno s snegom"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Pon"</item>
+		<item>"Tor"</item>
+		<item>"Sre"</item>
+		<item>"Čet"</item>
+		<item>"Pet"</item>
+		<item>"Sob"</item>
+		<item>"Ned"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"Osveži"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Zadnje lokacije ni mogoče pridobiti."</string>
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!---->
+	<string name="last_updated_label">"Nazadnje posodobljeno:"</string>
+	<!---->
+	<string name="change_to_C">"Spremeni v °C"</string>
+	<!---->
+	<string name="change_to_F">"Spremeni v °F"</string>
+</resources>

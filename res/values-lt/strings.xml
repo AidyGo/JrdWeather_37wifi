@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Orai"</string>
+	<!---->
+	<string name="menu_addlocation">"Pridėti vietą"</string>
+	<!---->
+	<string name="menu_delete">"Ištrinti vietą"</string>
+	<!---->
+	<string name="menu_unit">"Keisti vienetą"</string>
+	<!---->
+	<string name="locate_auto">"Nustatyti vietą automatiškai"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Nepavyksta prisijungti prie interneto."</string>
+	<!---->
+	<string name="locate_goto_connect">"Eikite, kad prisijungtumėte"</string>
+	<!---->
+	<string name="locate_failure">"Nepavyko automatiškai nustatyti vietos. Ieškokite vietos."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Automatiškai rasti nepavyko. Naudokite tinklo vietų paslaugą."</string>
+	<!---->
+	<string name="insert_location">"Įterpti vietą"</string>
+	<!---->
+	<string name="connect_timeout">"Silpnas signalas. Bandykite vėliau."</string>
+	<!---->
+	<string name="connot_find_location">"Nepavyko rasti šios vietos."</string>
+	<!---->
+	<string name="real_feel">"„RealFeel“"</string>
+	<!---->
+	<string name="citys_full">"Apgailestaujame, galite pridėti tik 11 miestų. Vieną pašalinkite."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Ieškoma…"</string>
+	<!---->
+	<string name="locating">"Nustatoma vieta…"</string>
+	<!---->
+	<string name="loading">"Įkeliama..."</string>
+	<!---->
+	<string name="weather_offline">"Orai atsijungus"</string>
+	<!---->
+	<string name="update_time">"Naujinti laiką"</string>
+	<!---->
+	<string name="common_ok">"Gerai"</string>
+	<!---->
+	<string name="common_cancel">"Atšaukti"</string>
+	<!---->
+	<string name="date_am">"Priešpiet"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Vieta"</string>
+	<!---->
+	<string name="click_update">"Spustelėkite čia, kad atnaujintumėte"</string>
+	<!---->
+	<string name="weather_off_line_text">"Deja, neprisijungiama."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Saulėta"</item>
+		<item>"Daugiausia saulėta"</item>
+		<item>"Su pragiedruliais"</item>
+		<item>"Protarpiais debesuota"</item>
+		<item>"Pragiedruliai"</item>
+		<item>"Daugiausia debesuota"</item>
+		<item>"Debesuota"</item>
+		<item>"Apsiniaukę"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Rūkas"</item>
+		<item>"Liūtis"</item>
+		<item>"Daugiausia debesuota, liūtis"</item>
+		<item>"Pragiedruliai, liūtis"</item>
+		<item>"Perkūnija"</item>
+		<item>"Daugiausia debesuota, liūtis su perkūnija"</item>
+		<item>"Pragiedruliai, liūtis su perkūnija"</item>
+		<item>"Lietus"</item>
+		<item>"Vėjo gūsiai"</item>
+		<item>"Daugiausia debesuota, vėjo gūsiai"</item>
+		<item>"Pragiedruliai, vėjo gūsiai"</item>
+		<item>"Sniegas"</item>
+		<item>"Daugiausia debesuota, sniegas"</item>
+		<item>"Ledas"</item>
+		<item>"Šlapdriba"</item>
+		<item>"Plikledis"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Šlapdriba"</item>
+		<item>"Karšta"</item>
+		<item>"Vėsi"</item>
+		<item>"Vėjuota"</item>
+		<item>"Išvalyti"</item>
+		<item>"Daugiausia giedra"</item>
+		<item>"Vietomis debesys"</item>
+		<item>"Protarpiais debesuota"</item>
+		<item>"Ūkanota"</item>
+		<item>"Daugiausia debesuota"</item>
+		<item>"Vietomis debesuota, liūtis"</item>
+		<item>"Daugiausia debesuota, liūtis"</item>
+		<item>"Vietomis debesuota, liūtis su perkūnija"</item>
+		<item>"Daugiausia debesuota, liūtis su perkūnija"</item>
+		<item>"Daugiausia debesuota, vėjo gūsiai"</item>
+		<item>"Daugiausia debesuota, sniegas"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Pr"</item>
+		<item>"A"</item>
+		<item>"T"</item>
+		<item>"K"</item>
+		<item>"Pn"</item>
+		<item>"Š"</item>
+		<item>"S"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"Atnaujinti"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Nepavyksta nustatyt pastarosios vietos."</string>
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!-- no translation found for last_updated_label -->
+	<skip />
+	<!-- no translation found for change_to_C -->
+	<skip />
+	<!-- no translation found for change_to_F -->
+	<skip />
+</resources>

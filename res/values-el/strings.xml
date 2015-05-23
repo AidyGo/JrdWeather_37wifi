@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Καιρός"</string>
+	<!---->
+	<string name="menu_addlocation">"Προσθήκη τοποθεσίας"</string>
+	<!---->
+	<string name="menu_delete">"Διαγραφή τοποθεσίας"</string>
+	<!---->
+	<string name="menu_unit">"Αλλαγή μονάδας"</string>
+	<!---->
+	<string name="locate_auto">"Αυτόματος εντοπισμός"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Δεν είναι δυνατή η σύνδεση στο Internet."</string>
+	<!---->
+	<string name="locate_goto_connect">"Μετάβαση στο μενού σύνδεσης"</string>
+	<!---->
+	<string name="locate_failure">"Ο αυτόματος εντοπισμός απέτυχε. Αντί αυτού πραγματοποιήστε αναζήτησης για μια τοποθεσία."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Ο αυτόματος εντοπισμός τοποθεσίας απέτυχε. Ελέγξτε την υπηρεσία εντοπισμού τοποθεσίας της Google."</string>
+	<!---->
+	<string name="insert_location">"Καταχωρήστε μια τοποθεσία"</string>
+	<!---->
+	<string name="connect_timeout">"Ασθενές σήμα. Δοκιμάστε ξανά αργότερα."</string>
+	<!---->
+	<string name="connot_find_location">"Δεν είναι δυνατή η εύρεση αυτής της τοποθεσίας."</string>
+	<!---->
+	<string name="real_feel">"Αισθ.θερ."</string>
+	<!---->
+	<string name="citys_full">"Μπορείτε να προσθέσετε μόνο 11 πόλεις. Καταργήστε μία από τις υπάρχουσες."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Αναζήτηση..."</string>
+	<!---->
+	<string name="locating">"Εντοπισμός..."</string>
+	<!---->
+	<string name="loading">"Φόρτωση..."</string>
+	<!---->
+	<string name="weather_offline">"Η εφαρμογή καιρού είναι εκτός σύνδεσης"</string>
+	<!---->
+	<string name="update_time">"Ώρα τελευταίας ενημέρωσης"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Ακύρωση"</string>
+	<!---->
+	<string name="date_am">"ΠΜ"</string>
+	<!---->
+	<string name="date_pm">"ΜΜ"</string>
+	<!---->
+	<string name="location">"Τοποθεσία"</string>
+	<!---->
+	<string name="click_update">"Κάντε κλικ εδώ για ενημέρωση"</string>
+	<!---->
+	<string name="weather_off_line_text">"Δυστυχώς, δεν είναι δυνατή η σύνδεση."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Ηλιοφάνεια"</item>
+		<item>"Αίθριος"</item>
+		<item>"Σχεδόν αίθριος"</item>
+		<item>"Περιοδικές νεφώσεις"</item>
+		<item>"Ομιχλώδης - Ηλιοφάνεια"</item>
+		<item>"Νεφελώδης"</item>
+		<item>"Νεφώσεις"</item>
+		<item>"Μουντός"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Ομίχλη"</item>
+		<item>"Σποραδικές βροχές"</item>
+		<item>"Νεφελώδης με σποραδικές βροχές"</item>
+		<item>"Αίθριος με σποραδικές βροχές"</item>
+		<item>"Καταιγίδες"</item>
+		<item>"Νεφελώδης με σποραδικές καταιγίδες"</item>
+		<item>"Αίθριος με σποραδικές καταιγίδες"</item>
+		<item>"Βροχή"</item>
+		<item>"Χιονοπτώσεις"</item>
+		<item>"Νεφελώδης με χιονοπτώσεις"</item>
+		<item>"Σχεδόν αίθριος με χιονωπτώσεις"</item>
+		<item>"Χιόνι"</item>
+		<item>"Νεφελώδης με χιόνι"</item>
+		<item>"Πάγος"</item>
+		<item>"Χιόνονερο"</item>
+		<item>"Χιονόνερο"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Χιονόνερο"</item>
+		<item>"Ζέστη"</item>
+		<item>"Κρύο"</item>
+		<item>"Αέρας"</item>
+		<item>"Καθαρός"</item>
+		<item>"Σχεδόν καθαρός"</item>
+		<item>"Σχεδόν νεφελώδης"</item>
+		<item>"Περιοδικές νεφώσεις"</item>
+		<item>"Ομιχλώδης"</item>
+		<item>"Νεφελώδης"</item>
+		<item>"Σχεδόν νεφελώδης με σποραδικές βροχές"</item>
+		<item>"Νεφελώδης με σποραδικές βροχές"</item>
+		<item>"Σχεδόν νεφελώδης με σποραδικές καταιγίδες"</item>
+		<item>"Νεφελώδης με σποραδικές καταιγίδες"</item>
+		<item>"Νεφελώδης με χιονοπτώσεις"</item>
+		<item>"Νεφελώδης με χιόνι"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Δευτέρα"</item>
+		<item>"Τρίτη"</item>
+		<item>"Τετάρτη"</item>
+		<item>"Πέμπτη"</item>
+		<item>"Παρασκευή"</item>
+		<item>"Σάββατο"</item>
+		<item>"Κυριακή"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"Ανανέωση"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Δεν είναι δυνατή η ανάκτηση της πιο πρόσφατης τοποθεσίας."</string>
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!---->
+	<string name="last_updated_label">"Τελευταία ενημέρωση:"</string>
+	<!---->
+	<string name="change_to_C">"Αλλαγή σε °C"</string>
+	<!---->
+	<string name="change_to_F">"Αλλαγή σε °F"</string>
+</resources>

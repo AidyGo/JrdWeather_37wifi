@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!-- merge from PR746162 by jielong.xing at 2014-07-27 begin -->
+     <dimen name="widget_minwidth">340dip</dimen>
+   <!-- merge from PR746162 by jielong.xing at 2014-07-27 end -->
+     <dimen name="widget_minheight">125dip</dimen>
+     
+</resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Fri Nov 21 15:06:10 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"小T天气"</string>
+	<!---->
+	<string name="menu_addlocation">"添加位置"</string>
+	<!---->
+	<string name="menu_delete">"删除位置"</string>
+	<!---->
+	<string name="menu_unit">"切换单位"</string>
+	<!---->
+	<string name="locate_auto">"自动定位"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"无法连接网络。"</string>
+	<!---->
+	<string name="locate_goto_connect">"设置网络连接"</string>
+	<!---->
+	<string name="locate_failure">"自动定位失败。请输入要查询的位置。"</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"自动定位失败，请检查网络位置服务。"</string>
+	<!---->
+	<string name="insert_location">"插入位置"</string>
+	<!---->
+	<string name="connect_timeout">"信号弱，请稍候再试。"</string>
+	<!---->
+	<string name="connot_find_location">"无法找到该位置。"</string>
+	<!---->
+	<string name="real_feel">"体感温度"</string>
+	<!---->
+	<string name="citys_full">"最多只可添加11个城市，请先删掉一个。"</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"搜索中…"</string>
+	<!---->
+	<string name="locating">"定位中…"</string>
+	<!---->
+	<string name="loading">"读取中…"</string>
+	<!---->
+	<string name="weather_offline">"天气预报离线"</string>
+	<!---->
+	<string name="update_time">"更新时间"</string>
+	<!---->
+	<string name="common_ok">"确定"</string>
+	<!---->
+	<string name="common_cancel">"取消"</string>
+	<!---->
+	<string name="date_am">"上午"</string>
+	<!---->
+	<string name="date_pm">"下午"</string>
+	<!---->
+	<string name="location">"地点"</string>
+	<!---->
+	<string name="click_update">"点击此处更新天气"</string>
+	<!---->
+	<string name="weather_off_line_text">"很抱歉，无法连接。"</string>
+	<string-array name="weather_icon_desc">
+		<item>"晴"</item>
+		<item>"大部多云"</item>
+		<item>"局部多云"</item>
+		<item>"晴偶有云"</item>
+		<item>"晴有薄雾"</item>
+		<item>"大部多云"</item>
+		<item>"多云"</item>
+		<item>"阴天"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"雾"</item>
+		<item>"阵雨"</item>
+		<item>"大部多云有雨"</item>
+		<item>"局部晴偶雨"</item>
+		<item>"雷阵雨"</item>
+		<item>"大部多云有雷阵雨"</item>
+		<item>"局部晴有雷阵雨"</item>
+		<item>"雨"</item>
+		<item>"阵风"</item>
+		<item>"大部多云有阵风"</item>
+		<item>"局部晴有阵风"</item>
+		<item>"雪"</item>
+		<item>"大部多云有雪"</item>
+		<item>"冰"</item>
+		<item>"雨夹雪"</item>
+		<item>"冻雨"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"雨雪"</item>
+		<item>"热"</item>
+		<item>"寒冷"</item>
+		<item>"有风"</item>
+		<item>"晴"</item>
+		<item>"大部晴朗"</item>
+		<item>"局部多云"</item>
+		<item>"晴偶有云"</item>
+		<item>"薄雾"</item>
+		<item>"大部多云"</item>
+		<item>"多云偶有阵雨"</item>
+		<item>"大部多云有雨"</item>
+		<item>"局部多云有阵雨"</item>
+		<item>"大部多云有阵雨"</item>
+		<item>"大部多云有阵风"</item>
+		<item>"大部多云有雪"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"周一"</item>
+		<item>"周二"</item>
+		<item>"周三"</item>
+		<item>"周四"</item>
+		<item>"周五"</item>
+		<item>"周六"</item>
+		<item>"周日"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"刷新"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"无法获得最新的位置。"</string>
+	<!--translate [tokyo_name] from sourcecode xml -->
+	<string name="tokyo_name">"东京"</string>
+	<!---->
+	<string name="last_updated_label">"上次更新时间:"</string>
+	<!---->
+	<string name="change_to_C">"切换到°C"</string>
+	<!---->
+	<string name="change_to_F">"切换到°F"</string>
+</resources>

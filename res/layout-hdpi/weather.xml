@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PR758181 Incorrect format in weather app by jielong.xing at 2014-08-07 begin -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/rl_left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="36dp" >
+
+        <ImageView
+            android:id="@+id/ac_iv_icon"
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/ac_tv_text"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dip"
+            android:layout_marginTop="2dip"
+            android:gravity="center_horizontal"
+            android:fontFamily="sans-serif"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <!-- PR749805 The weather icon will overlap location in weather interface by jielong.xing at 2014-07-31 begin -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp" >
+
+        <!-- modify by junye.li for PR761631 begin -->
+        <LinearLayout android:id="@+id/ll_refresh_time"
+            android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    android:layout_alignParentRight="true"	
+		    android:layout_marginRight="16dp"	    
+	        android:paddingRight="10dp">
+	        
+		    <TextView android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="2dp"
+		        android:fontFamily="sans-serif"
+	            android:gravity="right"
+	            android:layout_gravity="right"
+		        android:textColor="#FFFFFF"
+	            android:textSize="15dp"
+	            android:text="@string/last_updated_label"/>
+		    
+		    <TextView
+	            android:id="@+id/ac_tv_time"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="right"
+	            android:layout_gravity="right"
+	            android:fontFamily="sans-serif"
+	            android:textColor="#FFFFFF"
+	            android:textSize="15dp" />
+		    
+		</LinearLayout>
+
+        <TextView
+            android:id="@+id/ac_tv_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/ll_refresh_time"
+            android:ellipsize="marquee"
+            android:fontFamily="sans-serif"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxWidth="156dp"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+        <!-- modify by junye.li for PR761631 end -->
+        <!-- PR749805 The weather icon will overlap location in weather interface by jielong.xing at 2014-07-31 end -->       
+
+        <TextView
+            android:id="@+id/ac_tv_temp_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/ac_tv_city"
+            android:layout_marginRight="4dp"
+            android:fontFamily="sans-serif-thin"
+            android:paddingRight="10dp"
+            android:textColor="#FFFFFF"
+            android:textSize="56dp" />
+
+        <TextView
+            android:id="@+id/ac_tv_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ac_tv_city"
+            android:layout_toLeftOf="@id/ac_tv_temp_unit"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="top"
+            android:textColor="#FFFFFF"
+            android:textSize="56dp" />
+
+        <TextView
+            android:id="@+id/ac_tv_realfeel_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/ac_tv_city"
+            android:layout_below="@id/ac_tv_temp"
+            android:layout_marginTop="2dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:paddingRight="10dp"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/ac_tv_high"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/ac_tv_realfeel_temp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="6dp"
+            android:layout_toLeftOf="@id/ac_tv_realfeel_temp"
+            android:fontFamily="sans-serif"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+</LinearLayout><!-- PR758181 Incorrect format in weather app by jielong.xing at 2014-08-07 end -->

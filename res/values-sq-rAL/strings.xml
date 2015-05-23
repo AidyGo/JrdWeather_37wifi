@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Moti"</string>
+	<!---->
+	<string name="menu_addlocation">"Shto një vendndodhje"</string>
+	<!---->
+	<string name="menu_delete">"Fshij vendndodhjen"</string>
+	<!---->
+	<string name="menu_unit">"Ndrysho njësinë"</string>
+	<!---->
+	<string name="locate_auto">"Auto detektim"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Nuk mund të lidhet në internet."</string>
+	<!---->
+	<string name="locate_goto_connect">"Shko për t\'u lidhur"</string>
+	<!---->
+	<string name="locate_failure">"Auto detektim dështoi. Ju lutem kërkoje vendndodhjen."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Detektim i pasuksesshëm i lokacionit. Kontrollo shërbimin pë Google lokacion."</string>
+	<!---->
+	<string name="insert_location">"Futeni një vend"</string>
+	<!---->
+	<string name="connect_timeout">"Sinjal i ulët. Ju lutem provoni më vonë."</string>
+	<!---->
+	<string name="connot_find_location">"Vendi nuk mund të gjendet."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"Na vjen keq, ju mund të shtoni vetëm 11 qytete. Ju lutemi të hiqni një."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Duke kërkuar..."</string>
+	<!---->
+	<string name="locating">"Duke detektuar..."</string>
+	<!---->
+	<string name="loading">"Duke ngarkuar..."</string>
+	<!---->
+	<string name="weather_offline">"Moti jashtë linjës"</string>
+	<!---->
+	<string name="update_time">"Përditëso kohën"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"\'\'Anulo\'\'"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Lokacion"</string>
+	<!---->
+	<string name="click_update">"Shtyp këtu për përditësim"</string>
+	<!---->
+	<string name="weather_off_line_text">"Më vjen keq, por nuk mund të lidhet."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Me diell"</item>
+		<item>"Kryesisht me Diell"</item>
+		<item>"Me Diell të Pjesshme"</item>
+		<item>"Me Vranësira të Kohëpaskohshme"</item>
+		<item>"Kryesisht me Diell dhe Mjegull"</item>
+		<item>"Kryesisht me Vranësira"</item>
+		<item>"I vrenjtur"</item>
+		<item>"Moti i zymtë"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Mjegulli"</item>
+		<item>"Shira"</item>
+		<item>"Kryesisht me Vranësira me Reshje të Shiut"</item>
+		<item>"Me diell të pjesshme dhe me Shi"</item>
+		<item>"Stuhitë"</item>
+		<item>"Kryesisht me Vranësira dhe me Stuhitë"</item>
+		<item>"Pjesërisht me Diell dhe me Stuhitë"</item>
+		<item>"Shi"</item>
+		<item>"Me erë të fuqishme"</item>
+		<item>"Kryesisht me Vranësira dhe me Erë të fuqishme"</item>
+		<item>"Me Diell të Pjesshme dhe me Erë të Fuqishme"</item>
+		<item>"Borë"</item>
+		<item>"Kryesisht me Vranësira me Borë"</item>
+		<item>"Akull"</item>
+		<item>"Shi me borë"</item>
+		<item>"Shira të ngrirë"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Përzierje e shiut dhe borës"</item>
+		<item>"Vapë"</item>
+		<item>"Ftohtë"</item>
+		<item>"Me erë"</item>
+		<item>"I kthjellët"</item>
+		<item>"Kryesisht I kthjellët"</item>
+		<item>"Me Vranësira të Pjesshme"</item>
+		<item>"Vranësira lokale"</item>
+		<item>"Gjendje e mjegulluar"</item>
+		<item>"Kryesisht me Vranësira"</item>
+		<item>"Me Vranësira të Pjesshme me Reshje"</item>
+		<item>"Kryesisht me Vranësira me Reshje të Shiut"</item>
+		<item>"Pjeserisht me re, bubullima dhe shi"</item>
+		<item>"Kryesisht me Vranësira dhe me Bubullima dhe Shi"</item>
+		<item>"Kryesisht me Vranësira dhe me Reshje të kohëpaskohshme"</item>
+		<item>"Kryesisht me Vranësira me Borë"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Hën"</item>
+		<item>"Mar"</item>
+		<item>"Mër"</item>
+		<item>"Enj"</item>
+		<item>"Pre"</item>
+		<item>"Sht"</item>
+		<item>"Die"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"Rifresko"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Në pamundësi për të marrë vendin e fundit."</string>
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!---->
+	<string name="last_updated_label">"Të fundit të përditësuar:"</string>
+	<!-- no translation found for change_to_C -->
+	<skip />
+	<!-- no translation found for change_to_F -->
+	<skip />
+</resources>

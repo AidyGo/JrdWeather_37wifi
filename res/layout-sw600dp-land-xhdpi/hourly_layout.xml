@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" >
+
+        <WebView
+            android:id="@+id/webView_ad"
+            android:layout_width="fill_parent"
+            android:layout_height="66dp" />
+        
+        <ImageView android:id="@+id/img_shape"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:src="@drawable/webview_shape"/>
+
+        <Button
+            android:id="@+id/bt_ad_close"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/close_selector" />
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/lv_hourly"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+GenericApp / Weather/ Release / v4.0.1.0022.0 / W12.6
+APK URI: ftp://172.16.12.22/TctAppPackage/Weather/Weather_00/v4.0.1.0022.0
+Http Download:  https://172.16.11.175/GenericApp/Weather/Weather_00/v4.0.1.0022.0
+
+Milestone: Post-CS
+Translation Lable:JRDAPK_WIMDATA_NG-JRD-JRDAPK_WIMDATA_NG-WLANGUAGE-P1.0-53
+
+
+Description: 
+Weather_Global_v4.0.1.0022.0_signed_releasekey_allapi.apk
+
+Integration Guide:
+None
+
+Main change:
+1. fix PR952795
+
+ERGO/GD URI:
+http://172.24.61.76/delivery_ergo2/index.php?D=%2FNewProjects%2F2014_Wave3%2FWeather 

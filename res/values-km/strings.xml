@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"អាកាសធាតុ"</string>
+	<!---->
+	<string name="menu_addlocation">"ថែម​ទីកន្លែង​មួយ"</string>
+	<!---->
+	<string name="menu_delete">"លុប​ទីកន្លែង"</string>
+	<!---->
+	<string name="menu_unit">"ប្ដូរ​ខ្នាត"</string>
+	<!---->
+	<string name="locate_auto">"ស្វ័យ​រកកន្លែង"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"មិន​អាច​ភ្ជាប់​ទៅ​អ៊ីនធឺណិត។"</string>
+	<!---->
+	<string name="locate_goto_connect">"ចូលទៅ​ភ្ជាប់"</string>
+	<!---->
+	<string name="locate_failure">"ស្វ័យរកកន្លែងបានបរាជ័យ។ សូមស្វែងរកទីកន្លែងជំនួសមួយនេះ។"</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"ស្វ័យ​រកកន្លែង​បាន​បរាជ័យ។ សូម​ពិនិត្យ​សេវា​ទីកន្លែង​របស់ Google។"</string>
+	<!---->
+	<string name="insert_location">"បញ្ចូល​ទីកន្លែង"</string>
+	<!---->
+	<string name="connect_timeout">"សេវា​ខ្សោយ។ សូម​សាកល្បង​វា​ពេលក្រោយ។"</string>
+	<!---->
+	<string name="connot_find_location">"មិន​អាច​រកឃើញ​ទីកន្លែង​នេះ។"</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"សុំទោស អ្នក​អាច​ថែម​តែ​ទីក្រុង 11 ប៉ុណ្ណោះ។ សូម​លុប​មួយ។"</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"កំពុង​ស្វែងរក…"</string>
+	<!---->
+	<string name="locating">"កំពុង​រក​កន្លែង…"</string>
+	<!---->
+	<string name="loading">"កំពុងដំណើរការ..."</string>
+	<!---->
+	<string name="weather_offline">"អាកាសធាតុ​ក្រៅ​បណ្ដាញ"</string>
+	<!---->
+	<string name="update_time">"អាប់ដេត​ម៉ោង"</string>
+	<!---->
+	<string name="common_ok">"ព្រម"</string>
+	<!---->
+	<string name="common_cancel">"បោះបង់"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"ទីតាំង"</string>
+	<!---->
+	<string name="click_update">"ចុចទីនេះដើម្បីអាប់ដេត"</string>
+	<!---->
+	<string name="weather_off_line_text">"សូមទោស មិនអាចភ្ជាប់បានទេ។"</string>
+	<string-array name="weather_icon_desc">
+		<item>"មាន​ពន្លឺ​ថ្ងៃ"</item>
+		<item>"មាន​ពន្លឺ​ថ្ងៃ​ច្រើន"</item>
+		<item>"មាន​ពន្លឺ​ថ្ងៃ​ខ្លះ"</item>
+		<item>"ពពក​មួយ​ដុំៗ"</item>
+		<item>"មាន​ពន្លឺ​ថ្ងៃ​ជាមួយ​អ័ព្ទ"</item>
+		<item>"មាន​ពពក​ច្រើន"</item>
+		<item>"មាន​ពពក"</item>
+		<item>"អាប់អួ"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"អ័ព្ទ"</item>
+		<item>"ភ្លៀង​ធ្លាក់"</item>
+		<item>"មាន​ពពក​ច្រើន​ជាមួយ​ភ្លៀង​ធ្លាក់"</item>
+		<item>"មាន​ពន្លឺ​ថ្ងៃ​ខ្លះ​ជាមួយ​ភ្លៀង​ធ្លាក់"</item>
+		<item>"ព្យុះ​មាន​ផ្គរ​រន្ទះ"</item>
+		<item>"មាន​ពពក​ច្រើន​ជាមួយ​ភ្លៀង​ផ្គរ"</item>
+		<item>"មាន​ពន្លឺ​ថ្ងៃ​ខ្លះ​ជាមួយ​ភ្លៀង​ផ្គរ"</item>
+		<item>"ភ្លៀង"</item>
+		<item>"ធ្លាក់​ព្រិល​មួយ​ប្រាវ"</item>
+		<item>"មាន​ពពក​ច្រើន​ជាមួយ​ការធ្លាក់​ព្រិល​មួយ​ប្រាវ"</item>
+		<item>"ពន្លឺ​ថ្ងៃ​ខ្លះ​ និងធ្លាក់​ព្រិល"</item>
+		<item>"ព្រិល​ទឹកកក"</item>
+		<item>"ពពក​ច្រើន​និងព្រិល​ទឹកកក"</item>
+		<item>"ទឹកកក"</item>
+		<item>"ភ្លៀង​លាយ​ព្រិល"</item>
+		<item>"ភ្លៀង​ទឹកកក"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"ភ្លៀង​លាយ​ព្រិល​ទឹកកក"</item>
+		<item>"ក្ដៅ"</item>
+		<item>"ត្រជាក់"</item>
+		<item>"ខ្យល់"</item>
+		<item>"ជម្រះ"</item>
+		<item>"ភាគច្រើន​ស្រឡះ"</item>
+		<item>"មាន​ពពក​ខ្លះ"</item>
+		<item>"ពពក​មួយ​ដុំៗ"</item>
+		<item>"ចុះ​អ័ព្ទ"</item>
+		<item>"មាន​ពពក​ច្រើន"</item>
+		<item>"មាន​ពពក​ខ្លះ​ជាមួយ​ភ្លៀង​ធ្លាក់"</item>
+		<item>"មាន​ពពក​ច្រើន​ជាមួយ​ភ្លៀង​ធ្លាក់"</item>
+		<item>"មាន​ពពក​ខ្លះ​ជាមួយ​ភ្លៀង​ផ្គរ"</item>
+		<item>"មាន​ពពក​ច្រើន​ជាមួយ​ភ្លៀង​ផ្គរ"</item>
+		<item>"មាន​ពពក​ច្រើន​ជាមួយ​ការធ្លាក់​ព្រិល​មួយ​ប្រាវ"</item>
+		<item>"ពពក​ច្រើន​ និង​ព្រិល"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"ចន្ទ"</item>
+		<item>"អង្គារ"</item>
+		<item>"ពុធ"</item>
+		<item>"ព្រហស្បតិ៍"</item>
+		<item>"សុក្រ"</item>
+		<item>"សៅរ៍"</item>
+		<item>"អាទិត្យ"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"ធ្វើឲ្យស្រស់បស់ឡើងវិញ"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"មិនអាចទទួលបានទីតាំងចុងក្រោយ។"</string>
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!---->
+	<string name="last_updated_label">"ធ្វើឱ្យទាន់សម័យ ចុងក្រោយ"</string>
+	<!-- no translation found for change_to_C -->
+	<skip />
+	<!-- no translation found for change_to_F -->
+	<skip />
+</resources>

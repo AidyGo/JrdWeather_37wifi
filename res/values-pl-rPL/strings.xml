@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Pogoda"</string>
+	<!---->
+	<string name="menu_addlocation">"Dodaj lokalizację"</string>
+	<!---->
+	<string name="menu_delete">"Usuń lokalizację"</string>
+	<!---->
+	<string name="menu_unit">"Zmień jednostkę"</string>
+	<!---->
+	<string name="locate_auto">"Automatyczna lokalizacja"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Nie można połączyć się z Internetem."</string>
+	<!---->
+	<string name="locate_goto_connect">"Przejdź do połączeń"</string>
+	<!---->
+	<string name="locate_failure">"Automatyczna lokalizacja nieudana. Wyszukaj lokalizację ręcznie."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Automatyczna lokalizacja nieudana. Sprawdź usługę lokalizacji Google."</string>
+	<!---->
+	<string name="insert_location">"Wprowadź lokalizację"</string>
+	<!---->
+	<string name="connect_timeout">"Słaby sygnał. Spróbuj ponownie później."</string>
+	<!---->
+	<string name="connot_find_location">"Nie można znaleźć lokalizacji."</string>
+	<!---->
+	<string name="real_feel">"Odczuw."</string>
+	<!---->
+	<string name="citys_full">"Możesz dodać tylko 11 miast. Usuń jedno miasto."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Wyszukiwanie..."</string>
+	<!---->
+	<string name="locating">"Lokalizowanie..."</string>
+	<!---->
+	<string name="loading">"Ładowanie..."</string>
+	<!---->
+	<string name="weather_offline">"Pogoda offline"</string>
+	<!---->
+	<string name="update_time">"Czas aktualizacji"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Anuluj"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Lokalizacja"</string>
+	<!---->
+	<string name="click_update">"Kliknij tutaj, aby zaktualizować"</string>
+	<!---->
+	<string name="weather_off_line_text">"Przepraszamy, nie można połączyć."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Słonecznie"</item>
+		<item>"Przeważnie słonecznie"</item>
+		<item>"Częściowo słonecznie"</item>
+		<item>"Przejściowe zachmurzenie"</item>
+		<item>"Mglisty poranek"</item>
+		<item>"Duże zachmurzenie"</item>
+		<item>"Pochmurno"</item>
+		<item>"Ponuro"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Mgła"</item>
+		<item>"Przelotne opady"</item>
+		<item>"Duże zachmurzenie z przelotnymi opadami"</item>
+		<item>"Częściowo słonecznie z przelotnymi opadami"</item>
+		<item>"Burze z piorunami"</item>
+		<item>"Duże zachmurzenie z przelotnymi burzami"</item>
+		<item>"Częściowo słonecznie z przelotnymi burzami"</item>
+		<item>"Deszcz"</item>
+		<item>"Przelotne opady śniegu"</item>
+		<item>"Duże zachmurzenie z przelotnymi opadami śniegu"</item>
+		<item>"Częściowo słonecznie z przelotnymi opadami śniegu"</item>
+		<item>"Śnieg"</item>
+		<item>"Duże zachmurzenie z opadami śniegu"</item>
+		<item>"Lód"</item>
+		<item>"Deszcz ze śniegiem"</item>
+		<item>"Marznący deszcz"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Deszcz na przemian ze śniegiem"</item>
+		<item>"Gorąco"</item>
+		<item>"Zimno"</item>
+		<item>"Wietrznie"</item>
+		<item>"Bezchmurnie"</item>
+		<item>"Przeważnie bezchmurnie"</item>
+		<item>"Częściowe zachmurzenie"</item>
+		<item>"Przejściowe zachmurzenie"</item>
+		<item>"Mglisto"</item>
+		<item>"Duże zachmurzenie"</item>
+		<item>"Częściowe zachmurzenie z przelotnymi opadami"</item>
+		<item>"Duże zachmurzenie z przelotnymi opadami"</item>
+		<item>"Częściowe zachmurzenie z przelotnymi burzami"</item>
+		<item>"Duże zachmurzenie z przelotnymi burzami"</item>
+		<item>"Duże zachmurzenie z przelotnymi opadami śniegu"</item>
+		<item>"Duże zachmurzenie z opadami śniegu"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Poniedziałek"</item>
+		<item>"Wtorek"</item>
+		<item>"Środa"</item>
+		<item>"Czwartek"</item>
+		<item>"Piątek"</item>
+		<item>"Sobota"</item>
+		<item>"Niedziela"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"Odśwież"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Nie można pobrać ostatniej lokalizacji."</string>
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!---->
+	<string name="last_updated_label">"Ostatnia aktualizacja:"</string>
+	<!---->
+	<string name="change_to_C">"Zmień na °C"</string>
+	<!---->
+	<string name="change_to_F">"Zmień na °F"</string>
+</resources>

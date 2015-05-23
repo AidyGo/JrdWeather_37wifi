@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CR742093 	widget GD is not correct, not match DNA file by jielong.xing at 2014-07-22 begin -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_weather_clock_widget"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:orientation="vertical" >
+	<!-- PR747432 The interface display is abnormally when set language to arabic by jielong.xing at 2014-07-27 begin -->
+    <LinearLayout
+        android:id="@+id/weather_clock_widget_layout"
+        android:layout_width="148dp"
+        android:layout_height="148dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/icons_01"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+    <!-- PR747432 The interface display is abnormally when set language to arabic by jielong.xing at 2014-07-27 end -->
+        <LinearLayout
+            android:id="@+id/clock_widget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <TextClock
+                    android:id="@+id/clock_widget_time"
+                    style="@style/shadow_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:fontFamily="sans-serif-light"
+                    android:format12Hour="@string/widget_12_hours_format"
+                    android:format24Hour="@string/widget_24_hours_format"
+                    android:gravity="left|bottom"
+                    android:textAllCaps="true"
+                    android:textColor="#ffffff"
+                    android:textSize="42sp" />
+                <TextClock
+                    android:id="@+id/am_pm"
+                    style="@style/shadow_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:fontFamily="sans-serif-light"
+                    android:format12Hour="@string/am_pm_12_hours"
+                    android:format24Hour="@string/am_pm_24_hours"
+                    android:gravity="bottom"
+                    android:textSize="22sp" />
+            </LinearLayout>
+            <!-- PR747432 The interface display is abnormally when set language to arabic by jielong.xing at 2014-07-27 begin -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-2dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginStart="6dp"
+                android:orientation="horizontal" >
+                <TextClock
+                    android:id="@+id/day_of_week"
+                    style="@style/shadow_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginEnd="6dp"
+                    android:format12Hour="@string/weekday_keyguard"
+                    android:format24Hour="@string/weekday_keyguard"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp" />
+            <!-- PR747432 The interface display is abnormally when set language to arabic by jielong.xing at 2014-07-27 end -->
+                <TextClock
+                    android:id="@+id/date"
+                    style="@style/shadow_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:format12Hour="@string/month_day_keyguard_24_hours"
+                    android:format24Hour="@string/month_day_keyguard_24_hours"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- PR747432 The interface display is abnormally when set language to arabic by jielong.xing at 2014-07-27 begin -->
+        <LinearLayout
+            android:id="@+id/empty_offline_part"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"
+            android:orientation="vertical" >
+        <!-- PR747432 The interface display is abnormally when set language to arabic by jielong.xing at 2014-07-27 end -->
+            <TextView
+                android:id="@+id/add_location"
+                style="@style/shadow_style"
+                android:layout_width="fill_parent"
+                android:layout_height="105dip"
+                android:layout_marginTop="2dp"
+                android:text="@string/menu_addlocation"
+                android:textSize="14sp"
+                android:visibility="visible" />
+            <TextView
+                android:id="@+id/widget_offline_text"
+                style="@style/shadow_style"
+                android:layout_width="fill_parent"
+                android:layout_height="105dp"
+                android:layout_marginTop="2dp"
+                android:text="@string/weather_off_line_text"
+                android:textSize="14sp"
+                android:visibility="gone" />
+        </LinearLayout>
+        <!-- PR747432 The interface display is abnormally when set language to arabic by jielong.xing at 2014-07-27 begin -->
+        <LinearLayout
+            android:id="@+id/weather_part"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"
+            android:visibility="gone" >
+        <!-- PR747432 The interface display is abnormally when set language to arabic by jielong.xing at 2014-07-27 end -->
+            <LinearLayout
+                android:id="@+id/city_temperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+                <!-- PR757624 The name of the city display abnormal in weather interface by jielong.xing at 2014-08-07 begin -->
+                <!-- PR747432 The interface display is abnormally when set language to arabic by jielong.xing at 2014-07-27 begin -->
+                <TextView
+                    android:id="@+id/city_name_auto"
+                    style="@style/shadow_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="180dp"
+                    android:drawableRight="@drawable/widget_auto_location_city"
+                    android:drawableEnd="@drawable/widget_auto_location_city"
+                    android:textSize="12sp"
+                    android:visibility="gone" />
+                <!-- PR747432 The interface display is abnormally when set language to arabic by jielong.xing at 2014-07-27 end -->
+                <TextView
+                    android:id="@+id/city_name"
+                    style="@style/shadow_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:maxWidth="180dp"
+                    android:singleLine="true"
+        			android:ellipsize="end" />
+                <!-- PR757624 The name of the city display abnormal in weather interface by jielong.xing at 2014-08-07 end -->
+                <TextView
+                    android:id="@+id/real_temperature"
+                    style="@style/shadow_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="22sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+<!-- CR742093 	widget GD is not correct, not match DNA file by jielong.xing at 2014-07-22 end -->

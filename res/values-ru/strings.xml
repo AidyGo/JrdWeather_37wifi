@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Погода"</string>
+	<!---->
+	<string name="menu_addlocation">"Добавьте местоположение"</string>
+	<!---->
+	<string name="menu_delete">"Удалить местоположение"</string>
+	<!---->
+	<string name="menu_unit">"Изменить единицу измерения"</string>
+	<!---->
+	<string name="locate_auto">"Автоопределение местоположения"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Невозможно подключиться к Интернет"</string>
+	<!---->
+	<string name="locate_goto_connect">"Нажмите для подключения"</string>
+	<!---->
+	<string name="locate_failure">"Ошибка автоопределения местоположения. Установите местонахождение вручную."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Не удалось автоматически определить местоположение. Пожалуйста, проверьте службу геопозиционирования Google."</string>
+	<!---->
+	<string name="insert_location">"Добавьте местоположение"</string>
+	<!---->
+	<string name="connect_timeout">"Не удалось получить данные. Возможно, отсутствует подключение к сети Интернет. Пожалуйста, попробуйте позже."</string>
+	<!---->
+	<string name="connot_find_location">"Местоположение не найдено."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"Вы можете добавить только 11 городов. Удалите один из них."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Выполняется поиск..."</string>
+	<!---->
+	<string name="locating">"Определение местоположения..."</string>
+	<!---->
+	<string name="loading">"Выполняется загрузка..."</string>
+	<!---->
+	<string name="weather_offline">"Погода офлайн"</string>
+	<!---->
+	<string name="update_time">"Обновить время"</string>
+	<!---->
+	<string name="common_ok">"ОК"</string>
+	<!---->
+	<string name="common_cancel">"Отмена"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Местоположение"</string>
+	<!---->
+	<string name="click_update">"Нажмите здесь, чтобы обновить"</string>
+	<!---->
+	<string name="weather_off_line_text">"Не удалось подключиться"</string>
+	<string-array name="weather_icon_desc">
+		<item>"Солнечно"</item>
+		<item>"Возможен дождь"</item>
+		<item>"Возможен дождь"</item>
+		<item>"Переменная облачность"</item>
+		<item>"Туманно"</item>
+		<item>"Облачно"</item>
+		<item>"Облачно"</item>
+		<item>"Мрачно"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Туман"</item>
+		<item>"Дождь"</item>
+		<item>"Переменная облачность, дождь"</item>
+		<item>"Небольшая облачность, дождь"</item>
+		<item>"Грозы"</item>
+		<item>"Облачно, грозы"</item>
+		<item>"Возможен дождь, грозы"</item>
+		<item>"Дождь"</item>
+		<item>"Порывистый ветер"</item>
+		<item>"Облачно, снег"</item>
+		<item>"Дождь со снегом"</item>
+		<item>"Снег"</item>
+		<item>"облачно, снег"</item>
+		<item>"Лед"</item>
+		<item>"мокрый снег"</item>
+		<item>"Ледяной дождь"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Дождь со снегом"</item>
+		<item>"Жара"</item>
+		<item>"Холодно"</item>
+		<item>"Ветрено"</item>
+		<item>"Ясно"</item>
+		<item>"Переменная облачность"</item>
+		<item>"Переменная облачность"</item>
+		<item>"Переменная облачность"</item>
+		<item>"Туманно"</item>
+		<item>"Облачно"</item>
+		<item>"Облачно, дождь"</item>
+		<item>"Облачно, дождь"</item>
+		<item>"Облачно, гроза"</item>
+		<item>"Облачно, гроза"</item>
+		<item>"облачно, снег"</item>
+		<item>"облачно, снег"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Понедельник"</item>
+		<item>"Вторник"</item>
+		<item>"Среда"</item>
+		<item>"Четверг"</item>
+		<item>"Пятница"</item>
+		<item>"Суббота"</item>
+		<item>"Воскресенье"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"Обновить"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Невозможно получить последнее местоположение."</string>
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!---->
+	<string name="last_updated_label">"Обновлено:"</string>
+	<!---->
+	<string name="change_to_C">"Градусы Цельсия"</string>
+	<!---->
+	<string name="change_to_F">"Градусы Фаренгейта"</string>
+</resources>

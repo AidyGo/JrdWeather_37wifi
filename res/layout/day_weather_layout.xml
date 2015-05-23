@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PR758181 Incorrect format in weather app by jielong.xing at 2014-08-07 begin -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/day_iv_icon"
+        android:layout_width="54dip"
+        android:layout_height="54dip"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/day_tv_temph"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center_horizontal"
+		android:fontFamily="sans-serif"
+        android:textColor="#9fa0a0" />
+
+    <TextView
+        android:id="@+id/day_tv_templ"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:gravity="center_horizontal"
+		android:fontFamily="sans-serif"
+        android:textColor="#9fa0a0" />
+
+    <View
+        android:layout_width="15dip"
+        android:layout_height="9dip"
+        android:layout_gravity="center|top"        
+        android:layout_marginTop="14dip"
+        android:background="@drawable/arrow" />
+
+    <TextView
+        android:id="@+id/day_tv_week"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+		android:fontFamily="sans-serif"
+        android:textColor="#9fa0a0" />
+
+    <TextView
+        android:id="@+id/day_tv_date"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+		android:fontFamily="sans-serif"
+        android:textColor="#9fa0a0" />
+
+</LinearLayout>
+<!-- PR758181 Incorrect format in weather app by jielong.xing at 2014-08-07 end -->

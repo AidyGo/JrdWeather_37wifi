@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Weer"</string>
+	<!---->
+	<string name="menu_addlocation">"Locatie toevoegen"</string>
+	<!---->
+	<string name="menu_delete">"Locatie verwijderen"</string>
+	<!---->
+	<string name="menu_unit">"Eenheid wijzigen"</string>
+	<!---->
+	<string name="locate_auto">"Automatisch vinden"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Kan geen verbinding maken met internet."</string>
+	<!---->
+	<string name="locate_goto_connect">"Ga naar verbinden"</string>
+	<!---->
+	<string name="locate_failure">"Automatisch locatie vinden is mislukt. Zoek in plaats daarvan een locatie."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Automatisch locatie vinden is mislukt. Controleer de locatieservice van Google."</string>
+	<!---->
+	<string name="insert_location">"Een locatie invoegen"</string>
+	<!---->
+	<string name="connect_timeout">"Zwak signaal. Probeer het later opnieuw."</string>
+	<!---->
+	<string name="connot_find_location">"Deze locatie kan niet worden gevonden."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"U kunt slechts 11 steden toevoegen. Verwijder een stad."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Zoeken..."</string>
+	<!---->
+	<string name="locating">"Vinden..."</string>
+	<!---->
+	<string name="loading">"Laden..."</string>
+	<!---->
+	<string name="weather_offline">"Weer offline"</string>
+	<!---->
+	<string name="update_time">"Updatetijd"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Annuleren"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Locatie"</string>
+	<!---->
+	<string name="click_update">"Klik hier om bij te werken"</string>
+	<!---->
+	<string name="weather_off_line_text">"Kan geen verbinding maken."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Zonnig"</item>
+		<item>"Meest zonnig"</item>
+		<item>"Gedeeltelijk zonnig"</item>
+		<item>"Zo nu en dan bewolkt"</item>
+		<item>"Wazig zonnetje"</item>
+		<item>"Meest bewolkt"</item>
+		<item>"Bewolkt"</item>
+		<item>"Druilerig"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Mist"</item>
+		<item>"Regenbuien"</item>
+		<item>"Vooral bewolkt met regenbuien"</item>
+		<item>"Gedeeltelijk zonnig met regenbuien"</item>
+		<item>"Onweersbuien"</item>
+		<item>"Vooral bewolkt met onweersbuien"</item>
+		<item>"Gedeeltelijk zonnig met onweersbuien"</item>
+		<item>"Regen"</item>
+		<item>"Windstoten"</item>
+		<item>"Meest bewolkt met windstoten"</item>
+		<item>"Gedeeltelijk zonnig met windstoten"</item>
+		<item>"Sneeuw"</item>
+		<item>"Meest bewolkt met sneeuw"</item>
+		<item>"IJs"</item>
+		<item>"IJzel"</item>
+		<item>"Aanvriezende regen"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Regen en sneeuw"</item>
+		<item>"Heet"</item>
+		<item>"Koud"</item>
+		<item>"Winderig"</item>
+		<item>"Helder"</item>
+		<item>"Meest helder"</item>
+		<item>"Gedeeltelijk bewolkt"</item>
+		<item>"Zo nu en dan bewolkt"</item>
+		<item>"Nevelig"</item>
+		<item>"Meest bewolkt"</item>
+		<item>"Gedeeltelijk bewolkt met buien"</item>
+		<item>"Gedeelte bewolkt met buien"</item>
+		<item>"Gedeeltelijk bewolkt met onweersbuien"</item>
+		<item>"Meest bewolkt met onweersbuien"</item>
+		<item>"Meest bewolkt met windstoten"</item>
+		<item>"Meest bewolkt met sneeuw"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Maa"</item>
+		<item>"Din"</item>
+		<item>"Woe"</item>
+		<item>"Don"</item>
+		<item>"Vrij"</item>
+		<item>"Zat"</item>
+		<item>"Zon"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"Vernieuwen"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Kan de laatste locatie niet vaststellen."</string>
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!---->
+	<string name="last_updated_label">"Laatst bijgewerkt:"</string>
+	<!---->
+	<string name="change_to_C">"Wijzigen in °C"</string>
+	<!---->
+	<string name="change_to_F">"Wijzigen in °F"</string>
+</resources>

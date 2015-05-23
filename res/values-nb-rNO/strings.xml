@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Vær"</string>
+	<!---->
+	<string name="menu_addlocation">"Legg til en posisjon"</string>
+	<!---->
+	<string name="menu_delete">"Slett posisjon"</string>
+	<!---->
+	<string name="menu_unit">"Endre enhet"</string>
+	<!---->
+	<string name="locate_auto">"Finn automatisk"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Kan ikke koble til Internett"</string>
+	<!---->
+	<string name="locate_goto_connect">"Gå til tilkobling"</string>
+	<!---->
+	<string name="locate_failure">"Kan ikke finne automatisk. Søk etter en posisjon i stedet."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Kan ikke finne automatisk. Sjekk Googles posisjonstjeneste."</string>
+	<!---->
+	<string name="insert_location">"Sett inn en posisjon."</string>
+	<!---->
+	<string name="connect_timeout">"Dårlig signal. Prøv på nytt senere."</string>
+	<!---->
+	<string name="connot_find_location">"Finner ikke denne posisjonen."</string>
+	<!---->
+	<string name="real_feel">"Følt"</string>
+	<!---->
+	<string name="citys_full">"Du kan bare legge til 11 byer. Fjern én."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Søker ..."</string>
+	<!---->
+	<string name="locating">"Finner ..."</string>
+	<!---->
+	<string name="loading">"Laster inn ..."</string>
+	<!---->
+	<string name="weather_offline">"Vær frakoblet"</string>
+	<!---->
+	<string name="update_time">"Oppdatert"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Avbryt"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Sted"</string>
+	<!---->
+	<string name="click_update">"Klikk her for å oppdatere"</string>
+	<!---->
+	<string name="weather_off_line_text">"Beklager, kan ikke koble til."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Sol"</item>
+		<item>"Stort sett sol"</item>
+		<item>"Delvis sol"</item>
+		<item>"Periodiske skyer"</item>
+		<item>"Sol og dis"</item>
+		<item>"Stort sett overskyet"</item>
+		<item>"Overskyet"</item>
+		<item>"Dystert"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Tåke"</item>
+		<item>"Regnbyger"</item>
+		<item>"Stort sett overskyet med regnbyger"</item>
+		<item>"Delvis sol med regnbyger"</item>
+		<item>"Tordenvær"</item>
+		<item>"Stort sett overskyet med tordenvær"</item>
+		<item>"Delvis sol med tordenvær"</item>
+		<item>"Regn"</item>
+		<item>"Snøbyger"</item>
+		<item>"Stort sett overskyet med snøbyger"</item>
+		<item>"Delvis sol med snøbyger"</item>
+		<item>"Snø"</item>
+		<item>"Stort sett overskyet med snø"</item>
+		<item>"Is"</item>
+		<item>"Sludd"</item>
+		<item>"Underkjølt regn"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Blanding av regn og snø"</item>
+		<item>"Varmt"</item>
+		<item>"Kaldt"</item>
+		<item>"Vind"</item>
+		<item>"Klart"</item>
+		<item>"Stort sett klart"</item>
+		<item>"Delvis skyet"</item>
+		<item>"Periodiske skyer"</item>
+		<item>"Disig"</item>
+		<item>"Stort sett overskyet"</item>
+		<item>"Delvis skyet med regnbyger"</item>
+		<item>"Stort sett overskyet med regnbyger"</item>
+		<item>"Delvis skyet med tordenvær"</item>
+		<item>"Stort sett overskyet med tordenvær"</item>
+		<item>"Stort sett overskyet med snøbyger"</item>
+		<item>"Stort sett overskyet med snø"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"man"</item>
+		<item>"tir"</item>
+		<item>"ons"</item>
+		<item>"tor"</item>
+		<item>"fre"</item>
+		<item>"lør"</item>
+		<item>"søn"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"Oppdater"</string>
+	<!-- no translation found for msg_unable_obtain_location -->
+	<skip />
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!---->
+	<string name="last_updated_label">"Sist oppdatert:"</string>
+	<!-- no translation found for change_to_C -->
+	<skip />
+	<!-- no translation found for change_to_F -->
+	<skip />
+</resources>

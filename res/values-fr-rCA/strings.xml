@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Météo"</string>
+	<!---->
+	<string name="menu_addlocation">"Ajouter un lieu"</string>
+	<!---->
+	<string name="menu_delete">"Suppr. l\'emplacement"</string>
+	<!---->
+	<string name="menu_unit">"Modifier l\'unité"</string>
+	<!---->
+	<string name="locate_auto">"Localiser automatiquement"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Connexion à Internet impossible"</string>
+	<!---->
+	<string name="locate_goto_connect">"Aller à Connexion"</string>
+	<!---->
+	<string name="locate_failure">"La localisation automatique a échoué. Veuillez rechercher le lieu manuellement."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"La localisation automatique a échoué. Veuillez vérifier le service de localisation de Google."</string>
+	<!---->
+	<string name="insert_location">"Indiquer un lieu"</string>
+	<!---->
+	<string name="connect_timeout">"Signal faible. Réessayez plus tard."</string>
+	<!---->
+	<string name="connot_find_location">"Ce lieu est introuvable."</string>
+	<!---->
+	<string name="real_feel">"Sensat. T°"</string>
+	<!---->
+	<string name="citys_full">"Vous ne pouvez ajouter que 11 villes. Veuillez en retirer une."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Recherche en cours…"</string>
+	<!---->
+	<string name="locating">"Localisation en cours..."</string>
+	<!---->
+	<string name="loading">"Chargement en cours..."</string>
+	<!---->
+	<string name="weather_offline">"Météo déconnectée"</string>
+	<!---->
+	<string name="update_time">"Heure de la mise à jour"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Annuler"</string>
+	<!---->
+	<string name="date_am">"a.m."</string>
+	<!---->
+	<string name="date_pm">"p.m."</string>
+	<!---->
+	<string name="location">"Emplacement"</string>
+	<!---->
+	<string name="click_update">"Cliquer ici pour mettre à jour"</string>
+	<!---->
+	<string name="weather_off_line_text">"Désolé, connexion impossible."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Ensoleillé"</item>
+		<item>"Généralement ensoleillé"</item>
+		<item>"Partiellement ensoleillé"</item>
+		<item>"Nuages intermittents"</item>
+		<item>"Soleil brumeux"</item>
+		<item>"Généralement nuageux"</item>
+		<item>"Nuageux"</item>
+		<item>"Maussade"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Brouillard"</item>
+		<item>"Averses"</item>
+		<item>"Généralement nuageux avec averses"</item>
+		<item>"Partiellement ensoleillé avec averses"</item>
+		<item>"Orageux"</item>
+		<item>"Généralement nuageux avec averses orageuses"</item>
+		<item>"Partiellement ensoleillé avec averses orageuses"</item>
+		<item>"Pluie"</item>
+		<item>"Averses de neige"</item>
+		<item>"Généralement nuageux avec averses de neige"</item>
+		<item>"Partiellement ensoleillé avec averses de neige"</item>
+		<item>"Neige"</item>
+		<item>"Généralement nuageux avec neige"</item>
+		<item>"Verglas"</item>
+		<item>"Giboulée"</item>
+		<item>"Pluie verglaçante"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Mélange de pluie et de neige"</item>
+		<item>"Chaud"</item>
+		<item>"Froid"</item>
+		<item>"Venteux"</item>
+		<item>"Dégagé"</item>
+		<item>"Généralement dégagé"</item>
+		<item>"Partiellement nuageux"</item>
+		<item>"Nuages intermittents"</item>
+		<item>"Brumeux"</item>
+		<item>"Généralement nuageux"</item>
+		<item>"Partiellement nuageux avec averses"</item>
+		<item>"Généralement nuageux avec averses"</item>
+		<item>"Partiellement nuageux avec averses orageuses"</item>
+		<item>"Généralement nuageux avec averses orageuses"</item>
+		<item>"Généralement nuageux avec averses de neige"</item>
+		<item>"Généralement nuageux avec neige"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Lun"</item>
+		<item>"Mar"</item>
+		<item>"Mer"</item>
+		<item>"Jeu"</item>
+		<item>"Ven"</item>
+		<item>"Sam"</item>
+		<item>"Dim"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"Actualiser"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Impossible d\'obtenir le dernier emplacement."</string>
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!---->
+	<string name="last_updated_label">"Dernière mise à jour:"</string>
+	<!-- no translation found for change_to_C -->
+	<skip />
+	<!-- no translation found for change_to_F -->
+	<skip />
+</resources>

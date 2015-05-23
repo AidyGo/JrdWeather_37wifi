@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Wetter"</string>
+	<!---->
+	<string name="menu_addlocation">"Ort hinzufügen"</string>
+	<!---->
+	<string name="menu_delete">"Ort löschen"</string>
+	<!---->
+	<string name="menu_unit">"Einheit ändern"</string>
+	<!---->
+	<string name="locate_auto">"Automatisch suchen"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Keine Internetverbindung möglich"</string>
+	<!---->
+	<string name="locate_goto_connect">"Verbindung herstellen"</string>
+	<!---->
+	<string name="locate_failure">"Automatische Suche fehlgeschlagen. Suchen Sie manuell nach einem Ort."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Automatische Standortsuche fehlgeschlagen. Überprüfen Sie den Standortdienst von Google."</string>
+	<!---->
+	<string name="insert_location">"Ort eingeben"</string>
+	<!---->
+	<string name="connect_timeout">"Schlechtes Signal. Versuchen Sie es später erneut."</string>
+	<!---->
+	<string name="connot_find_location">"Dieser Ort konnte nicht gefunden werden."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"Sie können maximal 11 Städte hinzufügen. Entfernen Sie eine Stadt."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Wird gesucht..."</string>
+	<!---->
+	<string name="locating">"Ort wird gesucht..."</string>
+	<!---->
+	<string name="loading">"Wird geladen..."</string>
+	<!---->
+	<string name="weather_offline">"Wetter offline"</string>
+	<!---->
+	<string name="update_time">"Zeit aktualisieren"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Abbrechen"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Ort"</string>
+	<!---->
+	<string name="click_update">"Hier berühren: Aktual."</string>
+	<!---->
+	<string name="weather_off_line_text">"Verbindung nicht möglich"</string>
+	<string-array name="weather_icon_desc">
+		<item>"Sonnig"</item>
+		<item>"Meist sonnig"</item>
+		<item>"Teilweise sonnig"</item>
+		<item>"Zeitweise bewölkt"</item>
+		<item>"Leichter Nebel u. Sonne"</item>
+		<item>"Meist bewölkt"</item>
+		<item>"Bewölkt"</item>
+		<item>"Trüb"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Nebel"</item>
+		<item>"Regenschauer"</item>
+		<item>"Meist bewölkt mit Regenschauern"</item>
+		<item>"Teilweise sonnig mit Regenschauern"</item>
+		<item>"Gewitter"</item>
+		<item>"Meist bewölkt mit Gewitter und Regenschauern"</item>
+		<item>"Teilweise sonnig mit Gewitter und Schauern"</item>
+		<item>"Regen"</item>
+		<item>"Böiger Wind"</item>
+		<item>"Meist bewölkt mit böigem Wind"</item>
+		<item>"Teilw. sonn. m. Windböen"</item>
+		<item>"Schnee"</item>
+		<item>"Meist bewölkt m. Schneef."</item>
+		<item>"Eis"</item>
+		<item>"Graupel"</item>
+		<item>"Eisregen"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Schneeregen"</item>
+		<item>"Heiß"</item>
+		<item>"Kalt"</item>
+		<item>"Windig"</item>
+		<item>"Klar"</item>
+		<item>"Meist klar"</item>
+		<item>"Teilweise wolkig"</item>
+		<item>"Zeitweise wolkig"</item>
+		<item>"Leicht nebelig"</item>
+		<item>"Meist bewölkt"</item>
+		<item>"Teilweise bewölkt mit Regenschauern"</item>
+		<item>"Meist bewölkt mit Regenschauern"</item>
+		<item>"Teilweise bewölkt mit Gewitter und Schauern"</item>
+		<item>"Meist bewölkt mit Gewitter und Regenschauern"</item>
+		<item>"Meist bewölkt mit böigem Wind"</item>
+		<item>"Meist bewölkt mit Schnee"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Montag"</item>
+		<item>"Dienstag"</item>
+		<item>"Mittwoch"</item>
+		<item>"Donnerstag"</item>
+		<item>"Freitag"</item>
+		<item>"Samstag"</item>
+		<item>"Sonntag"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"Aktualisieren"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Der letzte Standort kann nicht abgerufen werden."</string>
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!---->
+	<string name="last_updated_label">"Zuletzt aktualisiert:"</string>
+	<!---->
+	<string name="change_to_C">"In °C ändern"</string>
+	<!---->
+	<string name="change_to_F">"In °F ändern"</string>
+</resources>

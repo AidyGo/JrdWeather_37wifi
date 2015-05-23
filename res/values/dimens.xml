@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   
+     <dimen name="popupmenu_width">180dip</dimen>
+     <!-- PR669281-Neo Skunworks-kehao.wei-001 modify begin -->
+     <dimen name="popupmenu_height">150dip</dimen>
+     <!-- PR669281-Neo Skunworks-kehao.wei-001 modify end -->
+     
+     <dimen name="widget_minwidth">320dip</dimen>
+     <dimen name="widget_minheight">110dip</dimen>
+     
+</resources>

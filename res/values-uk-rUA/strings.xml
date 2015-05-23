@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Погода"</string>
+	<!---->
+	<string name="menu_addlocation">"Додати розташування"</string>
+	<!---->
+	<string name="menu_delete">"Видал.розташув."</string>
+	<!---->
+	<string name="menu_unit">"Змін. одиницю"</string>
+	<!---->
+	<string name="locate_auto">"Автоматичне визначення розташування"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Неможливо підключитися до Інтернету."</string>
+	<!---->
+	<string name="locate_goto_connect">"Перейдіть, щоб підключитися"</string>
+	<!---->
+	<string name="locate_failure">"Збій авт. визначення розташування. Виконайте пошук розташування."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Збій автоматичного визначення розташування. Перевірте послугу розташування Google."</string>
+	<!---->
+	<string name="insert_location">"Вставте розташування"</string>
+	<!---->
+	<string name="connect_timeout">"Слабкий сигнал. Спробуйте пізніше."</string>
+	<!---->
+	<string name="connot_find_location">"Неможливо знайти це розташування."</string>
+	<!---->
+	<string name="real_feel">"Самопоч"</string>
+	<!---->
+	<string name="citys_full">"Можна додати лише 11 міст. Видаліть одне."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Пошук..."</string>
+	<!---->
+	<string name="locating">"Розташування…"</string>
+	<!---->
+	<string name="loading">"Завантаження..."</string>
+	<!---->
+	<string name="weather_offline">"Прогноз погоди в режимі офлайн"</string>
+	<!---->
+	<string name="update_time">"Оновити час"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Скасувати"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Розташування"</string>
+	<!---->
+	<string name="click_update">"Клацніть тут для оновлення."</string>
+	<!---->
+	<string name="weather_off_line_text">"На жаль, неможливо підключитися."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Сонячно"</item>
+		<item>"Переважно сонячно"</item>
+		<item>"Місцями сонячно"</item>
+		<item>"Мінлива хмарність"</item>
+		<item>"Вдень туман"</item>
+		<item>"Переважно хмарно"</item>
+		<item>"Хмарно"</item>
+		<item>"Похмуро"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Туман"</item>
+		<item>"Зливи"</item>
+		<item>"Переважно хмарно зі зливами"</item>
+		<item>"Місцями сонячно зі зливами"</item>
+		<item>"Грози"</item>
+		<item>"Переважно хмарно з грозами"</item>
+		<item>"Місцями сонячно з грозами"</item>
+		<item>"Дощ"</item>
+		<item>"Сильні пориви вітру"</item>
+		<item>"Переважно хмарно з поривами вітру"</item>
+		<item>"Місц.сонячно з сильними поривами вітру"</item>
+		<item>"Сніг"</item>
+		<item>"Переважно хмарно зі снігом"</item>
+		<item>"Ожеледиця"</item>
+		<item>"Дощ із градом"</item>
+		<item>"Дощ зі зледенінням"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Дощ зі снігом"</item>
+		<item>"Спека"</item>
+		<item>"Холодно"</item>
+		<item>"Вітряно"</item>
+		<item>"Ясно"</item>
+		<item>"Переважно ясно"</item>
+		<item>"Місцями хмарно"</item>
+		<item>"Мінлива хмарність"</item>
+		<item>"Туман"</item>
+		<item>"Переважно хмарно"</item>
+		<item>"Місцями хмарно зі зливами"</item>
+		<item>"Переважно хмарно зі зливами"</item>
+		<item>"Місцями хмарно з грозами"</item>
+		<item>"Переважно хмарно з грозами"</item>
+		<item>"Переважно хмарно з поривами вітру"</item>
+		<item>"Переважно хмарно зі снігом"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Пн"</item>
+		<item>"Вт"</item>
+		<item>"Ср"</item>
+		<item>"Чт"</item>
+		<item>"Пт"</item>
+		<item>"Сб"</item>
+		<item>"Нд"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"Оновити"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Неможливо отримати відомості про останнє розташування."</string>
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!---->
+	<string name="last_updated_label">"Ост. оновл.:"</string>
+	<!---->
+	<string name="change_to_C">"Змінити на °C"</string>
+	<!---->
+	<string name="change_to_F">"Змінити на °F"</string>
+</resources>

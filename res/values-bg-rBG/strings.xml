@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Време"</string>
+	<!---->
+	<string name="menu_addlocation">"Доб.местополож."</string>
+	<!---->
+	<string name="menu_delete">"Изтр. местопол."</string>
+	<!---->
+	<string name="menu_unit">"Смяна на м.един."</string>
+	<!---->
+	<string name="locate_auto">"Автоматично определяне на местоположението"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Свързването с интернет е невъзможно."</string>
+	<!---->
+	<string name="locate_goto_connect">"Отиване към свързване"</string>
+	<!---->
+	<string name="locate_failure">"Неуспешно автоматично определяне на местоположението. Моля, вместо това потърсете ръчно дадено местоположение."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Автоматичното локализиране е неуспешно. Моля, проверете услугата за местоположение на Google."</string>
+	<!---->
+	<string name="insert_location">"Въведете местоположение"</string>
+	<!---->
+	<string name="connect_timeout">"Слаб сигнал. Моля, опитайте отново по-късно."</string>
+	<!---->
+	<string name="connot_find_location">"Това местоположение не може да бъде намерено."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"Съжаляваме, можете да добавите само 11 града. Моля, премахнете някой."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Търсене..."</string>
+	<!---->
+	<string name="locating">"Установяване на местоположение..."</string>
+	<!---->
+	<string name="loading">"Зареждане..."</string>
+	<!---->
+	<string name="weather_offline">"Времето офлайн"</string>
+	<!---->
+	<string name="update_time">"Последно опресняване"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Отказ"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Местоположение"</string>
+	<!---->
+	<string name="click_update">"Кликнете тук за актуализ"</string>
+	<!---->
+	<string name="weather_off_line_text">"Съжаляваме, свързв. е неуспешно"</string>
+	<string-array name="weather_icon_desc">
+		<item>"Слънчево"</item>
+		<item>"Предимно слънчево"</item>
+		<item>"Разкъсана облачност"</item>
+		<item>"Променлива облачност"</item>
+		<item>"Слънчево със суха мъгла"</item>
+		<item>"Предимно облачно"</item>
+		<item>"Облачно"</item>
+		<item>"Мрачно"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Мъгла"</item>
+		<item>"Валежи"</item>
+		<item>"Предимно облачно с валежи"</item>
+		<item>"Разкъсана облачност с валежи"</item>
+		<item>"Гръмотевични бури"</item>
+		<item>"Предимно облачно с гръмотев. бури"</item>
+		<item>"Разкъсана облачност с гръмотев. бури"</item>
+		<item>"Дъжд"</item>
+		<item>"Краткотрайни снеговалежи"</item>
+		<item>"Предимно обл. с краткотрайни снеговалежи"</item>
+		<item>"Разкъсана обл. с краткотрайни снеговалежи"</item>
+		<item>"Сняг"</item>
+		<item>"Предимно облачно със снеговалеж"</item>
+		<item>"Лед"</item>
+		<item>"Поледица"</item>
+		<item>"Студен дъжд"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Дъжд и сняг"</item>
+		<item>"Горещо"</item>
+		<item>"Студено"</item>
+		<item>"Ветровито"</item>
+		<item>"Ясно"</item>
+		<item>"Предимно безоблачно"</item>
+		<item>"С разкъсана облачност"</item>
+		<item>"Променлива облачност"</item>
+		<item>"Суха мъгла"</item>
+		<item>"Предимно облачно"</item>
+		<item>"Разкъсана облачност с валежи"</item>
+		<item>"Предимно облачно с валежи"</item>
+		<item>"Разкъсана облачност с гръмотев. бури"</item>
+		<item>"Предимно облачно с гръмотев. бури"</item>
+		<item>"Предимно обл. с краткотрайни снеговалежи"</item>
+		<item>"Предимно облачно със снеговалеж"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Пон."</item>
+		<item>"Вторник"</item>
+		<item>"Сряда"</item>
+		<item>"Четвъртък"</item>
+		<item>"Петък"</item>
+		<item>"Събота"</item>
+		<item>"Неделя"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"Обновяване"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Не може да се получи инфо за най-новото местопол."</string>
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!---->
+	<string name="last_updated_label">"Последна актуализация:"</string>
+	<!---->
+	<string name="change_to_C">"Промяна на °C"</string>
+	<!---->
+	<string name="change_to_F">"Промяна на °F"</string>
+</resources>

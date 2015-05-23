@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Cuaca"</string>
+	<!---->
+	<string name="menu_addlocation">"Tambah lokasi"</string>
+	<!---->
+	<string name="menu_delete">"Padam lokasi"</string>
+	<!---->
+	<string name="menu_unit">"Ubah unit"</string>
+	<!---->
+	<string name="locate_auto">"Auto kesan"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Tidak boleh menyambung ke internet."</string>
+	<!---->
+	<string name="locate_goto_connect">"Pergi ke sambung"</string>
+	<!---->
+	<string name="locate_failure">"Auto kesan gagal. Sebaliknya sila cari lokasi."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Auto kesan gagal. Sila semak perkhidmatan lokasi Google."</string>
+	<!---->
+	<string name="insert_location">"Masukkan lokasi"</string>
+	<!---->
+	<string name="connect_timeout">"Isyarat lemah. Sila cuba kemudian."</string>
+	<!---->
+	<string name="connot_find_location">"Lokasi ini tidak boleh ditemui."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"Maaf, anda hanya boleh menambah 11 bandar. Sila alih keluar satu."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Mencari..."</string>
+	<!---->
+	<string name="locating">"Mengesan..."</string>
+	<!---->
+	<string name="loading">"Memuatkan..."</string>
+	<!---->
+	<string name="weather_offline">"Cuaca Luar Talian"</string>
+	<!---->
+	<string name="update_time">"Kemas kini masa"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Batal"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Lokasi"</string>
+	<!---->
+	<string name="click_update">"Klik di sini untuk mengemas kini"</string>
+	<!---->
+	<string name="weather_off_line_text">"Maaf, tidak dapat menyambung."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Cerah"</item>
+		<item>"Kebanyakannya Cerah"</item>
+		<item>"Sebahagiannya Cerah"</item>
+		<item>"Awan Sekejap-sekejap"</item>
+		<item>"Matahari Berjerubu"</item>
+		<item>"Kebanyakannya Mendung"</item>
+		<item>"Mendung"</item>
+		<item>"Suram"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Kabus"</item>
+		<item>"Hujan"</item>
+		<item>"Kebanyakannya Mendung dengan Hujan"</item>
+		<item>"Sebahagiannya Panas dengan Hujan"</item>
+		<item>"Ribut Petir"</item>
+		<item>"Kebanyakannya Mendung dengan Hujan Petir"</item>
+		<item>"Sebahagiannya Panas dengan Hujan Petir"</item>
+		<item>"Hujan"</item>
+		<item>"Hujan Lari"</item>
+		<item>"Kebanyakannya Mendung dengan Hujan Lari"</item>
+		<item>"Sebahagiannya Cerah dengan Hujan Lari"</item>
+		<item>"Salji"</item>
+		<item>"Kebanyakannya Mendung dengan Salji"</item>
+		<item>"Ais"</item>
+		<item>"Hujan Beku"</item>
+		<item>"Hujan Beku"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Hujan dan Salji Bercampur"</item>
+		<item>"Panas"</item>
+		<item>"Sejuk"</item>
+		<item>"Berangin"</item>
+		<item>"Cerah"</item>
+		<item>"Kebanyakannya Cerah"</item>
+		<item>"Sebahagiannya Mendung"</item>
+		<item>"Awan Sekejap-sekejap"</item>
+		<item>"Berjerubu"</item>
+		<item>"Kebanyakannya Mendung"</item>
+		<item>"Sebahagiannya Mendung dengan Hujan"</item>
+		<item>"Kebanyakannya Mendung dengan Hujan"</item>
+		<item>"Sebahagiannya Mendung dengan Hujan Petir"</item>
+		<item>"Kebanyakannya Mendung dengan Hujan Petir"</item>
+		<item>"Kebanyakannya Mendung dengan Hujan Lari"</item>
+		<item>"Kebanyakannya Mendung dengan Salji"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Isn"</item>
+		<item>"Sel"</item>
+		<item>"Rab"</item>
+		<item>"Kha"</item>
+		<item>"Jum"</item>
+		<item>"Sab"</item>
+		<item>"Aha"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"Segar semula"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Tidak boleh mendapatkan lokasi terkini."</string>
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!---->
+	<string name="last_updated_label">"Terakhir dikemas kini:"</string>
+	<!---->
+	<string name="change_to_C">"Tukar ke C"</string>
+	<!---->
+	<string name="change_to_F">"Tukar ke F"</string>
+</resources>

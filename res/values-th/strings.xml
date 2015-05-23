@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"สภาพอากาศ"</string>
+	<!---->
+	<string name="menu_addlocation">"เพิ่มตำแหน่ง"</string>
+	<!---->
+	<string name="menu_delete">"ลบตำแหน่ง"</string>
+	<!---->
+	<string name="menu_unit">"เปลี่ยนหน่วย"</string>
+	<!---->
+	<string name="locate_auto">"ระบุตำแหน่งอัตโนมัติ"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"ไม่สามารถเชื่อมต่อกับอินเทอร์เน็ตได้"</string>
+	<!---->
+	<string name="locate_goto_connect">"ไปที่การเชื่อมต่อ"</string>
+	<!---->
+	<string name="locate_failure">"การระบุตำแหน่งอัตโนมัติล้มเหลว โปรดค้นหาตำแหน่งแทน"</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"การระบุตำแหน่งอัตโนมัติล้มเหลว, โปรดตรวจสอบบริการระบุตำแหน่งของ Google"</string>
+	<!---->
+	<string name="insert_location">"ใส่ตำแหน่ง"</string>
+	<!---->
+	<string name="connect_timeout">"สัญญาณอ่อน, โปรดลองใหม่ในภายหลัง"</string>
+	<!---->
+	<string name="connot_find_location">"ไม่พบตำแหน่งนี้"</string>
+	<!---->
+	<string name="real_feel">"ความรู้สึกจริง"</string>
+	<!---->
+	<string name="citys_full">"ขออภัย, คุณสามารถเพิ่มได้ 11 เมืองเท่านั้น โปรดลบออกหนึ่งเมือง"</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"กำลังค้นหา..."</string>
+	<!---->
+	<string name="locating">"กำลังระบุตำแหน่ง..."</string>
+	<!---->
+	<string name="loading">"กำลังโหลด..."</string>
+	<!---->
+	<string name="weather_offline">"สภาพอากาศแบบออฟไลน์"</string>
+	<!---->
+	<string name="update_time">"อัพเดทเวลา"</string>
+	<!---->
+	<string name="common_ok">"ตกลง"</string>
+	<!---->
+	<string name="common_cancel">"ยกเลิก"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"ตำแหน่ง"</string>
+	<!---->
+	<string name="click_update">"คลิกที่นี่เพื่ออัพเดท"</string>
+	<!---->
+	<string name="weather_off_line_text">"ขอโทษ, ไม่สามารถเชื่อมต่อได้"</string>
+	<string-array name="weather_icon_desc">
+		<item>"มีแดดแรง"</item>
+		<item>"มีแดดเป็นส่วนมาก"</item>
+		<item>"มีแดดบางส่วน"</item>
+		<item>"มีเมฆเป็นระยะ"</item>
+		<item>"มีแดดสลัว"</item>
+		<item>"มีเมฆเป็นส่วนมาก"</item>
+		<item>"มีเมฆเป็นส่วนมาก"</item>
+		<item>"มืดทึบ"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"มีหมอก"</item>
+		<item>"มีฝนตกปรอยๆ"</item>
+		<item>"มีเมฆเป็นส่วนมากและมีฝนตกปรอยๆ"</item>
+		<item>"มีแดดบางส่วนและมีฝนตกปรอยๆ"</item>
+		<item>"มีพายุฝนฟ้าคะนอง"</item>
+		<item>"มีเมฆเป็นส่วนมากและมีฝนฟ้าคะนอง"</item>
+		<item>"มีแดดเป็นบางส่วนและมีฝนฟ้าคะนอง"</item>
+		<item>"มีฝนตก"</item>
+		<item>"มีหิมะตกปรอยๆ"</item>
+		<item>"มีเมฆเป็นส่วนมากและมีหิมะตกปรอยๆ"</item>
+		<item>"มีแดดบางส่วนและละอองฝน"</item>
+		<item>"หิมะ"</item>
+		<item>"มีเมฆเป็นส่วนมากและมีหิมะ"</item>
+		<item>"มีน้ำแข็ง"</item>
+		<item>"มีฝนลูกเห็บ"</item>
+		<item>"มีฝนน้ำแข็ง"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"มีฝนตกปนหิมะ"</item>
+		<item>"ร้อน"</item>
+		<item>"เย็น"</item>
+		<item>"มีลมแรง"</item>
+		<item>"ปลอดโปร่ง"</item>
+		<item>"ปลอดโปร่งเป็นส่วนมาก"</item>
+		<item>"มีเมฆบางส่วน"</item>
+		<item>"มีเมฆเป็นระยะ"</item>
+		<item>"มีหมอก"</item>
+		<item>"มีเมฆเป็นส่วนมาก"</item>
+		<item>"มีเมฆบางส่วนและมีฝนตกปรอยๆ"</item>
+		<item>"มีเมฆเป็นส่วนมากและมีฝนตกปรอยๆ"</item>
+		<item>"มีเมฆบางส่วนและมีฝนฟ้าคะนอง"</item>
+		<item>"มีเมฆเป็นส่วนมากและมีฝนฟ้าคะนอง"</item>
+		<item>"มีเมฆเป็นส่วนมากและมีหิมะตกปรอยๆ"</item>
+		<item>"มีเมฆเป็นส่วนมากและมีหิมะ"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"จันทร์"</item>
+		<item>"อังคาร"</item>
+		<item>"พุธ"</item>
+		<item>"พฤหัสบดี"</item>
+		<item>"ศุกร์"</item>
+		<item>"เสาร์"</item>
+		<item>"อาทิตย์"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"รีเฟรช"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"ไม่สามารถรับตำแหน่งที่ตั้งล่าสุดได้"</string>
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!---->
+	<string name="last_updated_label">"อัพเดตล่าสุด"</string>
+	<!---->
+	<string name="change_to_C">"เปลี่ยนเป็น C"</string>
+	<!---->
+	<string name="change_to_F">"เปลี่ยนเป็น"</string>
+</resources>

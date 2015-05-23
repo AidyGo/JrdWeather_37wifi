@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"> 
+    <color name="transparent">#00000000</color>
+    <color name="bg_yellow">#FFCC00</color>
+    <color name="bg_menu">#FF030608</color>
+    <!-- PR845163 Menu options isn't be highlight when tap it by jielong.xing at 2014-11-25 begin -->
+    <color name="menu_default">#FF33c2e8</color>
+    <color name="menu_click">#FF1ba2db</color>
+    <!-- PR845163 Menu options isn't be highlight when tap it by jielong.xing at 2014-11-25 end -->
+</resources>

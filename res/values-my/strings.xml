@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"ရာသီဥတု"</string>
+	<!---->
+	<string name="menu_addlocation">"ေနရာတစ္ခုကိုထပ္ေပါင္းပါ။"</string>
+	<!---->
+	<string name="menu_delete">"ေနရာကိုဖ်က္ပစ္ပါ။"</string>
+	<!---->
+	<string name="menu_unit">"ယူနစ္ေျပာင္းပါ။"</string>
+	<!---->
+	<string name="locate_auto">"ေအာ္တိုေနရာသတ္မွတ္ျခင္း"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"အင္တာနက္မခ်ိတ္ဆက္ႏိုင္ပါ။"</string>
+	<!---->
+	<string name="locate_goto_connect">"ခ်ိတ္ဆက္ရန္သြားပါ။"</string>
+	<!---->
+	<string name="locate_failure">"ေအာ္တိုေနရာသတ္မွတ္ျခင္းက်ရံႈးျခင္း။  ေက်းဇူးျပဳ၍ ၄င္းအစား ေနရာတစ္ခုကိုရွာေဖြပါ။"</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"ေအာ္တိုေနရာသတ္မွတ္ခ်က္က်ရံႈးျခင္း၊ ေက်းဇူးျပဳ၍ ဂူဂဲ၏ေနရာသတ္မွတ္ျခင္းဝန္ေဆာင္မႈကို စစ္ေဆးပါ။"</string>
+	<!---->
+	<string name="insert_location">"ေနရာတစ္ခုကိုျဖည့္ပါ။"</string>
+	<!---->
+	<string name="connect_timeout">"လုိင္းအားနည္းျခင္း။  ေက်းဇူးျပဳ၍ မၾကာမီတြင္ၾကိဳးစားပါ။"</string>
+	<!---->
+	<string name="connot_find_location">"ဤေနရာကိုရွာမေတြ႔ပါ။"</string>
+	<!---->
+	<string name="real_feel">"စစ္မွန္ေသာခံစားမႈ"</string>
+	<!---->
+	<string name="citys_full">"၀မ္းနည္းပါတယ္။ သင္သည္ ျမိဳ႕၁၁ျမိဳ႕သာလွ်င္ေပါင္းထဲ့ႏိုင္ပါတယ္။  ေက်းဇူးျပဳ၍ တစ္ခုကိုဖယ္ထုတ္ပါ။"</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"ရွာေဖြျခင္း"</string>
+	<!---->
+	<string name="locating">"ေနရာသတ္မွတ္ေနျခင္း"</string>
+	<!---->
+	<string name="loading">"တင္ေနျခင္း"</string>
+	<!---->
+	<string name="weather_offline">"ရာသီဥတု လုိင္းပိတ္ခ်ိန္"</string>
+	<!---->
+	<string name="update_time">"မြမ္းမံခ်ိန္"</string>
+	<!---->
+	<string name="common_ok">"အိုေက"</string>
+	<!---->
+	<string name="common_cancel">"ဖ်က္သိမ္းျခင္း"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"တည်နေရာ"</string>
+	<!---->
+	<string name="click_update">"မြမ္းမံရန္ ဤေနရာကိုႏွိပ္ပါ"</string>
+	<!---->
+	<string name="weather_off_line_text">"စိတ္မေကာင္းပါ၊ မခ်ိတ္ဆက္ႏိုင္ပါ။"</string>
+	<string-array name="weather_icon_desc">
+		<item>"ေနသာေသာ"</item>
+		<item>"အမ်ားစုေနသာေသာ"</item>
+		<item>"တစိတ္တပိုင္းေနသာျခင္း"</item>
+		<item>"ေခတၱခဏတိမ္ထူျခင္း"</item>
+		<item>"ေနသာ၍ႏွင္းေ၀ေသာ"</item>
+		<item>"အမ်ားစုတိမ္ထူျခင္း"</item>
+		<item>"ုတိမ္ထူျခင္း"</item>
+		<item>"ထိုင္းမႈိင္းျခင္း"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"ျမဴ"</item>
+		<item>"မိုးေျပး"</item>
+		<item>"အမ်ားစုတိမ္ထူျပီးမိုးေျပးေလးမ်ားရြာသြန္းျခင္း"</item>
+		<item>"တစိတ္တပိုင္းေနသာျပီးမိုးေျပးေလးမ်ားရြာသြန္းျခင္း"</item>
+		<item>"မိုးသက္မုန္တိုင္းမ်ား"</item>
+		<item>"အမ်ားစုတိမ္ထူျပီးထစ္ခ်ဳန္းမိုးရြာသြန္းျခင္း"</item>
+		<item>"တစိတ္တပိုင္းေနသာျပီးထစ္ခ်ဳန္းမိုးရြာသြန္းျခင္း"</item>
+		<item>"မိုး"</item>
+		<item>"ေလေပြတိုက္ျခင္း"</item>
+		<item>"အမ်ားစုတိမ္ထူျပီးေလေပြတိုက္ျခင္း"</item>
+		<item>"တစိတ္တပိုင္းေနသာျပီးေလေပြတိုက္ျခင္း"</item>
+		<item>"ႏွင္း"</item>
+		<item>"အမ်ားစုတိမ္ထူျပီးႏွင္းက်ျခင္း"</item>
+		<item>"ေရခဲျခင္း"</item>
+		<item>"မိုးသီးေရာ၍ ႐ြာေသာမိုး"</item>
+		<item>"ေရခဲမိုး"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"မိုးႏွင့္ႏွင္းေရာေနျခင္း"</item>
+		<item>"႔ပူေသာ"</item>
+		<item>"ေအးေသာ"</item>
+		<item>"ေလတိုက္ေသာ"</item>
+		<item>"ရွင္းလင္းျခင္း"</item>
+		<item>"အမ်ားစုရွင္းလင္းျခင္း"</item>
+		<item>"တစိတ္တပိုင္းတိမ္ထူျခင္း"</item>
+		<item>"ေခတၱခဏတိမ္ထူျခင္း"</item>
+		<item>"ႏွင္းေဝေသာ"</item>
+		<item>"အမ်ားစုတိမ္ထူျခင္း"</item>
+		<item>"တစိတ္တပိုင္းေနသာျပီးမိုးေျပးေလးမ်ားရြာသြန္းျခင္း"</item>
+		<item>"အမ်ားစုတိမ္ထူျပီးမိုးေျပးေလးမ်ားရြာသြန္းျခင္း"</item>
+		<item>"တစိတ္တပိုင္းေနသာျပီးထစ္ခ်ဳန္းမိုးရြာသြန္းျခင္း"</item>
+		<item>"အမ်ားစုတိမ္ထူျပီးထစ္ခ်ဳန္းမိုးရြာသြန္းျခင္း"</item>
+		<item>"အမ်ားစုတိမ္ထူျပီးေလေပြတိုက္ျခင္း"</item>
+		<item>"အမ်ားစုတိမ္ထူျပီးႏွင္းက်ျခင္း"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"တနလၤာေန႔"</item>
+		<item>"အဂၤါေန႔"</item>
+		<item>"ဗုဒၶဟူးေန႔"</item>
+		<item>"ၾကာသပေတးေန႔"</item>
+		<item>"ေသာၾကာေန႔"</item>
+		<item>"စေနေန႔"</item>
+		<item>"တနဂၤေႏြေန႔"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"ပြန်လည်ဆန်းသစ်ပါ"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"ေနာက္ဆုံးတည္ေနရာကိုရယူျခင္း မရႏိုင္ပါ။"</string>
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!---->
+	<string name="last_updated_label">"ေနာက္ဆံုးတစ္ေခါက္ အဆင့္ျမႇင့္ထားေသာ"</string>
+	<!-- no translation found for change_to_C -->
+	<skip />
+	<!-- no translation found for change_to_F -->
+	<skip />
+</resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Fri Nov 21 15:06:10 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"小T天氣"</string>
+	<!---->
+	<string name="menu_addlocation">"新增位置"</string>
+	<!---->
+	<string name="menu_delete">"刪除位置"</string>
+	<!---->
+	<string name="menu_unit">"更改單位"</string>
+	<!---->
+	<string name="locate_auto">"自動定位"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"無法連接至互聯網。"</string>
+	<!---->
+	<string name="locate_goto_connect">"進入連接"</string>
+	<!---->
+	<string name="locate_failure">"無法自動定位，請搜尋一個地點。"</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"無法自動定位。請查看Google定位服務。"</string>
+	<!---->
+	<string name="insert_location">"新增位置"</string>
+	<!---->
+	<string name="connect_timeout">"訊號過弱，請稍後再試一次。"</string>
+	<!---->
+	<string name="connot_find_location">"無法找出此位置。"</string>
+	<!---->
+	<string name="real_feel">"體感溫度"</string>
+	<!---->
+	<string name="citys_full">"很抱歉，您只可以新增11個城市，請移除其中一個。"</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"正在搜尋中..."</string>
+	<!---->
+	<string name="locating">"定位中..."</string>
+	<!---->
+	<string name="loading">"讀取中..."</string>
+	<!---->
+	<string name="weather_offline">"天氣預報離線"</string>
+	<!---->
+	<string name="update_time">"更新時間"</string>
+	<!---->
+	<string name="common_ok">"確定"</string>
+	<!---->
+	<string name="common_cancel">"取消"</string>
+	<!---->
+	<string name="date_am">"上午"</string>
+	<!---->
+	<string name="date_pm">"下午"</string>
+	<!---->
+	<string name="location">"地點"</string>
+	<!---->
+	<string name="click_update">"按此處更新"</string>
+	<!---->
+	<string name="weather_off_line_text">"抱歉，無法連線。"</string>
+	<string-array name="weather_icon_desc">
+		<item>"晴朗"</item>
+		<item>"大致天晴"</item>
+		<item>"部分時間天晴"</item>
+		<item>"多雲"</item>
+		<item>"有煙霞，陽光"</item>
+		<item>"大致多雲"</item>
+		<item>"有雲"</item>
+		<item>"沉悶"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"大霧"</item>
+		<item>"驟雨"</item>
+		<item>"多雲，有驟雨"</item>
+		<item>"部分時間天晴，有驟雨"</item>
+		<item>"雷暴"</item>
+		<item>"大致多雲，有雷雨"</item>
+		<item>"部分時間天晴，有雷雨"</item>
+		<item>"有雨"</item>
+		<item>"微雪"</item>
+		<item>"大致多雲，有微雪"</item>
+		<item>"部分時間天晴，有微雪"</item>
+		<item>"下雪"</item>
+		<item>"大致多雲，下雪"</item>
+		<item>"冰雹"</item>
+		<item>"凍雨"</item>
+		<item>"凍雨天氣"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"雨雪"</item>
+		<item>"炎熱"</item>
+		<item>"寒冷"</item>
+		<item>"有風"</item>
+		<item>"晴天"</item>
+		<item>"大致晴天"</item>
+		<item>"部分時間多雲"</item>
+		<item>"多雲"</item>
+		<item>"有煙霞"</item>
+		<item>"大致多雲"</item>
+		<item>"部分時間多雲，有驟雨"</item>
+		<item>"大致多雲，有驟雨"</item>
+		<item>"部分時間多雲，有雷雨"</item>
+		<item>"大致多雲，有雷雨"</item>
+		<item>"大致多雲，有微雪"</item>
+		<item>"大致多雲，有雪"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"週一"</item>
+		<item>"週二"</item>
+		<item>"週三"</item>
+		<item>"週四"</item>
+		<item>"週五"</item>
+		<item>"週六"</item>
+		<item>"週日"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"重新整理"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"無法獲取最新位置。"</string>
+	<!--translate [tokyo_name] from sourcecode xml -->
+	<string name="tokyo_name">"東京"</string>
+	<!---->
+	<string name="last_updated_label">"上次更新:"</string>
+	<!---->
+	<string name="change_to_C">"切換到℃"</string>
+	<!---->
+	<string name="change_to_F">"切換到°F"</string>
+</resources>

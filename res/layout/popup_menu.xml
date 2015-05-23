@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/popupmenu_width"
+    android:layout_height="@dimen/popupmenu_height"
+    android:background="@drawable/pop_menu_bg"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:id="@+id/menu_addlocation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/menu_main_bg"
+        android:clickable="true"
+        >
+      <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/menu_addlocation"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp" />
+    </LinearLayout>
+    
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/line_h" />
+    
+     <LinearLayout 
+        android:id="@+id/menu_deletelocation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/menu_main_bg"
+        android:clickable="true"
+        >
+         <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/menu_delete"        
+        android:textColor="#FFFFFF"
+        android:textSize="17dp" />
+     </LinearLayout>
+     <!-- PR669281-Neo Skunworks-kehao.wei-001 add begin -->
+     <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/line_h" />
+     
+     <LinearLayout 
+        android:id="@+id/menu_changeunit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/menu_main_bg"
+        android:clickable="true"
+        >
+         <TextView android:id="@+id/tv_menu_unit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/change_to_F"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp" />
+     </LinearLayout>
+   <!-- PR669281-Neo Skunworks-kehao.wei-001 add end -->
+</LinearLayout>

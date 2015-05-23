@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    <!-- PR672471 Neo Skunkworks - Richard He modified - 001 Begin -->
+    <ImageView
+        android:id="@+id/day_iv_icon"
+        android:layout_width="87dip"
+        android:layout_height="87dip"
+        android:layout_marginLeft="22.5dp"
+        android:layout_gravity="center_vertical"/>
+    
+    <LinearLayout 
+        android:layout_width ="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft ="39dp"
+        android:orientation ="vertical"
+        >
+        
+       <TextView
+        android:id="@+id/day_tv_temph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/day_tv_templ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:textSize="15dp" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation ="vertical"
+        android:layout_width ="wrap_content"
+        android:layout_height ="fill_parent"
+        android:layout_marginLeft ="13.5dp"
+         >
+    
+       <TextView
+        android:id="@+id/day_tv_week"
+        android:layout_width ="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/day_tv_date"
+        android:layout_width ="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:textSize="15dp" />
+    </LinearLayout>
+    <!-- PR672471 Neo Skunkworks - Richard He modified - 001 End -->    
+
+</LinearLayout>

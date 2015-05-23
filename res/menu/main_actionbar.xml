@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- CR-490103 Neo Skunkworks - Nicky Ni -001 start -->
+    <item
+        android:id="@+id/menu_refresh"
+        android:icon="@drawable/refresh"
+        android:title="@string/lable_refresh"
+        android:showAsAction="always">
+    </item>
+    
+    <item
+        android:id="@+id/menu_show_menu"
+        android:icon="@drawable/menu"
+        android:showAsAction="always">
+    </item>
+<!-- PR669281-Neo Skunworks-kehao.wei-001 delete begin -->
+    <!-- 
+    <item
+        android:id="@+id/menu_cf"
+        android:icon="@drawable/menu_cf_c"
+        android:showAsAction="always">
+    </item>
+     -->
+     <!-- CR-490103 Neo Skunkworks - Nicky Ni -001 end -->
+    <!-- <item
+        android:id="@+id/menu_addlocation"
+        android:showAsAction="withText"
+        android:title="@string/menu_addlocation"/>
+    <item
+        android:id="@+id/menu_delete"
+        android:showAsAction="withText"
+        android:title="@string/menu_delete">
+    </item>
+    <item
+        android:id="@+id/menu_units"
+        android:showAsAction="withText"
+        android:title="@string/menu_unit">
+    </item> -->
+<!-- PR669281-Neo Skunworks-kehao.wei-001 delete end -->
+</menu>

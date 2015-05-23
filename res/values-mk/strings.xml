@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Време"</string>
+	<!---->
+	<string name="menu_addlocation">"Додај локација"</string>
+	<!---->
+	<string name="menu_delete">"Избриши ја локацијата"</string>
+	<!---->
+	<string name="menu_unit">"Промени ја единицата"</string>
+	<!---->
+	<string name="locate_auto">"Лоцирај автоматски"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Не може да се поврзе на интернет."</string>
+	<!---->
+	<string name="locate_goto_connect">"Поврзи се"</string>
+	<!---->
+	<string name="locate_failure">"Неуспешно автоматско лоцирање. Побарајте ја локацијата."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Неуспешно автоматско лоцирање. Проверете ја услугата за Google локација."</string>
+	<!---->
+	<string name="insert_location">"Внесете локација"</string>
+	<!---->
+	<string name="connect_timeout">"Слаб сигнал. Обидете се повторно подоцна."</string>
+	<!---->
+	<string name="connot_find_location">"Оваа локација не може да се пронајде."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"Извинете, можете да додадете само 11 градови. Избришете еден."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Пребарување..."</string>
+	<!---->
+	<string name="locating">"Лоцирање..."</string>
+	<!---->
+	<string name="loading">"Вчитување..."</string>
+	<!---->
+	<string name="weather_offline">"Офјалн време"</string>
+	<!---->
+	<string name="update_time">"Ажурирај го времето"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Откажи"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"РМ"</string>
+	<!---->
+	<string name="location">"Локација"</string>
+	<!---->
+	<string name="click_update">"Притисни тука за ажурирање"</string>
+	<!---->
+	<string name="weather_off_line_text">"Извинете, не може да се поврзе."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Сончево"</item>
+		<item>"Претежно сончево"</item>
+		<item>"Делумно сончево"</item>
+		<item>"Повремено облачно"</item>
+		<item>"Сончево со магла"</item>
+		<item>"Претежно облачно"</item>
+		<item>"Облачно"</item>
+		<item>"Тмурно"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Магла"</item>
+		<item>"Врнежи од дожд"</item>
+		<item>"Претежно облачно со врнежи од дожд"</item>
+		<item>"Делумно сончево со врнежи од дожд"</item>
+		<item>"Грмотевици"</item>
+		<item>"Претежно облачно со дожд и грмотевици"</item>
+		<item>"Делумно сончево со дожд и грмотевици"</item>
+		<item>"Дожд"</item>
+		<item>"Слаб ветер"</item>
+		<item>"Претежно облачно со слаб ветер"</item>
+		<item>"Делумно сончево со слаб ветер"</item>
+		<item>"Снег"</item>
+		<item>"Претежно облачно со снег"</item>
+		<item>"Лед"</item>
+		<item>"Лапавица"</item>
+		<item>"Леден дожд"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Дожд и снег измешано"</item>
+		<item>"Жешко"</item>
+		<item>"Ладно"</item>
+		<item>"Ветровито"</item>
+		<item>"Ведро"</item>
+		<item>"Претежно ведро"</item>
+		<item>"Делумно облачно"</item>
+		<item>"Повремено облачно"</item>
+		<item>"Магловито"</item>
+		<item>"Претежно облачно"</item>
+		<item>"Делумно облачно со врнежи од дожд"</item>
+		<item>"Претежно облачно со врнежи од дожд"</item>
+		<item>"Делумно облачно со грмотевици и дожд"</item>
+		<item>"Претежно облачно со грмотевици и дожд"</item>
+		<item>"Претежно облачно со повремен ветер"</item>
+		<item>"Претежно облачно со снег"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Пон"</item>
+		<item>"Вто"</item>
+		<item>"Сре"</item>
+		<item>"Чет"</item>
+		<item>"Пет"</item>
+		<item>"Саб"</item>
+		<item>"Нед"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"Обнови"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Не може да се добие најновата локација."</string>
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!---->
+	<string name="last_updated_label">"Последно ажурирано:"</string>
+	<!---->
+	<string name="change_to_C">"Промени во °C"</string>
+	<!---->
+	<string name="change_to_F">"Провери во °F"</string>
+</resources>

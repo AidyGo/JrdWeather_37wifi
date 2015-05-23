@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/day_iv_icon"
+        android:layout_width="58dip"
+        android:layout_height="58dip"
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="6dp" />
+    
+    <LinearLayout 
+        android:layout_width ="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft ="26dp"
+        android:orientation ="vertical"
+        >
+        
+       <TextView
+        android:id="@+id/day_tv_temph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+		android:fontFamily="sans-serif"
+        android:textColor="#9fa0a0"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/day_tv_templ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+		android:fontFamily="sans-serif"
+        android:textColor="#9fa0a0"
+        android:textSize="15dp" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation ="vertical"
+        android:layout_width ="wrap_content"
+        android:layout_height ="fill_parent"
+        android:layout_marginLeft ="9dp"
+         >
+    
+       <TextView
+        android:id="@+id/day_tv_week"
+        android:layout_width ="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+		android:fontFamily="sans-serif"
+        android:textColor="#9fa0a0"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/day_tv_date"
+        android:layout_width ="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+		android:fontFamily="sans-serif"
+        android:textColor="#9fa0a0"
+        android:textSize="15dp" />
+    </LinearLayout>
+    
+
+</LinearLayout>

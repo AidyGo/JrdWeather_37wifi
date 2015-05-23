@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"الطقس"</string>
+	<!---->
+	<string name="menu_addlocation">"إضافة موقع"</string>
+	<!---->
+	<string name="menu_delete">"حذف الموقع"</string>
+	<!---->
+	<string name="menu_unit">"تغيير الوحدة"</string>
+	<!---->
+	<string name="locate_auto">"تحديد موقع تلقائي"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"يتعذر الاتصال بالإنترنت."</string>
+	<!---->
+	<string name="locate_goto_connect">"انتقال للاتصال"</string>
+	<!---->
+	<string name="locate_failure">"فشل تحديد الموقع التلقائي. يرجى البحث عن أحد المواقع بدلاً من ذلك."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"فشل تحديد الموقع التلقائي. يرجى التحقق من خدمة تحديد المواقع من Google."</string>
+	<!---->
+	<string name="insert_location">"إدخال موقع"</string>
+	<!---->
+	<string name="connect_timeout">"إشارة ضعيفة. يرجى إعادة المحاولة في وقت لاحق."</string>
+	<!---->
+	<string name="connot_find_location">"يتعذر العثور على هذا الموقع."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"معذرة، يمكنك إضافة 11 مدينة فقط. يرجى إزالة واحدة منها."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"جارٍ البحث..."</string>
+	<!---->
+	<string name="locating">"جارٍ تحديد الموقع..."</string>
+	<!---->
+	<string name="loading">"جارٍ التحميل..."</string>
+	<!---->
+	<string name="weather_offline">"واجهة الطقس غير متصلة"</string>
+	<!---->
+	<string name="update_time">"زمن التحديث"</string>
+	<!---->
+	<string name="common_ok">"موافق"</string>
+	<!---->
+	<string name="common_cancel">"إلغاء"</string>
+	<!---->
+	<string name="date_am">"ص"</string>
+	<!---->
+	<string name="date_pm">"م"</string>
+	<!---->
+	<string name="location">"الموقع"</string>
+	<!---->
+	<string name="click_update">"انقر هنا للتحديث"</string>
+	<!---->
+	<string name="weather_off_line_text">"معذرة، غير قادر على الاتصال."</string>
+	<string-array name="weather_icon_desc">
+		<item>"مشمس"</item>
+		<item>"غائم في الغالب"</item>
+		<item>"مشمس جزئيًا"</item>
+		<item>"سحب متقطعة"</item>
+		<item>"ضبابي مع سطوع الشمس"</item>
+		<item>"غائم جزئيًا"</item>
+		<item>"غائم"</item>
+		<item>"موحش"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"ضباب"</item>
+		<item>"هطول أمطار"</item>
+		<item>"غائم في الغالب مع هطول أمطار"</item>
+		<item>"مشمس جزئيًا مع هطول أمطار"</item>
+		<item>"عواصف رعدية"</item>
+		<item>"غائم في الغالب مع أمطار رعدية"</item>
+		<item>"مشمس جزئيًا مع أمطار رعدية"</item>
+		<item>"مطر"</item>
+		<item>"هبات رياح"</item>
+		<item>"غائم في الغالب مع هبات رياح"</item>
+		<item>"مشمس جزئيًا مع هطول أمطار"</item>
+		<item>"جليد"</item>
+		<item>"غائم في الغالب مع الثلوج"</item>
+		<item>"ثلج"</item>
+		<item>"مطر ثلجي"</item>
+		<item>"أمطار متجمدة"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"مزيج من الأمطار والثلوج"</item>
+		<item>"حار"</item>
+		<item>"بارد"</item>
+		<item>"شديد الرياح"</item>
+		<item>"صافي"</item>
+		<item>"صافي في الغالب"</item>
+		<item>"غائم جزئيًا"</item>
+		<item>"سحب متقطعة"</item>
+		<item>"ضبابي"</item>
+		<item>"غائم في الغالب"</item>
+		<item>"غائم جزئيًا مع هطول أمطار"</item>
+		<item>"غائم في الغالب مع هطول أمطار"</item>
+		<item>"غائم جزئيًا مع هطول أمطار رعدية"</item>
+		<item>"غائم في الغالب مع هطول أمطار رعدية"</item>
+		<item>"غائم في الغالب مع هبات رياح"</item>
+		<item>"غائم في الغالب مع سقوط ثلوج"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"الاثنين"</item>
+		<item>"الثلاثاء"</item>
+		<item>"الأربعاء"</item>
+		<item>"الخميس"</item>
+		<item>"الجمعة"</item>
+		<item>"السبت"</item>
+		<item>"الأحد"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"تحديث"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"تعذر الحصول على أحدث موقع."</string>
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!---->
+	<string name="last_updated_label">"آخر تحديث"</string>
+	<!---->
+	<string name="change_to_C">"تغيير إلى °C"</string>
+	<!---->
+	<string name="change_to_F">"تغيير إلى °F"</string>
+</resources>

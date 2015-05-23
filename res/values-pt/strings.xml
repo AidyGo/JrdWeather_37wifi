@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Meteorologia"</string>
+	<!---->
+	<string name="menu_addlocation">"Adicionar uma localização"</string>
+	<!---->
+	<string name="menu_delete">"Eliminar localização"</string>
+	<!---->
+	<string name="menu_unit">"Alterar unidade"</string>
+	<!---->
+	<string name="locate_auto">"Localizar automaticam."</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Não é possível ligar à Internet."</string>
+	<!---->
+	<string name="locate_goto_connect">"Ir para ligação"</string>
+	<!---->
+	<string name="locate_failure">"Localização automática falhou. Procure uma localização."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Localização automática falhou. Verifique o serviço de localização do Google."</string>
+	<!---->
+	<string name="insert_location">"Insira uma localização"</string>
+	<!---->
+	<string name="connect_timeout">"Sinal fraco. Tente mais tarde."</string>
+	<!---->
+	<string name="connot_find_location">"Esta localização não foi encontrada."</string>
+	<!---->
+	<string name="real_feel">"Sens. real"</string>
+	<!---->
+	<string name="citys_full">"Lamentamos, apenas pode adicionar 11 cidades. Remova uma."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"A procurar..."</string>
+	<!---->
+	<string name="locating">"A localizar..."</string>
+	<!---->
+	<string name="loading">"A carregar..."</string>
+	<!---->
+	<string name="weather_offline">"Meteorologia offline"</string>
+	<!---->
+	<string name="update_time">"Data de atualização"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Cancelar"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Localização"</string>
+	<!---->
+	<string name="click_update">"Clique aqui para atualizar"</string>
+	<!---->
+	<string name="weather_off_line_text">"Não foi possível ligar."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Ensolarado"</item>
+		<item>"Geralmente limpo"</item>
+		<item>"Parcialmente limpo"</item>
+		<item>"Parcialmente nublado"</item>
+		<item>"Sol com nevoeiro"</item>
+		<item>"Geralmente nublado"</item>
+		<item>"Nublado"</item>
+		<item>"Sombrio"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Nevoeiro"</item>
+		<item>"Aguaceiros"</item>
+		<item>"Geralmente nublado com aguaceiros"</item>
+		<item>"Parcialmente limpo com aguaceiros"</item>
+		<item>"Trovoadas"</item>
+		<item>"Geralmente nublado com trovoada"</item>
+		<item>"Parcialmente limpo com trovoada"</item>
+		<item>"Chuva"</item>
+		<item>"Queda de neve"</item>
+		<item>"Geralmente nublado com queda de neve"</item>
+		<item>"Parc. limpo c/ queda neve"</item>
+		<item>"Neve"</item>
+		<item>"Geralm. nublado c/ neve"</item>
+		<item>"Gelo"</item>
+		<item>"Neve molhada"</item>
+		<item>"Chuva com gelo"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Mistura de chuva e neve"</item>
+		<item>"Quente"</item>
+		<item>"Frio"</item>
+		<item>"Vento"</item>
+		<item>"Limpo"</item>
+		<item>"Geralmente limpo"</item>
+		<item>"Parcialmente nublado"</item>
+		<item>"Parcialmente nublado"</item>
+		<item>"Sol com nevoeiro"</item>
+		<item>"Geralmente nublado"</item>
+		<item>"Parcialmente nublado com aguaceiros"</item>
+		<item>"Geralmente nublado com aguaceiros"</item>
+		<item>"Parcialmente nublado com trovoada"</item>
+		<item>"Geralmente nublado com trovoada"</item>
+		<item>"Geralmente nublado com queda de neve"</item>
+		<item>"Geralm. nublado c/ neve"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Seg"</item>
+		<item>"Ter"</item>
+		<item>"Qua"</item>
+		<item>"Qui"</item>
+		<item>"Sex"</item>
+		<item>"Sáb"</item>
+		<item>"Dom"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"Atualizar"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Não foi possível obter a localização mais recente."</string>
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!---->
+	<string name="last_updated_label">"Última atualização:"</string>
+	<!---->
+	<string name="change_to_C">"Mudar para °C"</string>
+	<!---->
+	<string name="change_to_F">"Mudar para °F"</string>
+</resources>

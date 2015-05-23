@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Vrijeme"</string>
+	<!---->
+	<string name="menu_addlocation">"Dodaj lokaciju"</string>
+	<!---->
+	<string name="menu_delete">"Izbriši lokaciju"</string>
+	<!---->
+	<string name="menu_unit">"Promijeni jedinicu"</string>
+	<!---->
+	<string name="locate_auto">"Automatski lociraj"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Povezivanje na Internet nije moguće."</string>
+	<!---->
+	<string name="locate_goto_connect">"Idi na povezivanje"</string>
+	<!---->
+	<string name="locate_failure">"Automatsko lociranje neuspješno. Molimo, ručno potražite lokaciju."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Automatsko lociranje neuspješno. Molimo, provjerite Google lokacijske usluge."</string>
+	<!---->
+	<string name="insert_location">"Unesite lokaciju"</string>
+	<!---->
+	<string name="connect_timeout">"Signal je slab. Molimo, pokušajte ponovno kasnije."</string>
+	<!---->
+	<string name="connot_find_location">"Ovu lokaciju nije moguće pronaći."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"Ispričavamo se, možete dodati samo 11 gradova. Molimo uklonite jedan."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Pretraživanje..."</string>
+	<!---->
+	<string name="locating">"Lociranje..."</string>
+	<!---->
+	<string name="loading">"Učitavanje..."</string>
+	<!---->
+	<string name="weather_offline">"Vremenska prognoza odspojena s mreže"</string>
+	<!---->
+	<string name="update_time">"Ažuriraj vrijeme"</string>
+	<!---->
+	<string name="common_ok">"U redu"</string>
+	<!---->
+	<string name="common_cancel">"Poništi"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Lokacija"</string>
+	<!---->
+	<string name="click_update">"Kliknite ovdje za ažuriranje"</string>
+	<!---->
+	<string name="weather_off_line_text">"Povezivanje nije moguće."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Sunčano"</item>
+		<item>"Pretežno sunčano"</item>
+		<item>"Djelomično sunčano"</item>
+		<item>"Povremena naoblaka"</item>
+		<item>"Sunčano s maglom"</item>
+		<item>"Pretežno oblačno"</item>
+		<item>"Oblačno"</item>
+		<item>"Tmurno"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Magla"</item>
+		<item>"Pljuskovi"</item>
+		<item>"Pretežno oblačno s pljuskovima"</item>
+		<item>"Djelomično sunčano s pljuskovima"</item>
+		<item>"Grmljavinsko nevrijeme"</item>
+		<item>"Pretežno oblačno s grmljavinskim pljuskovima"</item>
+		<item>"Djelomično sunčano s grmljavinskim pljuskovima"</item>
+		<item>"Kiša"</item>
+		<item>"Naleti vjetra"</item>
+		<item>"Uglavnom oblačno s naletima vjetra"</item>
+		<item>"Djelomično sunčano s naletima vjetra"</item>
+		<item>"Snijeg"</item>
+		<item>"Pretežno oblačno sa snijegom"</item>
+		<item>"Led"</item>
+		<item>"Susnježica"</item>
+		<item>"Ledena kiša"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Kiša sa snijegom"</item>
+		<item>"Vruće"</item>
+		<item>"Hladno"</item>
+		<item>"Vjetrovito"</item>
+		<item>"Izbriši"</item>
+		<item>"Pretežno vedro"</item>
+		<item>"Djelomično oblačno"</item>
+		<item>"Povremena naoblaka"</item>
+		<item>"Maglovito"</item>
+		<item>"Pretežno oblačno"</item>
+		<item>"Djelomično oblačno s pljuskovima"</item>
+		<item>"Pretežno oblačno s pljuskovima"</item>
+		<item>"Djelomično oblačno s grmljavinskim pljuskovima"</item>
+		<item>"Pretežno oblačno s grmljavinskim pljuskovima"</item>
+		<item>"Pretežno oblačno s naletima vjetra"</item>
+		<item>"Pretežno oblačno sa snijegom"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Pon"</item>
+		<item>"Uto"</item>
+		<item>"Sri"</item>
+		<item>"Čet"</item>
+		<item>"Pet"</item>
+		<item>"Sub"</item>
+		<item>"Ned"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"Osvježi"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Nije moguće dohvatiti zadnju lokaciju."</string>
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!---->
+	<string name="last_updated_label">"Zadnje ažuriranje:"</string>
+	<!---->
+	<string name="change_to_C">"Promijeni u °C"</string>
+	<!---->
+	<string name="change_to_F">"Promijeni u °F"</string>
+</resources>

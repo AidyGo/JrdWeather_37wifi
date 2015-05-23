@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Vremea"</string>
+	<!---->
+	<string name="menu_addlocation">"Adăugaţi un loc"</string>
+	<!---->
+	<string name="menu_delete">"Ştergeţi loc"</string>
+	<!---->
+	<string name="menu_unit">"Modificaţi unitate"</string>
+	<!---->
+	<string name="locate_auto">"Localizare automată"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Conectare la Internet imposibilă."</string>
+	<!---->
+	<string name="locate_goto_connect">"Accesaţi conectarea"</string>
+	<!---->
+	<string name="locate_failure">"Localizare automată nereuşită. Căutaţi un alt loc."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Localizare automată nereuşită. Verificaţi serviciul de localizare Google."</string>
+	<!---->
+	<string name="insert_location">"Introduceţi un loc"</string>
+	<!---->
+	<string name="connect_timeout">"Semnal slab. Încercaţi mai târziu."</string>
+	<!---->
+	<string name="connot_find_location">"Acest loc nu poate fi găsit."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"Ne pare rău, dar pot fi adăugate doar 11 oraşe. Eliminaţi unul."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Se caută..."</string>
+	<!---->
+	<string name="locating">"Se localizează..."</string>
+	<!---->
+	<string name="loading">"Se încarcă..."</string>
+	<!---->
+	<string name="weather_offline">"Vremea offline"</string>
+	<!---->
+	<string name="update_time">"Actualizaţi ora"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Anulare"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Locaţie"</string>
+	<!---->
+	<string name="click_update">"Apăsaţi pentru actualizare"</string>
+	<!---->
+	<string name="weather_off_line_text">"Conexiune imposibilă."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Senin"</item>
+		<item>"Mai mult senin"</item>
+		<item>"Parţial senin"</item>
+		<item>"Nori intermitenţi"</item>
+		<item>"Soare difuz"</item>
+		<item>"Mai mult noros"</item>
+		<item>"Noros"</item>
+		<item>"Vreme mohorâtă"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Ceaţă"</item>
+		<item>"Averse"</item>
+		<item>"Mai mult noros, cu averse"</item>
+		<item>"Parţial senin, cu averse"</item>
+		<item>"Furtuni cu fulgere"</item>
+		<item>"Mai mult noros, cu averse şi fulgere"</item>
+		<item>"Parţial însorit, cu averse şi fulgere"</item>
+		<item>"Ploaie"</item>
+		<item>"Ninsoare uşoară"</item>
+		<item>"Mai mult noros şi ninsoare uşoară"</item>
+		<item>"Parţial senin, rafale vant"</item>
+		<item>"Zăpadă"</item>
+		<item>"Mai mult noros şi zăpadă"</item>
+		<item>"Gheaţă"</item>
+		<item>"Lapoviţă"</item>
+		<item>"Ploaie îngheţată"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Ploaie şi ninsoare"</item>
+		<item>"Foarte cald"</item>
+		<item>"Frig"</item>
+		<item>"Vânt"</item>
+		<item>"Senin"</item>
+		<item>"Mai mult senin"</item>
+		<item>"Parţial noros"</item>
+		<item>"Nori intermitenţi"</item>
+		<item>"Ceaţă"</item>
+		<item>"Mai mult noros"</item>
+		<item>"Parţial noros, cu averse"</item>
+		<item>"Mai mult noros, cu averse"</item>
+		<item>"Parţial noros, cu averse şi fulgere"</item>
+		<item>"Mai mult noros, cu averse şi fulgere"</item>
+		<item>"Mai mult noros şi ninsoare uşoară"</item>
+		<item>"Mai mult noros, cu zăpadă"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Luni"</item>
+		<item>"Marţi"</item>
+		<item>"Miercuri"</item>
+		<item>"Joi"</item>
+		<item>"Vineri"</item>
+		<item>"Sâmbătă"</item>
+		<item>"Duminică"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"Împrospătare"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Ultima locaţie nu a putut fi obţinută."</string>
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!---->
+	<string name="last_updated_label">"Ultimele dicționare actualizate:"</string>
+	<!---->
+	<string name="change_to_C">"Modificați în °C"</string>
+	<!---->
+	<string name="change_to_F">"Modificați în °F"</string>
+</resources>

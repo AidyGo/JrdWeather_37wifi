@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!---->
+	<string name="menu_addlocation">"位置情報の追加"</string>
+	<!-- no translation found for menu_delete -->
+	<skip />
+	<!---->
+	<string name="menu_unit">"単位の変更"</string>
+	<!---->
+	<string name="locate_auto">"現在地の自動検出"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!-- no translation found for locate_connect_error -->
+	<skip />
+	<!---->
+	<string name="locate_goto_connect">"接続します"</string>
+	<!---->
+	<string name="locate_failure">"現在地の自動検出に失敗しました。場所を検索してください。"</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!-- no translation found for locate_location_service -->
+	<skip />
+	<!---->
+	<string name="insert_location">"位置情報の挿入"</string>
+	<!---->
+	<string name="connect_timeout">"信号が微弱です。後ほど、再試行してください。"</string>
+	<!---->
+	<string name="connot_find_location">"指定された場所が見つかりません。"</string>
+	<!---->
+	<string name="real_feel">"体感温度"</string>
+	<!---->
+	<string name="citys_full">"追加できる都市は 11 都市までです。いずれかを削除してください。"</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"検索中..."</string>
+	<!---->
+	<string name="locating">"位置情報を検出中..."</string>
+	<!---->
+	<string name="loading">"読み込み中..."</string>
+	<!---->
+	<string name="weather_offline">"天気オフライン"</string>
+	<!---->
+	<string name="update_time">"時刻の更新"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!-- no translation found for common_cancel -->
+	<skip />
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"現在地情報"</string>
+	<!---->
+	<string name="click_update">"ここをタップして更新"</string>
+	<!---->
+	<string name="weather_off_line_text">"接続できません"</string>
+	<string-array name="weather_icon_desc">
+		<item>"晴れ"</item>
+		<item>"おおむね晴れ"</item>
+		<item>"晴れ時々曇り"</item>
+		<item>"断続的に曇り"</item>
+		<item>"薄曇り"</item>
+		<item>"おおむね曇り"</item>
+		<item>"曇り"</item>
+		<item>"曇り"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"霧"</item>
+		<item>"にわか雨"</item>
+		<item>"曇り一時にわか雨"</item>
+		<item>"晴れ時々曇り一時にわか雨"</item>
+		<item>"はげしい雷雨"</item>
+		<item>"曇り一時雷雨"</item>
+		<item>"晴れ時々曇り一時雷雨"</item>
+		<item>"雨"</item>
+		<item>"にわか雨"</item>
+		<item>"曇り一時にわか雪"</item>
+		<item>"晴れ時々曇り一時にわか雪"</item>
+		<item>"雪"</item>
+		<item>"曇り一時雪"</item>
+		<item>"あられ"</item>
+		<item>"みぞれ"</item>
+		<item>"雨氷"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"みぞれ"</item>
+		<item>"高温"</item>
+		<item>"低温"</item>
+		<item>"強風"</item>
+		<item>"快晴"</item>
+		<item>"おおむね快晴"</item>
+		<item>"晴れ時々曇り"</item>
+		<item>"断続的に曇り"</item>
+		<item>"かすみ"</item>
+		<item>"おおむね曇り"</item>
+		<item>"晴れ時々曇り一時にわか雨"</item>
+		<item>"曇り一時にわか雨"</item>
+		<item>"晴れ時々曇り一時雷雨"</item>
+		<item>"曇り一時雷雨"</item>
+		<item>"曇り一時にわか雪"</item>
+		<item>"曇り一時雪"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"月曜日"</item>
+		<item>"火曜日"</item>
+		<item>"水曜日"</item>
+		<item>"木曜日"</item>
+		<item>"金曜日"</item>
+		<item>"土曜日"</item>
+		<item>"日曜日"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"再読み込み"</string>
+	<!-- no translation found for msg_unable_obtain_location -->
+	<skip />
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!-- no translation found for last_updated_label -->
+	<skip />
+	<!-- no translation found for change_to_C -->
+	<skip />
+	<!-- no translation found for change_to_F -->
+	<skip />
+</resources>

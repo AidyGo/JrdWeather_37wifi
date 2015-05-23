@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Tempo"</string>
+	<!---->
+	<string name="menu_addlocation">"Engada unha localización"</string>
+	<!---->
+	<string name="menu_delete">"Eliminar localización"</string>
+	<!---->
+	<string name="menu_unit">"Cambiar unidade de temperatura"</string>
+	<!---->
+	<string name="locate_auto">"Localizar automaticamente"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Non se pode conectar a Internet"</string>
+	<!---->
+	<string name="locate_goto_connect">"Vaia a Conectar"</string>
+	<!---->
+	<string name="locate_failure">"Fallou a localización automática. Procure a localización manualmente."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Fallou a localización automática. Comprobe o servizo de localización de Google."</string>
+	<!---->
+	<string name="insert_location">"Insira unha localización"</string>
+	<!---->
+	<string name="connect_timeout">"Sinal feble, ténteo máis tarde."</string>
+	<!---->
+	<string name="connot_find_location">"Localización non atopada"</string>
+	<!---->
+	<string name="real_feel">"Sen. term"</string>
+	<!---->
+	<string name="citys_full">"Só pode engadir 11 cidades. Elimine unha."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Procurando..."</string>
+	<!---->
+	<string name="locating">"Localizando..."</string>
+	<!---->
+	<string name="loading">"Cargando..."</string>
+	<!---->
+	<string name="weather_offline">"Tempo dispoñible sen conexión"</string>
+	<!---->
+	<string name="update_time">"Actualizar hora"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Cancelar"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Lugar"</string>
+	<!---->
+	<string name="click_update">"Faga clic aquí para actualizar"</string>
+	<!---->
+	<string name="weather_off_line_text">"Non se pode establecer a conexión."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Sol"</item>
+		<item>"Predominantemente soleado"</item>
+		<item>"Parcialmente soleado"</item>
+		<item>"Chuvias intermitentes"</item>
+		<item>"Cuberto con sol"</item>
+		<item>"Predominantemente nubrado"</item>
+		<item>"Nubrado"</item>
+		<item>"Gris"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Néboa"</item>
+		<item>"Chuvascos"</item>
+		<item>"Predominantemente nubrado con chuvascos"</item>
+		<item>"Parcialmente soleado con chuvascos"</item>
+		<item>"Tormentas"</item>
+		<item>"Predominantemente nubrado con chuvascos tormentosos"</item>
+		<item>"Parcialmente soleado con chuvascos tormentosos"</item>
+		<item>"Chuvia"</item>
+		<item>"Refachos"</item>
+		<item>"Predominantemente nubrado con refachos"</item>
+		<item>"Parcialmente soleado con refachos"</item>
+		<item>"Neve"</item>
+		<item>"Predominantemente nubrado con neve"</item>
+		<item>"Xeo"</item>
+		<item>"Torba"</item>
+		<item>"Chuvia xeada"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Neve e chuvias"</item>
+		<item>"Calor"</item>
+		<item>"Frío"</item>
+		<item>"Vento"</item>
+		<item>"Despexado"</item>
+		<item>"Predominantemente despexado"</item>
+		<item>"Parcialmente nubrado"</item>
+		<item>"Chuvias intermitentes"</item>
+		<item>"Cuberto"</item>
+		<item>"Predominantemente nubrado"</item>
+		<item>"Parcialmente nubrado con chuvascos"</item>
+		<item>"Predominantemente nubrado con chuvascos"</item>
+		<item>"Parcialmente nubrado con chuvascos tormentosos"</item>
+		<item>"Predominantemente nubrado con chuvascos tormentosos"</item>
+		<item>"Predominantemente nubrado con refachos"</item>
+		<item>"Predominantemente nubrado con neve"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Lun"</item>
+		<item>"Mar"</item>
+		<item>"Mer"</item>
+		<item>"Xov"</item>
+		<item>"Ven"</item>
+		<item>"Sab"</item>
+		<item>"Dom"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"Refrescar"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Non se pode obter a localización máis recente."</string>
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!---->
+	<string name="last_updated_label">"Última actualización:"</string>
+	<!-- no translation found for change_to_C -->
+	<skip />
+	<!-- no translation found for change_to_F -->
+	<skip />
+</resources>

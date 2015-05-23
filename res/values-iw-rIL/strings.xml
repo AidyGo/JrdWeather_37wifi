@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"מזג אוויר"</string>
+	<!---->
+	<string name="menu_addlocation">"הוסף מיקום"</string>
+	<!---->
+	<string name="menu_delete">"מחק מיקום"</string>
+	<!---->
+	<string name="menu_unit">"שנה יחידה"</string>
+	<!---->
+	<string name="locate_auto">"איתור אוטומטי"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"לא ניתן להתחבר לאינטרנט"</string>
+	<!---->
+	<string name="locate_goto_connect">"עבור אל התחבר"</string>
+	<!---->
+	<string name="locate_failure">"האיתור האוטומטי נכשל. חפש מיקום חלופי."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"האיתור האוטומטי נכשל. בדוק את שירות המיקום של Google."</string>
+	<!---->
+	<string name="insert_location">"הוסף מיקום"</string>
+	<!---->
+	<string name="connect_timeout">"אות חלש. נסה שנית במועד מאוחר."</string>
+	<!---->
+	<string name="connot_find_location">"מיקום זה לא אותר."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"לצערנו, ניתן להוסיף 11 ערים בלבד. הסר אחת."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"מחפש…"</string>
+	<!---->
+	<string name="locating">"מאתר..."</string>
+	<!---->
+	<string name="loading">"טוען..."</string>
+	<!---->
+	<string name="weather_offline">"מזג אוויר לא מקוון"</string>
+	<!---->
+	<string name="update_time">"שעת עדכון"</string>
+	<!---->
+	<string name="common_ok">"אישור"</string>
+	<!---->
+	<string name="common_cancel">"בטל"</string>
+	<!---->
+	<string name="date_am">"לפנה\"צ"</string>
+	<!---->
+	<string name="date_pm">"אחה\"צ"</string>
+	<!---->
+	<string name="location">"מיקום"</string>
+	<!---->
+	<string name="click_update">"לחץ כאן לעידכון"</string>
+	<!---->
+	<string name="weather_off_line_text">"מצטער, לא יכול להתחבר."</string>
+	<string-array name="weather_icon_desc">
+		<item>"בהיר"</item>
+		<item>"בהיר רוב היום"</item>
+		<item>"בהיר לפרקים"</item>
+		<item>"מעונן חלקית"</item>
+		<item>"שמש לפרקים"</item>
+		<item>"רוב היום מעונן"</item>
+		<item>"מעונן"</item>
+		<item>"קודר"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"ערפל"</item>
+		<item>"ממטרים"</item>
+		<item>"רוב היום מעונן עם ממטרים"</item>
+		<item>"בהיר לפרקים עם ממטרים"</item>
+		<item>"סופות רעמים"</item>
+		<item>"רוב היום מעונן עם ממטרים ורעמים"</item>
+		<item>"בהיר לפרקים עם ממטרים ורעמים"</item>
+		<item>"גשם"</item>
+		<item>"משבי רוח"</item>
+		<item>"רוב היום מעונן עם משבי רוח"</item>
+		<item>"בהיר לפרקים עם משבי רוח"</item>
+		<item>"שלג"</item>
+		<item>"רוב היום מעונן עם שלג"</item>
+		<item>"קרח"</item>
+		<item>"גשם מעורב בשלג"</item>
+		<item>"גשם קפוא"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"גשם ושלג מעורבים"</item>
+		<item>"חם"</item>
+		<item>"קר"</item>
+		<item>"רוחות"</item>
+		<item>"בהיר"</item>
+		<item>"רוב היום בהיר"</item>
+		<item>"מעונן חלקית"</item>
+		<item>"מעונן חלקית"</item>
+		<item>"אביך"</item>
+		<item>"רוב היום מעונן"</item>
+		<item>"מעונן חלקית עם ממטרים"</item>
+		<item>"רוב היום מעונן עם ממטרים"</item>
+		<item>"מעונן חלקית עם גשם ורעמים"</item>
+		<item>"רוב היום מעונן עם ממטרים ורעמים"</item>
+		<item>"רוב היום מעונן עם משבי רוח"</item>
+		<item>"רוב היום מעונן עם שלג"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"שני"</item>
+		<item>"שלישי"</item>
+		<item>"רביעי"</item>
+		<item>"חמישי"</item>
+		<item>"שישי"</item>
+		<item>"שבת"</item>
+		<item>"ראשון"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"רענן"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"לא ניתן לקבל את המיקום האחרון."</string>
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!---->
+	<string name="last_updated_label">"‏עודכן לאחרונה:"</string>
+	<!---->
+	<string name="change_to_C">"שנה ל-‎°C‎‏"</string>
+	<!---->
+	<string name="change_to_F">"שנה ל-‎°F‎‏"</string>
+</resources>

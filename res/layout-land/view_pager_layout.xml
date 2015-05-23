@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+     >
+     
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height ="264dp"
+        android:orientation="horizontal"
+        >
+        
+    <com.jrdcom.weather.WeatherView
+        android:id="@+id/weatherview"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content" >
+    </com.jrdcom.weather.WeatherView>
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/line_v" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.jrdcom.weather.DayView
+                android:id="@+id/dv_day1"
+                android:layout_width="fill_parent"
+                android:layout_height="66dp"
+                android:layout_weight="1" >
+            </com.jrdcom.weather.DayView>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/line_h" />
+
+            <com.jrdcom.weather.DayView
+                android:id="@+id/dv_day2"
+                android:layout_width="fill_parent"
+                android:layout_height="66dp"
+                android:layout_weight="1" >
+            </com.jrdcom.weather.DayView>
+
+           <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/line_h" />
+
+            <com.jrdcom.weather.DayView
+                android:id="@+id/dv_day3"
+                android:layout_width="fill_parent"
+                android:layout_height="66dp"
+                android:layout_weight="1" >
+            </com.jrdcom.weather.DayView>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/line_h" />
+
+            <com.jrdcom.weather.DayView
+                android:id="@+id/dv_day4"
+                android:layout_width="fill_parent"
+                android:layout_height="66dp"
+                android:layout_weight="1" >
+            </com.jrdcom.weather.DayView>
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+        
+</LinearLayout>

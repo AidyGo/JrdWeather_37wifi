@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Väder"</string>
+	<!---->
+	<string name="menu_addlocation">"Lägg till en plats"</string>
+	<!---->
+	<string name="menu_delete">"Ta bort en plats"</string>
+	<!---->
+	<string name="menu_unit">"Ändra enhet"</string>
+	<!---->
+	<string name="locate_auto">"Hitta automatiskt"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Kan inte ansluta till Internet."</string>
+	<!---->
+	<string name="locate_goto_connect">"Gå till anslut"</string>
+	<!---->
+	<string name="locate_failure">"Hitta automatiskt misslyckades. Sök efter en plats i stället."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Hitta automatiskt misslyckades. Kontrollera Googles platstjänst."</string>
+	<!---->
+	<string name="insert_location">"Infoga en plats"</string>
+	<!---->
+	<string name="connect_timeout">"Svag signal. Försök igen senare."</string>
+	<!---->
+	<string name="connot_find_location">"Den här platsen kan inte hittas."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"Du kan tyvärr bara lägga till 11 städer. Ta bort en."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Söker..."</string>
+	<!---->
+	<string name="locating">"Hittar..."</string>
+	<!---->
+	<string name="loading">"Laddar..."</string>
+	<!---->
+	<string name="weather_offline">"Väder offline"</string>
+	<!---->
+	<string name="update_time">"Uppdatera tid"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Avbryt"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Plats"</string>
+	<!---->
+	<string name="click_update">"Klicka här för att uppdatera"</string>
+	<!---->
+	<string name="weather_off_line_text">"Kan tyvärr inte ansluta"</string>
+	<string-array name="weather_icon_desc">
+		<item>"Soligt"</item>
+		<item>"Mestadels soligt"</item>
+		<item>"Delvis soligt"</item>
+		<item>"Stackmoln"</item>
+		<item>"Soldis"</item>
+		<item>"Mestadels molnigt"</item>
+		<item>"Molnigt"</item>
+		<item>"Mörkt"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Dimma"</item>
+		<item>"Skurar"</item>
+		<item>"Mestadels molnigt med skurar"</item>
+		<item>"Delvis soligt med skurar"</item>
+		<item>"Åska"</item>
+		<item>"Mestadels molnigt med åskskurar"</item>
+		<item>"Delvis soligt med åskskurar"</item>
+		<item>"Regn"</item>
+		<item>"Regnbyar"</item>
+		<item>"Mestadels molnigt med regnbyar"</item>
+		<item>"Delvis soligt med regnbyar"</item>
+		<item>"Snö"</item>
+		<item>"Mestadels molnigt med snö"</item>
+		<item>"Is"</item>
+		<item>"Snöblandat regn"</item>
+		<item>"Regn som fryser på"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Regn och snö blandat"</item>
+		<item>"Varmt"</item>
+		<item>"Kallt"</item>
+		<item>"Blåsigt"</item>
+		<item>"Klart"</item>
+		<item>"Mestadels klart"</item>
+		<item>"Delvis molnigt"</item>
+		<item>"Växlande molnighet"</item>
+		<item>"Disigt"</item>
+		<item>"Mestadels molnigt"</item>
+		<item>"Delvis molnigt med skurar"</item>
+		<item>"Mestadels molnigt med skurar"</item>
+		<item>"Delvis molnigt med åskskurar"</item>
+		<item>"Mestadelsmolnigt med åskskurar"</item>
+		<item>"Mestadels molnigt med snöbyar"</item>
+		<item>"Mestadels molnigt med byar"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Mån"</item>
+		<item>"Tis"</item>
+		<item>"Ons"</item>
+		<item>"Tors"</item>
+		<item>"Fre"</item>
+		<item>"Lör"</item>
+		<item>"Sön"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"Uppdatera"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Det går inte att hitta den senaste platsen."</string>
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!---->
+	<string name="last_updated_label">"Senast uppdaterad:"</string>
+	<!---->
+	<string name="change_to_C">"Ändra till °C"</string>
+	<!---->
+	<string name="change_to_F">"Ändra till °F"</string>
+</resources>

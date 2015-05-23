@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for menu_addlocation -->
+	<skip />
+	<!-- no translation found for menu_delete -->
+	<skip />
+	<!-- no translation found for menu_unit -->
+	<skip />
+	<!-- no translation found for locate_auto -->
+	<skip />
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!-- no translation found for locate_connect_error -->
+	<skip />
+	<!-- no translation found for locate_goto_connect -->
+	<skip />
+	<!-- no translation found for locate_failure -->
+	<skip />
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!-- no translation found for locate_location_service -->
+	<skip />
+	<!-- no translation found for insert_location -->
+	<skip />
+	<!-- no translation found for connect_timeout -->
+	<skip />
+	<!-- no translation found for connot_find_location -->
+	<skip />
+	<!-- no translation found for real_feel -->
+	<skip />
+	<!-- no translation found for citys_full -->
+	<skip />
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!-- no translation found for searching -->
+	<skip />
+	<!-- no translation found for locating -->
+	<skip />
+	<!-- no translation found for loading -->
+	<skip />
+	<!-- no translation found for weather_offline -->
+	<skip />
+	<!-- no translation found for update_time -->
+	<skip />
+	<!---->
+	<string name="common_ok">"ຕົກລົງ"</string>
+	<!---->
+	<string name="common_cancel">"ຍົກເລີກ"</string>
+	<!-- no translation found for date_am -->
+	<skip />
+	<!-- no translation found for date_pm -->
+	<skip />
+	<!---->
+	<string name="location">"ຕຳແໜ່ງ"</string>
+	<!-- no translation found for click_update -->
+	<skip />
+	<!-- no translation found for weather_off_line_text -->
+	<skip />
+	<!-- no translation found for weather_icon_desc -->
+	<skip />
+	<!-- no translation found for weather_weekly -->
+	<skip />
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"ຣີເຟຣດ"</string>
+	<!-- no translation found for msg_unable_obtain_location -->
+	<skip />
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!-- no translation found for last_updated_label -->
+	<skip />
+	<!-- no translation found for change_to_C -->
+	<skip />
+	<!-- no translation found for change_to_F -->
+	<skip />
+</resources>

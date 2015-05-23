@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">"Weather"</string>
+    <string name="menu_addlocation">"Add a location"</string>
+    <string name="menu_delete">"Delete location"</string>
+    <string name="menu_unit">"Change unit"</string>
+    <string name="locate_auto">"Auto locate"</string>
+    <string name="locate_or">OR</string>
+    <string name="locate_connect_error">"Cannot connect to the Internet."</string>
+    <string name="locate_goto_connect">"Go to connect"</string>
+    <string name="locate_failure">"Auto locate failed. Please search for a location instead."</string>
+    <string name="locate_search">Search a Location</string>
+    <string name="locate_location_service">"Auto locate failure, please check the network location service."</string>
+    <string name="insert_location">"Insert a location"</string>
+    <string name="connect_timeout">"Weak signal. Please try again later."</string>
+    <string name="connot_find_location">"This location cannot be found."</string>
+    <string name="real_feel">"RealFeel"</string>
+    <string name="citys_full">"Sorry, you can only add 11 cities. Please remove one."</string>
+    <string name="update_faild">Update failure,please check your internet connection.</string>
+    <string name="searching">"Searching…"</string>
+    <string name="locating">"Locating…"</string>
+    <string name="loading">"Loading..."</string>
+    <string name="weather_offline">"Weather Offline"</string>
+    <string name="update_time">"Update time"</string>
+    <string name="common_ok">"OK"</string>
+    <string name="common_cancel">"Cancel"</string>
+    <string name="date_am">"AM"</string>
+    <string name="date_pm">"PM"</string>
+    <string name="location">"Location"</string>
+    <string name="click_update">"Click here to update"</string>
+    
+    <!-- PR 454243 - ting.chen@tct-nj.com - added begin -->
+    <string name="weather_off_line_text">"Sorry, unable to connect."</string>
+    <!-- PR 454243 - ting.chen@tct-nj.com - added end -->
+
+    <string-array name="weather_icon_desc">
+        <item>"Sunny"</item>
+        <item>"Mostly Sunny"</item>
+        <item>"Partly Sunny"</item>
+        <item>"Intermittent Clouds"</item>
+        <item>"Hazy Sunshine"</item>
+        <item>"Mostly Cloudy"</item>
+        <item>"Cloudy"</item>
+        <item>"Dreary"</item>
+        <item>###item8###</item>
+        <item>###item9###</item>
+        <item>"Fog"</item>
+        <item>"Showers"</item>
+        <item>"Mostly Cloudy with Showers"</item>
+        <item>"Partly Sunny with Showers"</item>
+        <item>"Thunderstorms"</item>
+        <item>"Mostly Cloudy with Thunder Showers"</item>
+        <item>"Partly Sunny with Thunder Showers"</item>
+        <item>"Rain"</item>
+        <item>"Flurries"</item>
+        <item>"Mostly Cloudy with Flurries"</item>
+        <item>"Partly Sunny with Flurries"</item>
+        <item>"Snow"</item>
+        <item>"Mostly Cloudy with Snow"</item>
+        <item>"Ice"</item>
+        <item>"Sleet"</item>
+        <item>"Freezing Rain"</item>
+        <item>###item26###</item>
+        <item>###item27###</item>
+        <item>"Rain and Snow Mixed"</item>
+        <item>"Hot"</item>
+        <item>"Cold"</item>
+        <item>"Windy"</item>
+        <item>"Clear"</item>
+        <item>"Mostly Clear"</item>
+        <item>"Partly Cloudy"</item>
+        <item>"Intermittent Clouds"</item>
+        <item>"Hazy"</item>
+        <item>"Mostly Cloudy"</item>
+        <item>"Partly Cloudy with Showers"</item>
+        <item>"Mostly Cloudy with Showers"</item>
+        <item>"Partly Cloudy with Thunder Showers"</item>
+        <item>"Mostly Cloudy with Thunder Showers"</item>
+        <item>"Mostly Cloudy with Flurries"</item>
+        <item>"Mostly Cloudy with Snow"</item>
+    </string-array>
+    <string-array name="weather_weekly">
+        <item>"Mon"</item>
+        <item>"Tue"</item>
+        <item>"Wed"</item>
+        <item>"Thu"</item>
+        <item>"Fri"</item>
+        <item>"Sat"</item>
+        <item>"Sun"</item>
+    </string-array>
+
+    <!-- add by lijun.ye for PR462130 2013-06-01 START-->
+    <string name="default_temp" translatable="false">"-°"</string>
+    <string name="widget_12_hours_format" translatable="false">h:mm</string>
+    <string name="widget_24_hours_format" translatable="false">kk:mm</string>
+    <string name="am_pm_12_hours" translatable="false">aa</string>
+    <string name="am_pm_24_hours" translatable="false"/>
+    <!-- CR746638 Change date&time display format by jielong.xing at 2014-07-27 begin -->
+    <string name="weekday_keyguard" translatable="false">EEE,</string>
+    <!-- CR746638 Change date&time display format by jielong.xing at 2014-07-27 end -->
+    <!-- add by lijun.ye for PR462130 2013-06-01 END-->
+    
+     <!-- CR-490103 Neo Skunkworks - Nicky Ni -001 start -->
+    <string name="lable_refresh">"Refresh"</string>
+     <!-- CR-490103 Neo Skunkworks - Nicky Ni -001 end -->
+     
+     <string name="msg_unable_obtain_location">"Unable to obtain the latest location."</string>
+     <!-- PR796640 need pre-set Tokyo as prefer city in this app by jielong.xing at 2014-09-30 begin -->
+     <string name="tokyo_name">"tokyo"</string>
+     <!-- PR796640 need pre-set Tokyo as prefer city in this app by jielong.xing at 2014-09-30 end -->
+     <!-- FR821437 Translate the new string by jielong.xing at 2014-10-30 begin -->
+     <string name="last_updated_label">"Last updated:"</string>
+     <string name="change_to_C">"Change to °C"</string>
+     <string name="change_to_F">"Change to °F"</string>
+     <!-- FR821437 Translate the new string by jielong.xing at 2014-10-30 end -->
+
+</resources>

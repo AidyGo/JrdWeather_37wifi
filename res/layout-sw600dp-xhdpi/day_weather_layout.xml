@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- PR698811 Neo Skunkworks - Richard He modified - 001 Begin -->
+
+    <ImageView
+        android:id="@+id/day_iv_icon"
+        android:layout_width="87dip"
+        android:layout_height="87dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="9dp" />
+    <!-- PR672053 Neo Skunkworks - Richard He modified - 001 Begin -->
+
+    <TextView
+        android:id="@+id/day_tv_temph"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:textColor="#9fa0a0"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/day_tv_templ"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:textColor="#9fa0a0"
+        android:textSize="20dp" />
+
+    <View
+        android:layout_width="15dip"
+        android:layout_height="9dip"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="14dip"
+        android:background="@drawable/arrow" />
+
+    <TextView
+        android:id="@+id/day_tv_week"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dip"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:textColor="#9fa0a0"
+        android:textSize="20dp" />
+    <!-- PR672053 Neo Skunkworks - Richard He modified - 001 End -->
+
+    <TextView
+        android:id="@+id/day_tv_date"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dip"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:textColor="#9fa0a0"
+        android:textSize="20dp" />
+    <!-- PR698811 Neo Skunkworks - Richard He modified - 001 End -->
+
+</LinearLayout>

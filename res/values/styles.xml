@@ -1,0 +1,40 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+   </style>
+	<style name="shadow_style">
+	 <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#66000000</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">3</item>
+    </style>
+    <!--CR 638496- Neo Skunkworks - Wenjing.ni - 001 start-->
+    <style name="shadow_style_time">
+	 <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#00000000</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">5</item>
+    </style>
+     <style name="shadow_style_date">
+	 <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#66000000</item>
+        <item name="android:shadowRadius">4</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">0</item>
+    </style>
+    <!--CR 638496- Neo Skunkworks - Wenjing.ni - 001 end-->
+    
+     <style name="shadow_style_land_date">
+	 <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#14000000</item>
+        <item name="android:shadowRadius">8</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">4</item>
+    </style>
+
+    <style name="GnEmptyTheme">
+    </style>
+
+</resources>

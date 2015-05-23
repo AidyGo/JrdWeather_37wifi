@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"날씨"</string>
+	<!---->
+	<string name="menu_addlocation">"위치 추가"</string>
+	<!---->
+	<string name="menu_delete">"위치 삭제"</string>
+	<!---->
+	<string name="menu_unit">"단위 변경"</string>
+	<!---->
+	<string name="locate_auto">"자동 위치 추적"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"인터넷에 연결할 수 없습니다."</string>
+	<!---->
+	<string name="locate_goto_connect">"연결하십시오."</string>
+	<!---->
+	<string name="locate_failure">"자동 위치 추적에 실패했습니다. 위치 검색을 이용하십시오."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"자동 위치 추적에 실패했습니다. 네트워크 위치 추적 서비스를 사용하십시오."</string>
+	<!---->
+	<string name="insert_location">"위치 삽입"</string>
+	<!---->
+	<string name="connect_timeout">"신호가 약합니다. 나중에 다시 시도하십시오."</string>
+	<!---->
+	<string name="connot_find_location">"이 위치는 찾을 수 없습니다."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"도시는 11개까지만 추가할 수 있습니다. 1개를 삭제하십시오."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"검색 중…"</string>
+	<!---->
+	<string name="locating">"위치 추적 중…"</string>
+	<!---->
+	<string name="loading">"로드 중..."</string>
+	<!---->
+	<string name="weather_offline">"날씨 오프라인"</string>
+	<!---->
+	<string name="update_time">"시간 업데이트"</string>
+	<!---->
+	<string name="common_ok">"확인"</string>
+	<!---->
+	<string name="common_cancel">"취소"</string>
+	<!---->
+	<string name="date_am">"오전"</string>
+	<!---->
+	<string name="date_pm">"오후"</string>
+	<!---->
+	<string name="location">"위치"</string>
+	<!---->
+	<string name="click_update">"업데이트하려면 여기를 클릭하십시오."</string>
+	<!---->
+	<string name="weather_off_line_text">"죄송합니다. 연결할 수 없습니다."</string>
+	<string-array name="weather_icon_desc">
+		<item>"맑음"</item>
+		<item>"대체로 맑음"</item>
+		<item>"부분적으로 맑음"</item>
+		<item>"간헐적으로 구름"</item>
+		<item>"흐릿한 햇빛"</item>
+		<item>"대체로 흐림"</item>
+		<item>"흐림"</item>
+		<item>"흐리고 쌀쌀한"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"안개"</item>
+		<item>"소나기"</item>
+		<item>"대체로 흐리고 소나기"</item>
+		<item>"부분적으로 맑고 소나기"</item>
+		<item>"천둥 번개"</item>
+		<item>"대체로 흐리고 천둥을 동반한 소나기"</item>
+		<item>"부분적으로 맑고 천둥을 동반한 소나기"</item>
+		<item>"비"</item>
+		<item>"눈보라"</item>
+		<item>"대체로 흐리고 눈보라"</item>
+		<item>"부분적으로 맑고 눈보라"</item>
+		<item>"눈"</item>
+		<item>"대체로 흐리고 눈"</item>
+		<item>"얼음"</item>
+		<item>"진눈깨비"</item>
+		<item>"얼어붙는 비"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"눈비 섞임"</item>
+		<item>"더움"</item>
+		<item>"추움"</item>
+		<item>"바람이 많이 붐"</item>
+		<item>"맑음"</item>
+		<item>"대체로 쾌청"</item>
+		<item>"부분적으로 흐림"</item>
+		<item>"간헐적으로 구름"</item>
+		<item>"연무"</item>
+		<item>"대체로 흐림"</item>
+		<item>"부분적으로 흐리고 소나기"</item>
+		<item>"대체로 흐리고 소나기"</item>
+		<item>"부분적으로 흐리고 천둥을 동반한 소나기"</item>
+		<item>"대체로 흐리고 천둥을 동반한 소나기"</item>
+		<item>"대체로 흐리고 눈보라"</item>
+		<item>"대체로 흐리고 눈"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"월"</item>
+		<item>"화"</item>
+		<item>"수"</item>
+		<item>"목"</item>
+		<item>"금"</item>
+		<item>"토"</item>
+		<item>"일"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"새로고침"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"최근 위치를 찾을 수 없습니다."</string>
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!-- no translation found for last_updated_label -->
+	<skip />
+	<!-- no translation found for change_to_C -->
+	<skip />
+	<!-- no translation found for change_to_F -->
+	<skip />
+</resources>

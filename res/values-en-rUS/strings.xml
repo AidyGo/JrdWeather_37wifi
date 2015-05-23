@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Weather"</string>
+	<!---->
+	<string name="menu_addlocation">"Add a location"</string>
+	<!---->
+	<string name="menu_delete">"Delete location"</string>
+	<!---->
+	<string name="menu_unit">"Change unit"</string>
+	<!---->
+	<string name="locate_auto">"Auto locate"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Cannot connect to the Internet."</string>
+	<!---->
+	<string name="locate_goto_connect">"Go to connect"</string>
+	<!---->
+	<string name="locate_failure">"Auto locate failed. Please search for a location instead."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Auto locate failure, please check the network location service."</string>
+	<!---->
+	<string name="insert_location">"Insert a location"</string>
+	<!---->
+	<string name="connect_timeout">"Weak signal. Please try again later."</string>
+	<!---->
+	<string name="connot_find_location">"This location cannot be found."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"Sorry, you can only add 11 cities. Please remove one."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Searching…"</string>
+	<!---->
+	<string name="locating">"Locating…"</string>
+	<!---->
+	<string name="loading">"Loading..."</string>
+	<!---->
+	<string name="weather_offline">"Weather Offline"</string>
+	<!---->
+	<string name="update_time">"Update time"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Cancel"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Location"</string>
+	<!---->
+	<string name="click_update">"Click here to update"</string>
+	<!---->
+	<string name="weather_off_line_text">"Sorry, unable to connect."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Sunny"</item>
+		<item>"Mostly Sunny"</item>
+		<item>"Partly Sunny"</item>
+		<item>"Intermittent Clouds"</item>
+		<item>"Hazy Sunshine"</item>
+		<item>"Mostly Cloudy"</item>
+		<item>"Cloudy"</item>
+		<item>"Dreary"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Fog"</item>
+		<item>"Showers"</item>
+		<item>"Mostly Cloudy with Showers"</item>
+		<item>"Partly Sunny with Showers"</item>
+		<item>"Thunderstorms"</item>
+		<item>"Mostly Cloudy with Thunder Showers"</item>
+		<item>"Partly Sunny with Thunder Showers"</item>
+		<item>"Rain"</item>
+		<item>"Flurries"</item>
+		<item>"Mostly Cloudy with Flurries"</item>
+		<item>"Partly Sunny with Flurries"</item>
+		<item>"Snow"</item>
+		<item>"Mostly Cloudy with Snow"</item>
+		<item>"Ice"</item>
+		<item>"Sleet"</item>
+		<item>"Freezing Rain"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Rain and Snow Mixed"</item>
+		<item>"Hot"</item>
+		<item>"Cold"</item>
+		<item>"Windy"</item>
+		<item>"Clear"</item>
+		<item>"Mostly Clear"</item>
+		<item>"Partly Cloudy"</item>
+		<item>"Intermittent Clouds"</item>
+		<item>"Hazy"</item>
+		<item>"Mostly Cloudy"</item>
+		<item>"Partly Cloudy with Showers"</item>
+		<item>"Mostly Cloudy with Showers"</item>
+		<item>"Partly Cloudy with Thunder Showers"</item>
+		<item>"Mostly Cloudy with Thunder Showers"</item>
+		<item>"Mostly Cloudy with Flurries"</item>
+		<item>"Mostly Cloudy with Snow"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Mon"</item>
+		<item>"Tue"</item>
+		<item>"Wed"</item>
+		<item>"Thu"</item>
+		<item>"Fri"</item>
+		<item>"Sat"</item>
+		<item>"Sun"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"Refresh"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Unable to obtain the latest location."</string>
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!---->
+	<string name="last_updated_label">"Last updated:"</string>
+	<!---->
+	<string name="change_to_C">"Change to °C"</string>
+	<!---->
+	<string name="change_to_F">"Change to °F"</string>
+</resources>

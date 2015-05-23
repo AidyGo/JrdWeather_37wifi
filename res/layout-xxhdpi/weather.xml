@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/rl_left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="36dp" >
+
+        <!-- PR757624 The name of the city display abnormal in weather interface by jielong.xing at 2014-08-07 begin -->
+
+        <ImageView
+            android:id="@+id/ac_iv_icon"
+            android:layout_width="138dp"
+            android:layout_height="138dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="14dp" />
+
+        <TextView
+            android:id="@+id/ac_tv_text"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dip"
+            android:layout_marginTop="2dip"
+            android:gravity="center_horizontal"
+            android:fontFamily="sans-serif"
+            android:textColor="#FFFFFF"
+            android:textSize="15dip" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="22dp">
+
+        <!-- modify by junye.li for PR761631 begin -->
+        <LinearLayout android:id="@+id/ll_refresh_time"
+            android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:paddingRight="10dp">
+	        
+		    <TextView android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="2dp"
+		        android:fontFamily="sans-serif"
+		        android:textColor="#FFFFFF"
+	            android:textSize="15dp"	            
+	            android:gravity="right"
+	            android:layout_gravity="right"
+	            android:text="@string/last_updated_label"/>
+		    
+		    <TextView
+	            android:id="@+id/ac_tv_time"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:fontFamily="sans-serif"
+	            android:gravity="right"
+	            android:layout_gravity="right"
+	            android:textColor="#FFFFFF"
+	            android:textSize="15dp" />
+		    
+		</LinearLayout> 
+
+        <TextView
+            android:id="@+id/ac_tv_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="13dp"
+            android:layout_below="@id/ll_refresh_time"
+            android:ellipsize="marquee"
+            android:fontFamily="sans-serif"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxWidth="156dp"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp" />
+        <!-- modify by junye.li for PR761631 end -->
+        <!-- PR757624 The name of the city display abnormal in weather interface by jielong.xing at 2014-08-07 end -->
+
+        <TextView
+            android:id="@+id/ac_tv_temp_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/ac_tv_city"
+            android:layout_below="@id/ac_tv_city"
+            android:fontFamily="sans-serif-thin"
+            android:paddingRight="10dp"
+            android:textColor="#FFFFFF"
+            android:textSize="64dp" />
+
+        <TextView
+            android:id="@+id/ac_tv_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ac_tv_city"
+            android:layout_toLeftOf="@id/ac_tv_temp_unit"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="top"
+            android:textColor="#FFFFFF"
+            android:textSize="64dp" />
+
+        <TextView
+            android:id="@+id/ac_tv_realfeel_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/ac_tv_city"
+            android:layout_below="@id/ac_tv_temp"
+            android:layout_marginTop="2dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:paddingRight="5dp"
+            android:textColor="#FFFFFF"
+            android:textSize="15dip" />
+
+        <TextView
+            android:id="@+id/ac_tv_high"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/ac_tv_realfeel_temp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="6dp"
+            android:layout_toLeftOf="@id/ac_tv_realfeel_temp"
+            android:fontFamily="sans-serif"
+            android:textColor="#FFFFFF"
+            android:textSize="15dip" />
+    </RelativeLayout>
+
+</LinearLayout>

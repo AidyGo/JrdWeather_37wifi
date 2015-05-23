@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jrdcom.weather"
+    android:versionCode="123"
+    android:versionName="v4.0.1.0022.1" >
+
+    <!-- weather:v1.8.022 ODM:v1.8_902 -->
+
+    <uses-sdk android:minSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application
+        android:icon="@drawable/jrdweather_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <service
+            android:name="com.jrdcom.data.MyService"
+            android:enabled="true" >
+        </service>
+        <service
+            android:name="com.jrdcom.widget.UpdateWidgetTimeService"
+            android:priority="1000" />
+
+        <receiver android:name="com.jrdcom.autolocate.AutoLocateBroadCastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="com.android.broadcast.LOCKSCREEN_UPDATED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.jrdcom.receiver.WidgetUpdateReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.NEXT_CITY_WIDGET_UPDATE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.jrdcom.weather.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jrdcom.weather.LocateActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.jrdcom.weather.HourlyActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask" >
+        </activity>
+
+        <receiver android:name="com.jrdcom.widget.WeatherClockWidget" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.WEATHER_BROADCAST" />
+                <action android:name="android.intent.action.NEXT_CITY_WIDGET_UPDATE" />
+                <action android:name="android.intent.action.UNIT_BROADCAST" />
+                <action android:name="android.intent.action.WEATHERICON_NEED_BROADCAST" />
+                <action android:name="android.intent.action.WEATHERICON_GIVE_BROADCAST" />
+                <action android:name="android.intent.action.WEATHERDATA_CLEAN_BROADCAST" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/appwidget_info" />
+        </receiver>
+
+        <provider
+            android:name="com.jrdcom.provider.WeatherContentProvider"
+            android:authorities="com.jrdcom.provider.weatherinfo"
+            android:exported="true" />
+    </application>
+
+</manifest>

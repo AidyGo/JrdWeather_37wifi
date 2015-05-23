@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Nov 27 18:33:53 CST 2014
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Thời tiết"</string>
+	<!---->
+	<string name="menu_addlocation">"Thêm địa điểm"</string>
+	<!---->
+	<string name="menu_delete">"Xóa địa điểm"</string>
+	<!---->
+	<string name="menu_unit">"Thay đổi đơn vị"</string>
+	<!---->
+	<string name="locate_auto">"Định vị tự động"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Không thể kết nối với Internet."</string>
+	<!---->
+	<string name="locate_goto_connect">"Kết nối"</string>
+	<!---->
+	<string name="locate_failure">"Định vị tự động không thành công. Vui lòng tìm kiếm địa điểm."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Tự động định vị không thành công. Vui lòng kiểm tra dịch vụ vị trí của Google."</string>
+	<!---->
+	<string name="insert_location">"Chèn địa điểm"</string>
+	<!---->
+	<string name="connect_timeout">"Tín hiệu yếu. Vui lòng thử sau."</string>
+	<!---->
+	<string name="connot_find_location">"Không tìm thấy địa điểm này."</string>
+	<!---->
+	<string name="real_feel">"Cảm giác thật"</string>
+	<!---->
+	<string name="citys_full">"Rất tiếc, bạn chỉ có thể thêm 11 thành phố. Vui lòng xóa một thành phố."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Đang tìm kiếm..."</string>
+	<!---->
+	<string name="locating">"Đang định vị..."</string>
+	<!---->
+	<string name="loading">"Đang tải..."</string>
+	<!---->
+	<string name="weather_offline">"Thời tiết ngoại tuyến"</string>
+	<!---->
+	<string name="update_time">"Cập nhật thời gian"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Hủy"</string>
+	<!---->
+	<string name="date_am">"SA"</string>
+	<!---->
+	<string name="date_pm">"CH"</string>
+	<!---->
+	<string name="location">"Vị trí"</string>
+	<!---->
+	<string name="click_update">"Nhấp vào đây để cập nhật"</string>
+	<!---->
+	<string name="weather_off_line_text">"Xin lỗi, không thể kết nối."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Có nắng"</item>
+		<item>"Nhiều nắng"</item>
+		<item>"Ít nắng"</item>
+		<item>"Có lúc có mây"</item>
+		<item>"Mù sương sau có nắng"</item>
+		<item>"Nhiều mây"</item>
+		<item>"Có mây"</item>
+		<item>"Ảm đạm"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Có sương"</item>
+		<item>"Mưa rào"</item>
+		<item>"Nhiều mây kèm mưa rào"</item>
+		<item>"Ít mây kèm mưa rào"</item>
+		<item>"Mưa giông"</item>
+		<item>"Nhiều mây, có lúc có mưa rào kèm sấm sét"</item>
+		<item>"Ít nắng, có lúc có mưa rào kèm sấm sét"</item>
+		<item>"Mưa"</item>
+		<item>"Có gió mạnh"</item>
+		<item>"Nhiều mây kèm gió mạnh"</item>
+		<item>"Ít nắng kèm gió mạnh"</item>
+		<item>"Tuyết"</item>
+		<item>"Nhiều mây kèm tuyết"</item>
+		<item>"Đóng băng"</item>
+		<item>"Mưa tuyết"</item>
+		<item>"Mưa đá"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Mưa và tuyết"</item>
+		<item>"Nóng"</item>
+		<item>"Lạnh"</item>
+		<item>"Có gió"</item>
+		<item>"Quang mây"</item>
+		<item>"Ít mây"</item>
+		<item>"Ít mây"</item>
+		<item>"Có lúc có mây"</item>
+		<item>"Mù sương"</item>
+		<item>"Nhiều mây"</item>
+		<item>"Ít mây kèm mưa rào"</item>
+		<item>"Nhiều mây kèm mưa rào"</item>
+		<item>"Ít mây, có lúc có mưa rào kèm sấm sét"</item>
+		<item>"Nhiều mây, có lúc có mưa rào kèm sấm sét"</item>
+		<item>"Nhiều mây kèm gió mạnh"</item>
+		<item>"Nhiều mây kèm tuyết"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Th2"</item>
+		<item>"Th3"</item>
+		<item>"Th4"</item>
+		<item>"Th5"</item>
+		<item>"Th6"</item>
+		<item>"Th7"</item>
+		<item>"CN"</item>
+	</string-array>
+	<!-- no translation found for default_temp -->
+	<skip />
+	<!-- no translation found for widget_12_hours_format -->
+	<skip />
+	<!-- no translation found for widget_24_hours_format -->
+	<skip />
+	<!-- no translation found for am_pm_12_hours -->
+	<skip />
+	<!-- no translation found for am_pm_24_hours -->
+	<skip />
+	<!-- no translation found for weekday_keyguard -->
+	<skip />
+	<!---->
+	<string name="lable_refresh">"Làm mới"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Không thể lấy được vị trí mới nhất."</string>
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!---->
+	<string name="last_updated_label">"Cập nhật lần cuối:"</string>
+	<!---->
+	<string name="change_to_C">"Đổi sang °C"</string>
+	<!---->
+	<string name="change_to_F">"Đổi sang °F"</string>
+</resources>
