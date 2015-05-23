@@ -99,14 +99,12 @@ public class LocateActivity extends Activity {
     // zhaoyun.wu end
     private boolean mAutoLocateSuccess = false;
 
-    private static final int MSGTIMEOUT = 0x10001; // retry 10 times all
-                                                   // failed,then send timeout
-                                                   // message
-    private static final int MSGREGETPOSITION = 0x10002; // retry message
+    private static final int MSGTIMEOUT = 0x10001;
+    private static final int MSGREGETPOSITION = 0x10002;
 
-    private boolean isOtherConnected; // add by junye.li for PR762484
+    private boolean isOtherConnected;
 
-    private String mSearchCity; // add by junye.li for PR787604
+    private String mSearchCity;
 
     private boolean isBindService = false;
 
@@ -119,12 +117,7 @@ public class LocateActivity extends Activity {
         }
 
         setContentView(R.layout.add_location);
-
-        // PR 628746 - Neo Skunkworks - Wells Tang - 001 begin
-        // when enter weather,start the service to avoid service died
-        // startService(new Intent(LocateActivity.this, MyService.class));
         startService(new Intent(LocateActivity.this, UpdateWidgetTimeService.class));
-        // PR 628746 - Neo Skunkworks - Wells Tang - 001 end
 
         this.getActionBar().setBackgroundDrawable(
                 getResources().getDrawable(R.drawable.titel_night_bg));
@@ -140,7 +133,6 @@ public class LocateActivity extends Activity {
 
         bt_locate.setOnClickListener(locateListener);
 
-        // pr 459968,462102 by yamin.cao@tct-nj.com end
         bt_connect.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -227,21 +219,11 @@ public class LocateActivity extends Activity {
         // zhaoyun.wu end
     }
 
-    // dismiss the progress dlg if activity not pausing,else
-    // finish the activity,locate activity do not need to keep activity on
-    // background
     private void disMissProgressDlgOrFinish() {
         if (pDialog != null) {
             if (!mPausing) {
                 pDialog.dismiss();
             }
-            // PR854784 [Monitor][Weather]DUT automatic return to the home screen after press the
-            // power button twice in city searching interface by jielong.xing at 2014-12-6 begin
-            // else {
-            // finish();
-            // }
-            // PR854784 [Monitor][Weather]DUT automatic return to the home screen after press the
-            // power button twice in city searching interface by jielong.xing at 2014-12-6 end
         }
     }
 
@@ -283,14 +265,10 @@ public class LocateActivity extends Activity {
             public boolean onQueryTextSubmit(String query) {
                 updateConnectedFlags();
 
-                // modify by junye.li for PR787604 begin
                 String cityName = mSearchCity = mSearchView.getQuery().toString().trim();
-                // modify by junye.li for PR787604 end
 
                 mSearchView.clearFocus();
-                // modify by junye.li for PR762484 begin
                 if (isWifiConnected || isMobileConnected || isOtherConnected) {
-                    // modify by junye.li for PR762484 end
                     pDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
                     pDialog.setCanceledOnTouchOutside(false);
                     pDialog.setMessage(getResources().getString(R.string.searching));
@@ -330,22 +308,6 @@ public class LocateActivity extends Activity {
         }
     }
 
-    /*
-     * private WifiManager mWifiManager;
-     *//**
-     * scan the wifi mac for the provider to autolocate
-     * 
-     * @return
-     */
-    /*
-     * private boolean startScanWifi() { boolean ret = false; try { int wifiScanAways =
-     * Settings.Global.getInt(getContentResolver(), Settings.Global.WIFI_SCAN_ALWAYS_AVAILABLE, 0);
-     * if (wifiScanAways == 1) { if (mWifiManager == null) { mWifiManager = (WifiManager)
-     * getSystemService(Context.WIFI_SERVICE); } if (mWifiManager != null) {
-     * mWifiManager.startScan(); ret = true; } } } catch (SettingNotFoundException e) { Log.d(TAG,
-     * "settings not found"); e.printStackTrace(); } return ret; }
-     */
-
     @Override
     protected void onResume() {
         super.onResume();
@@ -371,39 +333,28 @@ public class LocateActivity extends Activity {
 
         updateConnectedFlags();
 
-        // modify by junye.li for PR762484 begin
         if (!isWifiConnected && !isMobileConnected && !isOtherConnected) {
             layout_main.setVisibility(View.GONE);
             layout_connect.setVisibility(View.VISIBLE);
         }
     }
 
-    // the broadcast need to listen when onCreate and unregister in onDestroy,
-    // to avoid when activity is pausing,then click add location,the activity
-    // not
-    // refreshed
     @Override
     protected void onDestroy() {
         super.onDestroy();
 
-        mHandler.sendEmptyMessage(MSGREMOVELOCATEIONUPDATE);
+        mHandler.sendEmptyMessage(MSG_REMOVE_LOCATEION_UPDATE);
 
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-
         mPausing = true;
-
         if (isBindService) {
             unbindService(conn);
         }
-
-        // PR 470670 - Neo Skunkworks - Tom Yu 001 begin
         SharePreferenceUtils.inLocalActivity = false;
-        // PR 470670 - Neo Skunkworks - Tom Yu 001 End
-
         unregisterReceiver(mBroadcastReceiver);
     }
 
@@ -431,23 +382,18 @@ public class LocateActivity extends Activity {
         if (mCitys.size() > 0) {
             startActivity(new Intent(LocateActivity.this, MainActivity.class));
         }
-
         finish();
     }
 
-    // When user click the app's icon the first time,turn to auto locate.
     private void firstUseCheck() {
         if (mCitys.size() == 0) {
             updateConnectedFlags();
 
-            // modify by junye.li for PR762484 begin
             if (isWifiConnected || isMobileConnected || isOtherConnected) {
-                // modify by junye.li for PR762484 end
                 pDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
                 pDialog.setCanceledOnTouchOutside(false);
                 pDialog.setMessage(getResources().getString(R.string.locating));
                 pDialog.show();
-
                 getLocation();
             } else {
                 layout_main.setVisibility(View.GONE);
@@ -456,7 +402,6 @@ public class LocateActivity extends Activity {
         }
     }
 
-    // zhaoyun.wu begin
     private boolean checkLocationOn() {
         boolean isLocationOn = (Settings.Secure.getInt(getContentResolver(),
                 Settings.Secure.LOCATION_MODE,
@@ -469,8 +414,6 @@ public class LocateActivity extends Activity {
                 && pm.hasSystemFeature(PackageManager.FEATURE_LOCATION_GPS));
         return isLocationOn;
     }
-
-    // zhaoyun.wu end
 
     private static final int MSG_REQUEST_LOCATION_UPDATE = 0x1001;
     private static final int MSG_REMOVE_LOCATEION_UPDATE = 0x1002;
@@ -724,23 +667,19 @@ public class LocateActivity extends Activity {
         if (activeInfo != null && activeInfo.isConnected()) {
             isWifiConnected = activeInfo.getType() == ConnectivityManager.TYPE_WIFI;
             isMobileConnected = activeInfo.getType() == ConnectivityManager.TYPE_MOBILE;
-            // add by junye.li for PR762484 begin
             if (!isWifiConnected && !isMobileConnected) {
                 isOtherConnected = true;
             }
-            // add by junye.li for PR762484 end
         } else {
             isWifiConnected = false;
             isMobileConnected = false;
-            isOtherConnected = false; // add by junye.li for PR762484
+            isOtherConnected = false;
         }
     }
 
-    // modify by junye.li for PR787604 begin
     private ArrayList<HashMap<String, String>> getData(List<City> mCitys, String filter) {
 
         ArrayList<HashMap<String, String>> list = new ArrayList<HashMap<String, String>>();
-        // modify by jielong.xing for PR787604 begin
         int citySize = 0;
         if (mCitys != null && mCitys.size() > 0) {
             citySize = mCitys.size();
@@ -777,9 +716,6 @@ public class LocateActivity extends Activity {
         return list;
     }
 
-    // modify by junye.li for PR787604 end
-
-    // zhaoyun.wu begin
     private boolean isBetterLocation(Location locationA, Location locationB) {
         if (locationA == null) {
             return false;
@@ -787,19 +723,12 @@ public class LocateActivity extends Activity {
         if (locationB == null) {
             return true;
         }
-        // A provider is better if the reading is sufficiently newer. Heading
-        // underground can cause GPS to stop reporting fixes. In this case it's
-        // appropriate to revert to cell, even when its accuracy is less.
         if (locationA.getElapsedRealtimeNanos() > (locationB.getElapsedRealtimeNanos() + 11 * 1000000000)) {
             return true;
         } else if (locationB.getElapsedRealtimeNanos() > (locationA.getElapsedRealtimeNanos() + 11 * 1000000000)) {
             return false;
         }
 
-        // A provider is better if it has better accuracy. Assuming both
-        // readings
-        // are fresh (and by that accurate), choose the one with the smaller
-        // accuracy circle.
         if (!locationA.hasAccuracy()) {
             return false;
         }
@@ -808,5 +737,4 @@ public class LocateActivity extends Activity {
         }
         return locationA.getAccuracy() < locationB.getAccuracy();
     }
-    // zhaoyun.wu end
 }
