@@ -23,10 +23,6 @@
 
 package com.jrdcom.weather;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
@@ -46,13 +42,13 @@ import android.location.LocationListener;
 import android.location.LocationManager;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.IBinder;
 import android.os.Message;
 import android.provider.Settings;
-import android.provider.Settings.SettingNotFoundException;
+import android.telephony.TelephonyManager;
+import android.telephony.gsm.GsmCellLocation;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
@@ -65,6 +61,7 @@ import android.widget.ListView;
 import android.widget.SearchView;
 import android.widget.SearchView.OnQueryTextListener;
 import android.widget.SimpleAdapter;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.jrdcom.bean.City;
@@ -72,15 +69,34 @@ import com.jrdcom.data.MyService;
 import com.jrdcom.util.CommonUtils;
 import com.jrdcom.util.SharePreferenceUtils;
 import com.jrdcom.widget.UpdateWidgetTimeService;
-import com.jrdcom.weather.R;
 
-public class LocateActivity extends Activity {
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.entity.StringEntity;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+public class LocateActivity extends Activity implements OnItemClickListener, OnClickListener {
     private static final String TAG = "LocateActivity";
+
+    public static final String CITY_BROADCAST = "android.intent.action.CITY_BROADCAST";
+    public static final String WEATHER_BROADCAST = "android.intent.action.WEATHER_BROADCAST";
+
     private Button bt_locate;
     private MyService myService;
     private boolean isWifiConnected;
     private boolean isMobileConnected;
-    private MyBroadcasReceiver mBroadcastReceiver;
+    private CityBroadcasReceiver mBroadcastReceiver;
     private LocationManager mLocationManager;
     private ProgressDialog pDialog;
     private List<City> mCitys;
@@ -91,17 +107,22 @@ public class LocateActivity extends Activity {
     private ListView mCityList;
     private Location mLocation;
     private boolean mPausing = false;
-    // zhaoyun.wu
     private LocationListener mGpsListener = null;
     private LocationListener mNetworkListener = null;
     private Location mGpsLocation = null;
     private Location mNetworkLocation = null;
-    // zhaoyun.wu end
     private boolean mAutoLocateSuccess = false;
 
-    private static final int MSGTIMEOUT = 0x10001;
-    private static final int MSGREGETPOSITION = 0x10002;
+    private static final int MSG_TIME_OUT = 0x1001;
+    private static final int MSG_REGET_POSITION = 0x1002;
+    private static final int MSG_REQUEST_LOCATION_UPDATE = 0x1003;
+    private static final int MSG_REMOVE_LOCATEION_UPDATE = 0x1004;
 
+    private boolean isRequestLocationUpdate = false;
+    private boolean isNetworkProvideEnable = true;
+    private boolean isGPSProvideEnable = true;
+    private boolean isNetworkRequestOpen = false;
+    private boolean isGPSRequestOpen = false;
     private boolean isOtherConnected;
 
     private String mSearchCity;
@@ -111,112 +132,37 @@ public class LocateActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        Log.i("aidy", "onCreate()");
         if (!CommonUtils.isSupportHorizontal(this)) {
             this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         }
 
         setContentView(R.layout.add_location);
         startService(new Intent(LocateActivity.this, UpdateWidgetTimeService.class));
+        initViews();
 
+        pDialog = new ProgressDialog(LocateActivity.this);
+        mLocationManager = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
+        mGpsListener = new GpsLocationListener();
+        mNetworkListener = new NetworkLocationListener();
+    }
+
+    private void initViews() {
         this.getActionBar().setBackgroundDrawable(
                 getResources().getDrawable(R.drawable.titel_night_bg));
-
         bt_locate = (Button) findViewById(R.id.locate_bt_auto);
         bt_connect = (Button) findViewById(R.id.locate_connect);
+        mCityList = (ListView) findViewById(R.id.search_citylist);
 
         bt_locate.setBackgroundResource(R.drawable.button_bg);
         bt_connect.setBackgroundResource(R.drawable.button_bg);
-
         layout_main = (LinearLayout) findViewById(R.id.locate_layout_main);
         layout_connect = (LinearLayout) findViewById(R.id.locate_layout_connect);
-
-        bt_locate.setOnClickListener(locateListener);
-
-        bt_connect.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(Settings.ACTION_SETTINGS));
-            }
-        });
-
-        pDialog = new ProgressDialog(LocateActivity.this);
-
         mCitys = new ArrayList<City>();
 
-        mCityList = (ListView) findViewById(R.id.search_citylist);
-
-        mCityList.setOnItemClickListener(new OnItemClickListener() {
-
-            @Override
-            public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
-                if (mCitys != null && mCitys.size() > 0) {
-                    City city = mCitys.get(arg2);
-
-                    myService.setUpdateManue();
-                    myService.insertCity(city, false);
-                    SharePreferenceUtils.checkCommonCity(LocateActivity.this, city.getLocationKey());
-
-                    pDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
-                    pDialog.setCanceledOnTouchOutside(false);
-                    pDialog.setMessage(getResources().getString(R.string.loading));
-                    pDialog.show();
-                }
-            }
-        });
-
-        mLocationManager = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
-        // zhaoyun.wu begin
-        mGpsListener = new LocationListener() {
-            @Override
-            public void onLocationChanged(Location location) {
-                Log.e(TAG, "GPS____onLocationChanged Latitude = "
-                        + location.getLatitude() + "Longitude = "
-                        + location.getLongitude());
-                if (location != null) {
-                    mGpsLocation = location;
-                    mAutoLocateSuccess = true;
-                }
-            }
-
-            @Override
-            public void onStatusChanged(String provider, int status, Bundle extras) {
-            }
-
-            @Override
-            public void onProviderEnabled(String provider) {
-            }
-
-            @Override
-            public void onProviderDisabled(String provider) {
-            }
-        };
-
-        mNetworkListener = new LocationListener() {
-            @Override
-            public void onLocationChanged(Location location) {
-                Log.e(TAG, "Network____onLocationChanged Latitude = "
-                        + location.getLatitude() + "Longitude = "
-                        + location.getLongitude());
-                if (location != null) {
-                    mNetworkLocation = location;
-                    mAutoLocateSuccess = true;
-                }
-            }
-
-            @Override
-            public void onStatusChanged(String provider, int status, Bundle extras) {
-            }
-
-            @Override
-            public void onProviderEnabled(String provider) {
-            }
-
-            @Override
-            public void onProviderDisabled(String provider) {
-            }
-        };
-        // zhaoyun.wu end
+        bt_locate.setOnClickListener(this);
+        bt_connect.setOnClickListener(this);
+        mCityList.setOnItemClickListener(this);
     }
 
     private void disMissProgressDlgOrFinish() {
@@ -226,29 +172,6 @@ public class LocateActivity extends Activity {
             }
         }
     }
-
-    OnClickListener locateListener = new OnClickListener() {
-
-        @Override
-        public void onClick(View v) {
-            updateConnectedFlags();
-
-            // modify by junye.li for PR762484 begin
-            if (isWifiConnected || isMobileConnected || isOtherConnected) {
-                // modify by junye.li for PR762484 end
-                pDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
-                pDialog.setCanceledOnTouchOutside(false);
-                pDialog.setMessage(getResources().getString(R.string.locating));
-                pDialog.show();
-
-                getLocation();
-            } else {
-                Toast.makeText(LocateActivity.this,
-                        getResources().getString(R.string.locate_connect_error),
-                        Toast.LENGTH_LONG).show();
-            }
-        }
-    };
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -263,6 +186,7 @@ public class LocateActivity extends Activity {
 
             @Override
             public boolean onQueryTextSubmit(String query) {
+                Log.i("aidy", "onQueryTextSubmit()");
                 updateConnectedFlags();
 
                 String cityName = mSearchCity = mSearchView.getQuery().toString().trim();
@@ -311,28 +235,21 @@ public class LocateActivity extends Activity {
     @Override
     protected void onResume() {
         super.onResume();
-
+        Log.i("aidy", "onResume()");
         mPausing = false;
-
-        /* PR 637010- Neo Skunkworks - Wells Tang added - 001 Begin */
         registerBoradcastReceiver();
-        /* PR 637010- Neo Skunkworks - Wells Tang added - 001 End */
-
         SharePreferenceUtils.inLocalActivity = true;
-
         layout_main.setVisibility(View.VISIBLE);
-
         SharedPreferences sharedata = getSharedPreferences("firstuse", MODE_PRIVATE);
         isFirstUse = sharedata.getBoolean("firstUse", true);
+
+        updateConnectedFlags();
 
         isBindService = (mCityList != null && mCityList.getCount() == 0);
         if (isBindService) {
             Intent intent = new Intent(LocateActivity.this, MyService.class);
             bindService(intent, conn, Context.BIND_AUTO_CREATE);
         }
-
-        updateConnectedFlags();
-
         if (!isWifiConnected && !isMobileConnected && !isOtherConnected) {
             layout_main.setVisibility(View.GONE);
             layout_connect.setVisibility(View.VISIBLE);
@@ -342,14 +259,13 @@ public class LocateActivity extends Activity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-
         mHandler.sendEmptyMessage(MSG_REMOVE_LOCATEION_UPDATE);
-
     }
 
     @Override
     protected void onPause() {
         super.onPause();
+        Log.i("aidy", "onPause()");
         mPausing = true;
         if (isBindService) {
             unbindService(conn);
@@ -367,6 +283,7 @@ public class LocateActivity extends Activity {
 
         @Override
         public void onServiceConnected(ComponentName name, IBinder service) {
+            Log.i("aidy", "onServiceConnected()");
             myService = ((MyService.MyBinder) service).getService();
             if (myService != null) {
                 mCitys = myService.checkDataBase();
@@ -386,6 +303,7 @@ public class LocateActivity extends Activity {
     }
 
     private void firstUseCheck() {
+        Log.i("aidy", "firstUseCheck()");
         if (mCitys.size() == 0) {
             updateConnectedFlags();
 
@@ -412,33 +330,28 @@ public class LocateActivity extends Activity {
                 && pm.hasSystemFeature(PackageManager.FEATURE_LOCATION_NETWORK));
         isGPSProvideEnable = (mLocationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)
                 && pm.hasSystemFeature(PackageManager.FEATURE_LOCATION_GPS));
+        Log.i("aidy", "checkLocationOn() -- isNetworkProvideEnable = " + isNetworkProvideEnable
+                + " -- isGPSProvideEnable = " +
+                isGPSProvideEnable + " -- isLocationOn = " + isLocationOn);
         return isLocationOn;
     }
 
-    private static final int MSG_REQUEST_LOCATION_UPDATE = 0x1001;
-    private static final int MSG_REMOVE_LOCATEION_UPDATE = 0x1002;
-    private boolean isRequestLocationUpdate = false;
-    private boolean isNetworkProvideEnable = true;
-    private boolean isGPSProvideEnable = true;
-
-    private boolean isNetworkRequestOpen = false;
-    private boolean isGPSRequestOpen = false;
-
     private Handler mHandler = new Handler() {
         public void handleMessage(Message msg) {
+            Log.i("aidy", "handleMessage() -- msg.what = " + msg.what);
             switch (msg.what) {
                 case MSG_REQUEST_LOCATION_UPDATE: {
                     if (isNetworkProvideEnable) {
-                        Log.d("jielong", "LocationActivity mNetworkListener");
+                        Log.d("aidy", "LocationActivity mNetworkListener");
                         mLocationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER,
-                                10000, 1, mNetworkListener);
+                                1000L, 5000, mNetworkListener);
                         isNetworkRequestOpen = true;
                     }
 
                     if (isGPSProvideEnable) {
-                        Log.d("jielong", "LocationActivity mGpsListener");
+                        Log.d("aidy", "LocationActivity mGpsListener");
                         mLocationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,
-                                10000, 1, mGpsListener);
+                                1000L, 0, mGpsListener);
                         isGPSRequestOpen = true;
                     }
                     isRequestLocationUpdate = true;
@@ -462,11 +375,26 @@ public class LocateActivity extends Activity {
                     isRequestLocationUpdate = false;
                     break;
                 }
+                case MSG_TIME_OUT: {
+                    Log.e(TAG, "AutoLocateTimeout");
+                    Intent it = new Intent("android.intent.action.WEATHER_BROADCAST");
+                    it.putExtra("connect_timeout", true);
+                    sendBroadcast(it);
+                    break;
+                }
+                case MSG_REGET_POSITION: {
+                    if (mHandler != null) {
+                        mHandler.removeMessages(MSG_REGET_POSITION);
+                    }
+                    getLocation();
+                    break;
+                }
             }
         }
     };
 
     private void getLocation() {
+        Log.i("aidy", "getLocation() -- isRequestLocationUpdate = " + isRequestLocationUpdate);
         if (!checkLocationOn()) {
             disMissProgressDlgOrFinish();
 
@@ -501,34 +429,31 @@ public class LocateActivity extends Activity {
 
                     boolean updateSuccess = false;
                     for (int i = 0; i < 60; i++) {
-                        if (!mAutoLocateSuccess) {
+                        if (mAutoLocateSuccess) {
+                            updateSuccess = true;
+                            break;
+                        } else {
                             try {
                                 Thread.sleep(3000);
                             } catch (Exception e) {
                             }
-                        } else {
-                            updateSuccess = true;
-                            break;
                         }
                     }
-
                     mHandler.sendEmptyMessage(MSG_REMOVE_LOCATEION_UPDATE);
 
                     if (updateSuccess) {
                         if (isBetterLocation(mGpsLocation, mNetworkLocation)) {
-                            Log.e(TAG, "zhaoyun.wu____isBetterLocation=true");
                             mLocation = mGpsLocation;
                         } else {
                             mLocation = mNetworkLocation;
                         }
-
                         if (mLocation != null) {
                             updateLocation(mLocation);
                         }
                     } else {
                         LocateActivity.this.runOnUiThread(new Runnable() {
                             public void run() {
-                                handler.sendEmptyMessage(MSGTIMEOUT);
+                                mHandler.sendEmptyMessage(MSG_TIME_OUT);
                                 layout_main.setVisibility(View.VISIBLE);
                                 layout_connect.setVisibility(View.GONE);
                             }
@@ -538,30 +463,6 @@ public class LocateActivity extends Activity {
             }.start();
         }
     }
-
-    private Handler handler = new Handler() {
-        public void handleMessage(Message msg) {
-            switch (msg.what) {
-                case MSGTIMEOUT: {
-                    Log.e(TAG, "AutoLocateTimeout");
-                    Intent it = new Intent("android.intent.action.WEATHER_BROADCAST");
-                    it.putExtra("connect_timeout", true);
-                    sendBroadcast(it);
-                    break;
-                }
-                case MSGREGETPOSITION: {
-                    if (handler != null) {
-                        handler.removeMessages(MSGREGETPOSITION);
-                    }
-                    getLocation();
-                    break;
-                }
-                default:
-                    break;
-            }
-            super.handleMessage(msg);
-        }
-    };
 
     private void updateLocation(Location mLocation) {
         isFirstUse = false;
@@ -582,20 +483,20 @@ public class LocateActivity extends Activity {
     }
 
     private void registerBoradcastReceiver() {
-        mBroadcastReceiver = new MyBroadcasReceiver();
-        IntentFilter myIntentFilter = new IntentFilter();
-        myIntentFilter.addAction("android.intent.action.CITY_BROADCAST");
-        myIntentFilter.addAction("android.intent.action.WEATHER_BROADCAST");
-        registerReceiver(mBroadcastReceiver, myIntentFilter);
+        mBroadcastReceiver = new CityBroadcasReceiver();
+        IntentFilter filter = new IntentFilter();
+        filter.addAction(LocateActivity.CITY_BROADCAST);
+        filter.addAction(LocateActivity.WEATHER_BROADCAST);
+        registerReceiver(mBroadcastReceiver, filter);
     }
 
-    private class MyBroadcasReceiver extends BroadcastReceiver {
+    private class CityBroadcasReceiver extends BroadcastReceiver {
 
         @Override
         public void onReceive(Context context, Intent intent) {
 
             Bundle b = intent.getExtras();
-            if (intent.getAction().equals("android.intent.action.CITY_BROADCAST")) {
+            if (LocateActivity.CITY_BROADCAST.equals(intent.getAction())) {
                 boolean isCityGot = b.getBoolean("city");
                 if (isCityGot) {
                     myService.setUpdateManue();
@@ -617,7 +518,7 @@ public class LocateActivity extends Activity {
                             Toast.LENGTH_LONG).show();
                 }
                 disMissProgressDlgOrFinish();
-            } else if ("android.intent.action.WEATHER_BROADCAST".equals(intent.getAction())) {
+            } else if (LocateActivity.WEATHER_BROADCAST.equals(intent.getAction())) {
                 String newLocationKey = b.getString("location_key");
 
                 boolean manu = b.getBoolean("manu", false);
@@ -660,9 +561,9 @@ public class LocateActivity extends Activity {
     }
 
     private void updateConnectedFlags() {
-        ConnectivityManager connMgr = (ConnectivityManager) this.getSystemService("connectivity");
-
-        NetworkInfo activeInfo = connMgr.getActiveNetworkInfo();
+        Log.i("aidy", "updateConnectedFlags()");
+        NetworkInfo activeInfo = ((ConnectivityManager) this
+                .getSystemService(Context.CONNECTIVITY_SERVICE)).getActiveNetworkInfo();
 
         if (activeInfo != null && activeInfo.isConnected()) {
             isWifiConnected = activeInfo.getType() == ConnectivityManager.TYPE_WIFI;
@@ -737,4 +638,114 @@ public class LocateActivity extends Activity {
         }
         return locationA.getAccuracy() < locationB.getAccuracy();
     }
+
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        // TODO Auto-generated method stub
+        if (mCitys != null && mCitys.size() > 0) {
+            City city = mCitys.get(position);
+
+            myService.setUpdateManue();
+            myService.insertCity(city, false);
+            SharePreferenceUtils.checkCommonCity(LocateActivity.this, city.getLocationKey());
+
+            pDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+            pDialog.setCanceledOnTouchOutside(false);
+            pDialog.setMessage(getResources().getString(R.string.loading));
+            pDialog.show();
+        }
+    }
+
+    @Override
+    public void onClick(View v) {
+        // TODO Auto-generated method stub
+        switch (v.getId()) {
+            case R.id.locate_bt_auto:
+                updateConnectedFlags();
+                if (isWifiConnected || isMobileConnected || isOtherConnected) {
+                    pDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+                    pDialog.setCanceledOnTouchOutside(false);
+                    pDialog.setMessage(getResources().getString(R.string.locating));
+                    pDialog.show();
+                    getLocation();
+                } else {
+                    Toast.makeText(LocateActivity.this,
+                            getResources().getString(R.string.locate_connect_error),
+                            Toast.LENGTH_LONG).show();
+                }
+                break;
+            case R.id.locate_connect:
+                startActivity(new Intent(Settings.ACTION_SETTINGS));
+                break;
+        }
+    }
+
+    private class GpsLocationListener implements LocationListener {
+
+        @Override
+        public void onLocationChanged(Location location) {
+            // TODO Auto-generated method stub
+            Log.e("aidy", "GPS____onLocationChanged Latitude = "
+                    + location.getLatitude() + "Longitude = "
+                    + location.getLongitude());
+            if (location != null) {
+                mGpsLocation = location;
+                mAutoLocateSuccess = true;
+            }
+        }
+
+        @Override
+        public void onStatusChanged(String provider, int status, Bundle extras) {
+            // TODO Auto-generated method stub
+
+        }
+
+        @Override
+        public void onProviderEnabled(String provider) {
+            // TODO Auto-generated method stub
+
+        }
+
+        @Override
+        public void onProviderDisabled(String provider) {
+            // TODO Auto-generated method stub
+
+        }
+
+    }
+
+    private class NetworkLocationListener implements LocationListener {
+
+        @Override
+        public void onLocationChanged(Location location) {
+            // TODO Auto-generated method stub
+            Log.e("aidy", "Network____onLocationChanged Latitude = "
+                    + location.getLatitude() + "Longitude = "
+                    + location.getLongitude());
+            if (location != null) {
+                mNetworkLocation = location;
+                mAutoLocateSuccess = true;
+            }
+        }
+
+        @Override
+        public void onStatusChanged(String provider, int status, Bundle extras) {
+            // TODO Auto-generated method stub
+
+        }
+
+        @Override
+        public void onProviderEnabled(String provider) {
+            // TODO Auto-generated method stub
+
+        }
+
+        @Override
+        public void onProviderDisabled(String provider) {
+            // TODO Auto-generated method stub
+
+        }
+
+    }
+
 }

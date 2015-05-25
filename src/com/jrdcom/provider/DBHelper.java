@@ -109,9 +109,7 @@ public class DBHelper extends SQLiteOpenHelper {
             Cursor c = db.query("city", new String[] {
                     "locationKey", "cityName",
                     "country", "state", "updateTime", "isautolocate"
-            }, null, null,
-                    null, null, null, null);
-            // CR 447398 - ting.chen@tct-nj.com - 001 added end
+            }, null, null, null, null, null, null);
 
             while (c.moveToNext()) {
                 String locationKey = c.getString(c.getColumnIndex("locationKey"));
@@ -119,17 +117,15 @@ public class DBHelper extends SQLiteOpenHelper {
                 String country = c.getString(c.getColumnIndex("country"));
                 String state = c.getString(c.getColumnIndex("state"));
                 String updateTime = c.getString(c.getColumnIndex("updateTime"));
-                // CR 447398 - ting.chen@tct-nj.com - 001 added begin
                 boolean isAutoLocate = c.getInt(c.getColumnIndex("isautolocate")) == 1 ? true
                         : false;
                 citys.add(new City(locationKey, cityName, state, updateTime,
                         country, isAutoLocate));
-                // CR 447398 - ting.chen@tct-nj.com - 001 added end
             }
 
             c.close();
         } catch (Exception e) {
-            Log.e(TAG, e.toString()); // PR 466448 - Neo Skunkworks - Tom Yu - 001
+            Log.e(TAG, e.toString());
         }
         return citys;
     }

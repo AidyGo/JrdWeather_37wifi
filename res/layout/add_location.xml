@@ -17,13 +17,13 @@
 
         <Button
             android:id="@+id/locate_bt_auto"
-            android:layout_width="wrap_content" 
+            android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:layout_marginTop="20dp"
-            android:paddingRight="20dp"
-            android:paddingLeft="20dp"
-            android:gravity="center"
             android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:text="@string/locate_auto"
             android:textColor="#FFFFFF" />
 
@@ -46,19 +46,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="15dip"
-            android:text="@string/locate_connect_error"
             android:fontFamily="sans-serif"
+            android:text="@string/locate_connect_error"
             android:textColor="#FFFFFF"
             android:textSize="12sp" />
 
         <Button
             android:id="@+id/locate_connect"
-            android:layout_width="wrap_content" 
+            android:layout_width="wrap_content"
             android:layout_height="40dp"
-            android:paddingRight="20dp"
-            android:paddingLeft="20dp"
-            android:gravity="center"
             android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:text="@string/locate_goto_connect"
             android:textColor="#FFFFFF" />
     </LinearLayout>
